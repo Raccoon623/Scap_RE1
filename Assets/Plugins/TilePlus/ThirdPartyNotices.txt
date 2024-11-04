@@ -1,0 +1,38 @@
+This asset is governed by the Asset Store EULA; however, the following 
+components are governed by the licenses indicated below: 
+
+SPRITELIB, COMMON PUBLIC LICENSE
+SpriteLib is now distributed under the "Common Public License Version 1.0." 
+The terms of this license are stated below. 
+Please do not contact me if you do not understand the terms of the license. 
+However, it should be pretty clear what you can and can't do.
+
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). 
+ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+
+Location: TilePlus Extras/TilePlusCommon/Textures/spritelib_gpl.
+license: https://opensource.org/licenses/cpl1.0.php
+
+-------------------------------------------------------------------------------
+
+KENNEY, CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+see: https://creativecommons.org/publicdomain/zero/1.0/
+Location: TilePlusCommon/Textures/Kenney
+
+https://kenney.nl/support
+
+----------------------------------------------------------------------------
+
+OVERACTION, License: (Creative Commons Zero, CC0) 
+
+Location: TilePlusCommon/Textures/Overaction
+License: (Creative Commons Zero, CC0)
+	
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+
+	Support us by crediting Overaction Game Studio or www.overactiongamestudio.com (this is not mandatory)
+
+---------------------------------------------------------------------------
+

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b91547320ee58d0498f2728a99e89cf8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/Tiles/Animated/TpFlexAnimatedTile.cs
+  uploadId: 609826

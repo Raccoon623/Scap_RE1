@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c46b0e9034d48f43ae6da6fec7e77ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Chunking/TemplateChunks/Resources/4by4/Grid_FloorLayer.Asset
+  uploadId: 609826

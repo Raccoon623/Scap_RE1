@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cc23c4fdaf2ecd49a882075328f2d04
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Chunking/TemplateChunks/Resources/16by16/MainGrid_ObstaclesLayer.Asset
+  uploadId: 609826

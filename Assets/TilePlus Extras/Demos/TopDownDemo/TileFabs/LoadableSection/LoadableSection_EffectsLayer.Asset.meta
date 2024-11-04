@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c44703541083a49468878c5d2054ae7c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/TileFabs/LoadableSection/LoadableSection_EffectsLayer.Asset
+  uploadId: 609826

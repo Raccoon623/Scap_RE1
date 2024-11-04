@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 55fa6bddddfc3ee42a931a1989dd2e2e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Prefabs/StarsPS.prefab
+  uploadId: 609826

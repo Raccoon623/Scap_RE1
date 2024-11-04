@@ -1,0 +1,7640 @@
+fileFormatVersion: 2
+guid: 5b284a1b1fca3924a9bb8f9b9d8f32da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9123474084262703064
+    second: arinoid_master_0
+  - first:
+      213: 6678882348462866334
+    second: arinoid_master_1
+  - first:
+      213: -6305362609302338346
+    second: arinoid_master_2
+  - first:
+      213: 4195968988523321859
+    second: arinoid_master_3
+  - first:
+      213: -1394972716035885447
+    second: arinoid_master_4
+  - first:
+      213: 7942257308383525151
+    second: arinoid_master_5
+  - first:
+      213: 8790594551159254534
+    second: arinoid_master_6
+  - first:
+      213: 5776052413349761614
+    second: arinoid_master_7
+  - first:
+      213: -6382322295572303947
+    second: arinoid_master_8
+  - first:
+      213: -8349430706396230157
+    second: arinoid_master_9
+  - first:
+      213: -4442286121478732571
+    second: arinoid_master_10
+  - first:
+      213: -1687543944570593290
+    second: arinoid_master_11
+  - first:
+      213: 4313887026644301181
+    second: arinoid_master_12
+  - first:
+      213: 6935913676875402808
+    second: arinoid_master_13
+  - first:
+      213: 3509497865380556169
+    second: arinoid_master_14
+  - first:
+      213: 8801527657291759472
+    second: arinoid_master_15
+  - first:
+      213: 7948464913185407071
+    second: arinoid_master_16
+  - first:
+      213: 1117869250564295966
+    second: arinoid_master_17
+  - first:
+      213: 4030693610773744315
+    second: arinoid_master_18
+  - first:
+      213: 1363564624274597881
+    second: arinoid_master_19
+  - first:
+      213: 161940389726430771
+    second: arinoid_master_20
+  - first:
+      213: -5193214667731367907
+    second: arinoid_master_21
+  - first:
+      213: 7401363378270291568
+    second: arinoid_master_22
+  - first:
+      213: 4299209468790917929
+    second: arinoid_master_23
+  - first:
+      213: 1231753278596773978
+    second: arinoid_master_24
+  - first:
+      213: -829525974120944777
+    second: arinoid_master_25
+  - first:
+      213: -1498595419792783078
+    second: arinoid_master_26
+  - first:
+      213: 4950353154174888627
+    second: arinoid_master_27
+  - first:
+      213: -6096566492544994661
+    second: arinoid_master_28
+  - first:
+      213: 4209688763197534935
+    second: arinoid_master_29
+  - first:
+      213: -8320352274582236659
+    second: arinoid_master_30
+  - first:
+      213: 7684488539018472044
+    second: arinoid_master_31
+  - first:
+      213: -2356502561262053369
+    second: arinoid_master_32
+  - first:
+      213: 6017190267265493794
+    second: arinoid_master_33
+  - first:
+      213: -1232311314681744277
+    second: arinoid_master_34
+  - first:
+      213: 5454934308262716096
+    second: arinoid_master_35
+  - first:
+      213: -3363398380970224557
+    second: arinoid_master_36
+  - first:
+      213: 3718782196749721652
+    second: arinoid_master_37
+  - first:
+      213: 148626427263786944
+    second: arinoid_master_38
+  - first:
+      213: 3193627336181685412
+    second: arinoid_master_39
+  - first:
+      213: 6703512341189392582
+    second: arinoid_master_40
+  - first:
+      213: -1983358248022940245
+    second: arinoid_master_41
+  - first:
+      213: -5449209038533453962
+    second: arinoid_master_42
+  - first:
+      213: 7326465105927489589
+    second: arinoid_master_43
+  - first:
+      213: -1813573374019638011
+    second: arinoid_master_44
+  - first:
+      213: 1912071159809147742
+    second: arinoid_master_45
+  - first:
+      213: -6053397060647497744
+    second: arinoid_master_46
+  - first:
+      213: 7259697500640862780
+    second: arinoid_master_47
+  - first:
+      213: -6356791993347539235
+    second: arinoid_master_48
+  - first:
+      213: 2943813175595154749
+    second: arinoid_master_49
+  - first:
+      213: -8027662795974436870
+    second: arinoid_master_50
+  - first:
+      213: 1669059643967017500
+    second: arinoid_master_51
+  - first:
+      213: -4295805967708897453
+    second: arinoid_master_52
+  - first:
+      213: -3561150939267629213
+    second: arinoid_master_53
+  - first:
+      213: 5904234318739344787
+    second: arinoid_master_54
+  - first:
+      213: -8608611670531193072
+    second: arinoid_master_55
+  - first:
+      213: 5846114533778944770
+    second: arinoid_master_56
+  - first:
+      213: 3420969038013296454
+    second: arinoid_master_57
+  - first:
+      213: 971532926735408869
+    second: arinoid_master_58
+  - first:
+      213: -974460967816738110
+    second: arinoid_master_59
+  - first:
+      213: 8005383084710128080
+    second: arinoid_master_60
+  - first:
+      213: 7063993445430265451
+    second: arinoid_master_61
+  - first:
+      213: -7329462980579873135
+    second: arinoid_master_62
+  - first:
+      213: 7497361948471914217
+    second: arinoid_master_63
+  - first:
+      213: -6928940958082962720
+    second: arinoid_master_64
+  - first:
+      213: -3607810266034939085
+    second: arinoid_master_65
+  - first:
+      213: -7896813742500788039
+    second: arinoid_master_66
+  - first:
+      213: 8090528454906177568
+    second: arinoid_master_67
+  - first:
+      213: -952505100822513412
+    second: arinoid_master_68
+  - first:
+      213: 1508510248605077239
+    second: arinoid_master_69
+  - first:
+      213: 6308237076397346811
+    second: arinoid_master_70
+  - first:
+      213: -2518075041485791219
+    second: arinoid_master_71
+  - first:
+      213: -8059468815127008540
+    second: arinoid_master_72
+  - first:
+      213: -1632448550783265722
+    second: arinoid_master_73
+  - first:
+      213: -5919609938850879078
+    second: arinoid_master_74
+  - first:
+      213: -1210256040439959229
+    second: arinoid_master_75
+  - first:
+      213: -6766951653429435952
+    second: arinoid_master_76
+  - first:
+      213: -6904374376757877519
+    second: arinoid_master_77
+  - first:
+      213: -1993085234638333129
+    second: arinoid_master_78
+  - first:
+      213: -1445575317394806788
+    second: arinoid_master_79
+  - first:
+      213: 3495886493249385876
+    second: arinoid_master_80
+  - first:
+      213: -8919092072618100803
+    second: arinoid_master_81
+  - first:
+      213: -4939536151755253098
+    second: arinoid_master_82
+  - first:
+      213: 95262381378072078
+    second: arinoid_master_83
+  - first:
+      213: 7233952038482841486
+    second: arinoid_master_84
+  - first:
+      213: -4372038819972610478
+    second: arinoid_master_85
+  - first:
+      213: 1532176427144715178
+    second: arinoid_master_86
+  - first:
+      213: 3446121721234150862
+    second: arinoid_master_87
+  - first:
+      213: 5975645034915406125
+    second: arinoid_master_88
+  - first:
+      213: -1356768523225721583
+    second: arinoid_master_89
+  - first:
+      213: -2204487980883843378
+    second: arinoid_master_90
+  - first:
+      213: 4502293694031462631
+    second: arinoid_master_91
+  - first:
+      213: -3184969875475609876
+    second: arinoid_master_92
+  - first:
+      213: 5602346703163014139
+    second: arinoid_master_93
+  - first:
+      213: -4088411436833562459
+    second: arinoid_master_94
+  - first:
+      213: 5157267094021425057
+    second: arinoid_master_95
+  - first:
+      213: -9122805501305974613
+    second: arinoid_master_96
+  - first:
+      213: -8280651425899428711
+    second: arinoid_master_97
+  - first:
+      213: 1911600205799145950
+    second: arinoid_master_98
+  - first:
+      213: -3315812164619176626
+    second: arinoid_master_99
+  - first:
+      213: 8083302284925859262
+    second: arinoid_master_100
+  - first:
+      213: 3627677559249477556
+    second: arinoid_master_101
+  - first:
+      213: -190021167414964340
+    second: arinoid_master_102
+  - first:
+      213: -221845367929590109
+    second: arinoid_master_103
+  - first:
+      213: -4905000464018973755
+    second: arinoid_master_104
+  - first:
+      213: 1647776342650837747
+    second: arinoid_master_105
+  - first:
+      213: 5912601515672199713
+    second: arinoid_master_106
+  - first:
+      213: 4489387713101810166
+    second: arinoid_master_107
+  - first:
+      213: 8474860881044123523
+    second: arinoid_master_108
+  - first:
+      213: 2089130861357277937
+    second: arinoid_master_109
+  - first:
+      213: 36889265692084425
+    second: arinoid_master_110
+  - first:
+      213: 7542849675678203979
+    second: arinoid_master_111
+  - first:
+      213: 2197574041151411789
+    second: arinoid_master_112
+  - first:
+      213: 6125916281168218358
+    second: arinoid_master_113
+  - first:
+      213: -5092852821542790532
+    second: arinoid_master_114
+  - first:
+      213: 4627103022596256195
+    second: arinoid_master_115
+  - first:
+      213: 7874549800451063564
+    second: arinoid_master_116
+  - first:
+      213: 9133383475796049252
+    second: arinoid_master_117
+  - first:
+      213: 833722120051729279
+    second: arinoid_master_118
+  - first:
+      213: 8992380895957951484
+    second: arinoid_master_119
+  - first:
+      213: -8543792086535423316
+    second: arinoid_master_120
+  - first:
+      213: -3118762297733397319
+    second: arinoid_master_121
+  - first:
+      213: 494581105745262208
+    second: arinoid_master_122
+  - first:
+      213: -7263579354995133337
+    second: arinoid_master_123
+  - first:
+      213: -1594614758661746801
+    second: arinoid_master_124
+  - first:
+      213: -4421574563294236889
+    second: arinoid_master_125
+  - first:
+      213: -3125348389281623874
+    second: arinoid_master_126
+  - first:
+      213: -7160316543049241032
+    second: arinoid_master_127
+  - first:
+      213: 2604184567219576910
+    second: arinoid_master_128
+  - first:
+      213: -8972962040761115779
+    second: arinoid_master_129
+  - first:
+      213: -3999204115588259700
+    second: arinoid_master_130
+  - first:
+      213: -8762796466556095840
+    second: arinoid_master_131
+  - first:
+      213: -8864525682041667901
+    second: arinoid_master_132
+  - first:
+      213: -7185892297606251723
+    second: arinoid_master_133
+  - first:
+      213: -3279571540872018441
+    second: arinoid_master_134
+  - first:
+      213: -8274560681187520838
+    second: arinoid_master_135
+  - first:
+      213: 3876882188340758382
+    second: arinoid_master_136
+  - first:
+      213: 7575672977379781268
+    second: arinoid_master_137
+  - first:
+      213: -1455740578012860685
+    second: arinoid_master_138
+  - first:
+      213: 899267358610305224
+    second: arinoid_master_139
+  - first:
+      213: -2352539756263447724
+    second: arinoid_master_140
+  - first:
+      213: -8350225177426707813
+    second: arinoid_master_141
+  - first:
+      213: 5736960698800809540
+    second: arinoid_master_142
+  - first:
+      213: -6308740852557777745
+    second: arinoid_master_143
+  - first:
+      213: 7198872521598568058
+    second: arinoid_master_144
+  - first:
+      213: 3941659977712803129
+    second: arinoid_master_145
+  - first:
+      213: -5724731163704392064
+    second: arinoid_master_146
+  - first:
+      213: -4510539107458395804
+    second: arinoid_master_147
+  - first:
+      213: 5476603980872454486
+    second: arinoid_master_148
+  - first:
+      213: 5103080423020711332
+    second: arinoid_master_149
+  - first:
+      213: -1480406517711470904
+    second: arinoid_master_150
+  - first:
+      213: 7233063546264780301
+    second: arinoid_master_151
+  - first:
+      213: -7398513265047065332
+    second: arinoid_master_152
+  - first:
+      213: -2902187301792774973
+    second: arinoid_master_153
+  - first:
+      213: 4378098139544677729
+    second: arinoid_master_154
+  - first:
+      213: -6853839674600131940
+    second: arinoid_master_155
+  - first:
+      213: -4153725557871030116
+    second: arinoid_master_156
+  - first:
+      213: -7153000322257390741
+    second: arinoid_master_157
+  - first:
+      213: -7639889944719445864
+    second: arinoid_master_158
+  - first:
+      213: 6091168353840781472
+    second: arinoid_master_159
+  - first:
+      213: 7974061770374025956
+    second: arinoid_master_160
+  - first:
+      213: 607612543943070322
+    second: arinoid_master_161
+  - first:
+      213: -4597652546370621632
+    second: arinoid_master_162
+  - first:
+      213: -9191264999787648246
+    second: arinoid_master_163
+  - first:
+      213: -1872114832600216803
+    second: arinoid_master_164
+  - first:
+      213: -6237888515889451024
+    second: arinoid_master_165
+  - first:
+      213: 4973888200270996881
+    second: arinoid_master_166
+  - first:
+      213: -5624493477257355368
+    second: arinoid_master_167
+  - first:
+      213: -1193362206097087692
+    second: arinoid_master_168
+  - first:
+      213: -6814008926241005760
+    second: arinoid_master_169
+  - first:
+      213: 4697076780277607821
+    second: arinoid_master_170
+  - first:
+      213: 9002205880477281271
+    second: arinoid_master_171
+  - first:
+      213: 8850110961398953073
+    second: arinoid_master_172
+  - first:
+      213: -1300748866105138931
+    second: arinoid_master_173
+  - first:
+      213: 4876561269686424643
+    second: arinoid_master_174
+  - first:
+      213: 4826247599191155052
+    second: arinoid_master_175
+  - first:
+      213: 8617685666396372361
+    second: arinoid_master_176
+  - first:
+      213: -8647165750776858384
+    second: arinoid_master_177
+  - first:
+      213: 3217266853867530856
+    second: arinoid_master_178
+  - first:
+      213: -5132505103639702505
+    second: arinoid_master_179
+  - first:
+      213: -2227643598718918545
+    second: arinoid_master_180
+  - first:
+      213: -7213221836382704941
+    second: arinoid_master_181
+  - first:
+      213: 5715652381198257843
+    second: arinoid_master_182
+  - first:
+      213: 6192740053683804732
+    second: arinoid_master_183
+  - first:
+      213: 6847153041575032527
+    second: arinoid_master_184
+  - first:
+      213: 1944060024618808488
+    second: arinoid_master_185
+  - first:
+      213: 2721535748948928763
+    second: arinoid_master_186
+  - first:
+      213: -1659767875082380494
+    second: arinoid_master_187
+  - first:
+      213: 430859668180377589
+    second: arinoid_master_188
+  - first:
+      213: -6991845357617250577
+    second: arinoid_master_189
+  - first:
+      213: 1047726819542494041
+    second: arinoid_master_190
+  - first:
+      213: 3081868789305528484
+    second: arinoid_master_191
+  - first:
+      213: 288439664335163966
+    second: arinoid_master_192
+  - first:
+      213: 6631183228888673208
+    second: arinoid_master_193
+  - first:
+      213: 8334296138764947225
+    second: arinoid_master_194
+  - first:
+      213: -191469425080707863
+    second: arinoid_master_195
+  - first:
+      213: -4616464845914332614
+    second: arinoid_master_196
+  - first:
+      213: 6350742798375269310
+    second: arinoid_master_197
+  - first:
+      213: -6753522110925528360
+    second: arinoid_master_198
+  - first:
+      213: 5042297090243270799
+    second: arinoid_master_199
+  - first:
+      213: 7552207346409197448
+    second: arinoid_master_200
+  - first:
+      213: 531768384722112479
+    second: arinoid_master_201
+  - first:
+      213: 7626445339066300837
+    second: arinoid_master_202
+  - first:
+      213: -3275640962635809651
+    second: arinoid_master_203
+  - first:
+      213: -2399224748265474015
+    second: arinoid_master_204
+  - first:
+      213: -8675202568433748443
+    second: arinoid_master_205
+  - first:
+      213: -109010023568514241
+    second: arinoid_master_206
+  - first:
+      213: -6325054778830656324
+    second: arinoid_master_207
+  - first:
+      213: 6030207963330060013
+    second: arinoid_master_208
+  - first:
+      213: -3493282430663250852
+    second: arinoid_master_209
+  - first:
+      213: -2898727428899914826
+    second: arinoid_master_210
+  - first:
+      213: 6867852347734708312
+    second: arinoid_master_211
+  - first:
+      213: -2542865543358550342
+    second: arinoid_master_212
+  - first:
+      213: 8155538408842925034
+    second: arinoid_master_213
+  - first:
+      213: -3973652453446145994
+    second: arinoid_master_214
+  - first:
+      213: 8138734410925069457
+    second: arinoid_master_215
+  - first:
+      213: -3033394901165503079
+    second: arinoid_master_216
+  - first:
+      213: -246838503453265601
+    second: arinoid_master_217
+  - first:
+      213: -9011050593962697725
+    second: arinoid_master_218
+  - first:
+      213: -3371373751108172274
+    second: arinoid_master_219
+  - first:
+      213: 995153170219427392
+    second: arinoid_master_220
+  - first:
+      213: -8711043629794487335
+    second: arinoid_master_221
+  - first:
+      213: -7142225939922951522
+    second: arinoid_master_222
+  - first:
+      213: 7100666226102379515
+    second: arinoid_master_223
+  - first:
+      213: -6158953567823514708
+    second: arinoid_master_224
+  - first:
+      213: 8074497677171357997
+    second: arinoid_master_225
+  - first:
+      213: 8450764806173762030
+    second: arinoid_master_226
+  - first:
+      213: -4506979300604085945
+    second: arinoid_master_227
+  - first:
+      213: -1819620409599114260
+    second: arinoid_master_228
+  - first:
+      213: 7711177633321390908
+    second: arinoid_master_229
+  - first:
+      213: 7883044508211949556
+    second: arinoid_master_230
+  - first:
+      213: -1998787798517209597
+    second: arinoid_master_231
+  - first:
+      213: -2762629297685806988
+    second: arinoid_master_232
+  - first:
+      213: 949817423627749067
+    second: arinoid_master_233
+  - first:
+      213: 6888748232838486922
+    second: arinoid_master_234
+  - first:
+      213: 2389658807190240395
+    second: arinoid_master_235
+  - first:
+      213: 8103647268444098712
+    second: arinoid_master_236
+  - first:
+      213: -2452604990505849721
+    second: arinoid_master_237
+  - first:
+      213: -4223751147529651347
+    second: arinoid_master_238
+  - first:
+      213: -4435919654788715747
+    second: arinoid_master_239
+  - first:
+      213: 2190713274130319504
+    second: arinoid_master_240
+  - first:
+      213: 6501335142949075177
+    second: arinoid_master_241
+  - first:
+      213: 2202762658223549939
+    second: arinoid_master_242
+  - first:
+      213: -128878036862426054
+    second: arinoid_master_243
+  - first:
+      213: -8891494894474543543
+    second: arinoid_master_244
+  - first:
+      213: 7368525218927536740
+    second: arinoid_master_245
+  - first:
+      213: 5086534352293518447
+    second: arinoid_master_246
+  - first:
+      213: -6359031117356469085
+    second: arinoid_master_247
+  - first:
+      213: -3468506469100370028
+    second: arinoid_master_248
+  - first:
+      213: 8003285080639360981
+    second: arinoid_master_249
+  - first:
+      213: 2131937552664833353
+    second: arinoid_master_250
+  - first:
+      213: -4303612949201081554
+    second: arinoid_master_251
+  - first:
+      213: -8071279709715782588
+    second: arinoid_master_252
+  - first:
+      213: -6066196157516841905
+    second: arinoid_master_253
+  - first:
+      213: -4477345242111401367
+    second: arinoid_master_254
+  - first:
+      213: 6011110709155106147
+    second: arinoid_master_255
+  - first:
+      213: 2664570060386462011
+    second: arinoid_master_256
+  - first:
+      213: 4025399918244721652
+    second: arinoid_master_257
+  - first:
+      213: -2655062069046143468
+    second: arinoid_master_258
+  - first:
+      213: 528402354329698359
+    second: arinoid_master_259
+  - first:
+      213: -5642308230437999551
+    second: arinoid_master_260
+  - first:
+      213: 4986849371885115399
+    second: arinoid_master_261
+  - first:
+      213: -785809251781626040
+    second: arinoid_master_262
+  - first:
+      213: 8782374702028928948
+    second: arinoid_master_263
+  - first:
+      213: -524862670483056128
+    second: arinoid_master_264
+  - first:
+      213: -364200680233030666
+    second: arinoid_master_265
+  - first:
+      213: -925899323908093368
+    second: arinoid_master_266
+  - first:
+      213: 7873410996506379268
+    second: arinoid_master_267
+  - first:
+      213: -2155351478562552622
+    second: arinoid_master_268
+  - first:
+      213: -439684478500218270
+    second: arinoid_master_269
+  - first:
+      213: -5264795993779115493
+    second: arinoid_master_270
+  - first:
+      213: -7359064327162848349
+    second: arinoid_master_271
+  - first:
+      213: 6469323411742574664
+    second: arinoid_master_272
+  - first:
+      213: 8079377417595029960
+    second: arinoid_master_273
+  - first:
+      213: 6735196107308032758
+    second: arinoid_master_274
+  - first:
+      213: 7591994027884811687
+    second: arinoid_master_275
+  - first:
+      213: -1347698164950373484
+    second: arinoid_master_276
+  - first:
+      213: -4206278426989960320
+    second: arinoid_master_277
+  - first:
+      213: 515834155308555751
+    second: arinoid_master_278
+  - first:
+      213: -1926889008765930586
+    second: arinoid_master_279
+  - first:
+      213: 8598793639822275442
+    second: arinoid_master_280
+  - first:
+      213: -5583760993264718256
+    second: arinoid_master_281
+  - first:
+      213: 7322891591940418188
+    second: arinoid_master_282
+  - first:
+      213: -728056712529110331
+    second: arinoid_master_283
+  - first:
+      213: 8018027447999532222
+    second: arinoid_master_284
+  - first:
+      213: -1228995216033203314
+    second: arinoid_master_285
+  - first:
+      213: -1739046300191255355
+    second: arinoid_master_286
+  - first:
+      213: -2762523870295086452
+    second: arinoid_master_287
+  - first:
+      213: 6452275039746702312
+    second: arinoid_master_288
+  - first:
+      213: 6155499788842605029
+    second: arinoid_master_289
+  - first:
+      213: -1969425833178196106
+    second: arinoid_master_290
+  - first:
+      213: -2439882172894440628
+    second: arinoid_master_291
+  - first:
+      213: 7875418533146967210
+    second: arinoid_master_292
+  - first:
+      213: 4227769345612238637
+    second: arinoid_master_293
+  - first:
+      213: -4434443692681431563
+    second: arinoid_master_294
+  - first:
+      213: -2725814271161030630
+    second: arinoid_master_295
+  - first:
+      213: -2945503909736851970
+    second: arinoid_master_296
+  - first:
+      213: 7968550818187304243
+    second: arinoid_master_297
+  - first:
+      213: 3341424853139900204
+    second: arinoid_master_298
+  - first:
+      213: 1824053685133247678
+    second: arinoid_master_299
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arinoid_master_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfe5f567571d9e70800000000000000
+      internalID: 9123474084262703064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f71c41c1820bc50800000000000000
+      internalID: 6678882348462866334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d401843d1ade78a0800000000000000
+      internalID: -6305362609302338346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30adc7950931b3a30800000000000000
+      internalID: 4195968988523321859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976b155a4bf04ace0800000000000000
+      internalID: -1394972716035885447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1933fc21f0983e60800000000000000
+      internalID: 7942257308383525151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ee4527b277ef970800000000000000
+      internalID: 8790594551159254534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4210cd2119a82050800000000000000
+      internalID: 5776052413349761614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6b5aefaf6d67a0800000000000000
+      internalID: -6382322295572303947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd838c720dd02c80800000000000000
+      internalID: -8349430706396230157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4cc9a0f44d952c0800000000000000
+      internalID: -4442286121478732571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff120139b3a498e0800000000000000
+      internalID: -1687543944570593290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75bc4015610edb30800000000000000
+      internalID: 4313887026644301181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8ee6bdb0514060800000000000000
+      internalID: 6935913676875402808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98deff5e6bd34b030800000000000000
+      internalID: 3509497865380556169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fb6a595ce452a70800000000000000
+      internalID: 8801527657291759472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50821cc9be9e4e60800000000000000
+      internalID: 7948464913185407071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d87312928738f00800000000000000
+      internalID: 1117869250564295966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba0b94cb76efe730800000000000000
+      internalID: 4030693610773744315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_19
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 448
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f72d222dca5ce210800000000000000
+      internalID: 1363564624274597881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ae6c2de35f3200800000000000000
+      internalID: 161940389726430771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18068746cefde7b0800000000000000
+      internalID: -5193214667731367907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c26747cce6b660800000000000000
+      internalID: 7401363378270291568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b4742db3cd9ab30800000000000000
+      internalID: 4299209468790917929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58feada411181110800000000000000
+      internalID: 1231753278596773978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77baf84858eec74f0800000000000000
+      internalID: -829525974120944777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a194935d76be33be0800000000000000
+      internalID: -1498595419792783078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba245337ff23b440800000000000000
+      internalID: 4950353154174888627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_28
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927e467315a46ba0800000000000000
+      internalID: -6096566492544994661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2b75150a1db6a30800000000000000
+      internalID: 4209688763197534935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02996b70bb288c80800000000000000
+      internalID: -8320352274582236659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa1c0bc99c4aa60800000000000000
+      internalID: 7684488539018472044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7085da3e7650c4fd0800000000000000
+      internalID: -2356502561262053369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b2c4aeaaa518350800000000000000
+      internalID: 6017190267265493794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_34
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6433bb6363f5eee0800000000000000
+      internalID: -1232311314681744277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_35
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c227151ad1d3bb40800000000000000
+      internalID: 5454934308262716096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35455281efec251d0800000000000000
+      internalID: -3363398380970224557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_37
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430605a74b4cb9330800000000000000
+      internalID: 3718782196749721652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_38
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf1b49b2f6001200800000000000000
+      internalID: 148626427263786944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_39
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 416
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac1616442b025c20800000000000000
+      internalID: 3193627336181685412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c87a0425f8a70d50800000000000000
+      internalID: 6703512341189392582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba560448e22b974e0800000000000000
+      internalID: -1983358248022940245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6779d5720458064b0800000000000000
+      internalID: -5449209038533453962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384a125235dca560800000000000000
+      internalID: 7326465105927489589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50de37300a4e4d6e0800000000000000
+      internalID: -1813573374019638011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5381b9d69a098a10800000000000000
+      internalID: 1912071159809147742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff46b312730efba0800000000000000
+      internalID: -6053397060647497744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_47
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c326d7ec960afb460800000000000000
+      internalID: 7259697500640862780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddef87d9c5328c7a0800000000000000
+      internalID: -6356791993347539235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_49
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3db6787c768ad820800000000000000
+      internalID: 2943813175595154749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_50
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7135d2833089090800000000000000
+      internalID: -8027662795974436870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_51
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12189337e0b92710800000000000000
+      internalID: 1669059643967017500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f35b68b3b3264c0800000000000000
+      internalID: -4295805967708897453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f7769a610449ec0800000000000000
+      internalID: -3561150939267629213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_54
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d0127b4dd00f150800000000000000
+      internalID: 5904234318739344787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_55
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017c4b8cb41188880800000000000000
+      internalID: -8608611670531193072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_56
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2037426c132912150800000000000000
+      internalID: 5846114533778944770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_57
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f646a0739b97f20800000000000000
+      internalID: 3420969038013296454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_58
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed8a9ac049b7d00800000000000000
+      internalID: 971532926735408869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_59
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caccc5a9e40a72f0800000000000000
+      internalID: -974460967816738110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9611f4085d81f60800000000000000
+      internalID: 8005383084710128080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b660f8aac98580260800000000000000
+      internalID: 7063993445430265451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e29289044884a90800000000000000
+      internalID: -7329462980579873135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_63
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eee23b28fafb0860800000000000000
+      internalID: 7497361948471914217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea6fc3e8e477df90800000000000000
+      internalID: -6928940958082962720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_65
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bdaf39dab7eedc0800000000000000
+      internalID: -3607810266034939085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_66
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b841d48db1e86290800000000000000
+      internalID: -7896813742500788039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_67
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0286fd7a3c4574070800000000000000
+      internalID: 8090528454906177568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_68
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f9ba48a508c2f0800000000000000
+      internalID: -952505100822513412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe4424241e4fe410800000000000000
+      internalID: 1508510248605077239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_70
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffcc91d23c5b8750800000000000000
+      internalID: 6308237076397346811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_71
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00667257100e0dd0800000000000000
+      internalID: -2518075041485791219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_72
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea240440d3072090800000000000000
+      internalID: -8059468815127008540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_73
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644567031b06859e0800000000000000
+      internalID: -1632448550783265722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_74
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99ebe1cf1259dda0800000000000000
+      internalID: -5919609938850879078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_75
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3413e4e1b8e443fe0800000000000000
+      internalID: -1210256040439959229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_76
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1a815f255f612a0800000000000000
+      internalID: -6766951653429435952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_77
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4a905d51cbe20a0800000000000000
+      internalID: -6904374376757877519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_78
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b5e46f9832754e0800000000000000
+      internalID: -1993085234638333129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_79
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 352
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf72c9668e840fbe0800000000000000
+      internalID: -1445575317394806788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495373d5e32e38030800000000000000
+      internalID: 3495886493249385876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7789ce305093480800000000000000
+      internalID: -8919092072618100803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_82
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a9d6f6a0e337bb0800000000000000
+      internalID: -4939536151755253098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_83
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e6f7291a0725100800000000000000
+      internalID: 95262381378072078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_84
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f8bf74d09246460800000000000000
+      internalID: 7233952038482841486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_85
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25680577bd56353c0800000000000000
+      internalID: -4372038819972610478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_86
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab1039b752634510800000000000000
+      internalID: 1532176427144715178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_87
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec55be6727513df20800000000000000
+      internalID: 3446121721234150862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21a5f9bf71cde250800000000000000
+      internalID: 5975645034915406125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_89
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11513b2773acb2de0800000000000000
+      internalID: -1356768523225721583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_90
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6eccb7cd51861e0800000000000000
+      internalID: -2204487980883843378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_91
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e00a33b24c5b7e30800000000000000
+      internalID: 4502293694031462631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_92
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6c4ffd5c6bcc3d0800000000000000
+      internalID: -3184969875475609876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_93
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbbc9ed4a88fbd40800000000000000
+      internalID: 5602346703163014139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_94
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a024e3a57b0347c0800000000000000
+      internalID: -4088411436833562459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_95
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a745fef81b429740800000000000000
+      internalID: 5157267094021425057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_96
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba09da33bb8456180800000000000000
+      internalID: -9122805501305974613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_97
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ce62a667351d80800000000000000
+      internalID: -8280651425899428711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_98
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c833524e578a10800000000000000
+      internalID: 1911600205799145950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_99
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 320
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4574f9776edbf1d0800000000000000
+      internalID: -3315812164619176626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5fb19d998ad2070800000000000000
+      internalID: 8083302284925859262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_101
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf98b61589185230800000000000000
+      internalID: 3627677559249477556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_102
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f0d6841c8ec5df0800000000000000
+      internalID: -190021167414964340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_103
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aead7130d8dbecf0800000000000000
+      internalID: -221845367929590109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_104
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbd507d010fdebb0800000000000000
+      internalID: -4905000464018973755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_105
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fadef47ad31ed610800000000000000
+      internalID: 1647776342650837747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_106
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122e31090c7cd0250800000000000000
+      internalID: 5912601515672199713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_107
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9cf6ad6528d4e30800000000000000
+      internalID: 4489387713101810166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_108
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f2d7fc111cc9570800000000000000
+      internalID: 8474860881044123523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_109
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2a18023751efc10800000000000000
+      internalID: 2089130861357277937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_110
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80a99779e038000800000000000000
+      internalID: 36889265692084425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_111
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4048f8f0d59da860800000000000000
+      internalID: 7542849675678203979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_112
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46137a72f95f7e10800000000000000
+      internalID: 2197574041151411789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_113
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f840d6b660a30550800000000000000
+      internalID: 6125916281168218358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_114
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a9896875d8259b0800000000000000
+      internalID: -5092852821542790532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_115
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c17cf00fa5c63040800000000000000
+      internalID: 4627103022596256195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_116
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f32068255084d60800000000000000
+      internalID: 7874549800451063564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_117
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dfe3861eb40ce70800000000000000
+      internalID: 9133383475796049252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_118
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73a117d9d9f19b00800000000000000
+      internalID: 833722120051729279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_119
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 288
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3259cf7ca5bcc70800000000000000
+      internalID: 8992380895957951484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa334f3d5a5e6980800000000000000
+      internalID: -8543792086535423316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_121
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b448b0d63ee7b4d0800000000000000
+      internalID: -3118762297733397319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_122
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f09035ea1dd600800000000000000
+      internalID: 494581105745262208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_123
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76477ab8f05923b90800000000000000
+      internalID: -7263579354995133337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_124
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f0f5c535aced9e0800000000000000
+      internalID: -1594614758661746801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_125
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa1f67c5963a2c0800000000000000
+      internalID: -4421574563294236889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_126
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09781e23880a4d0800000000000000
+      internalID: -3125348389281623874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_127
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e62348a0271ac90800000000000000
+      internalID: -7160316543049241032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_128
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e406daaf01ce32420800000000000000
+      internalID: 2604184567219576910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_129
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b9e519092a97380800000000000000
+      internalID: -8972962040761115779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_130
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80e41aab09ff78c0800000000000000
+      internalID: -3999204115588259700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_131
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a230eb7a0b446680800000000000000
+      internalID: -8762796466556095840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_132
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce3493cbd0eaf480800000000000000
+      internalID: -8864525682041667901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_133
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bb6fe1705964c90800000000000000
+      internalID: -7185892297606251723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_134
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5c7da3f0f9c72d0800000000000000
+      internalID: -3279571540872018441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_135
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe4765a6eada2d80800000000000000
+      internalID: -8274560681187520838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_136
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6707184fc37dc530800000000000000
+      internalID: 3876882188340758382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_137
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a6f3f6f62322960800000000000000
+      internalID: 7575672977379781268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_138
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feeb6a38ab2ccbe0800000000000000
+      internalID: -1455740578012860685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_139
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 256
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0321ce5e6da7c00800000000000000
+      internalID: 899267358610305224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453eee35e891a5fd0800000000000000
+      internalID: -2352539756263447724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_141
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a35f8417a0e1c80800000000000000
+      internalID: -8350225177426707813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_142
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446266e1c57cd9f40800000000000000
+      internalID: 5736960698800809540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_143
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa47c47ae99d278a0800000000000000
+      internalID: -6308740852557777745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_144
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a760439ca6887e360800000000000000
+      internalID: 7198872521598568058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_145
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d12fcadd693b630800000000000000
+      internalID: 3941659977712803129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_146
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0868ac8665bad80b0800000000000000
+      internalID: -5724731163704392064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_147
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4615f6264985761c0800000000000000
+      internalID: -4510539107458395804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_148
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6519467ed4ec00c40800000000000000
+      internalID: 5476603980872454486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_149
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad46628b98c1d640800000000000000
+      internalID: 5103080423020711332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_150
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce72ac9d1a847be0800000000000000
+      internalID: -1480406517711470904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_151
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e70f019f0016460800000000000000
+      internalID: 7233063546264780301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_152
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0daada6263335990800000000000000
+      internalID: -7398513265047065332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_153
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c40ef4860c59b7d0800000000000000
+      internalID: -2902187301792774973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_154
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16deb5fcf0122cc30800000000000000
+      internalID: 4378098139544677729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_155
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92faff012542e0a0800000000000000
+      internalID: -6853839674600131940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_156
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90d2accc900b56c0800000000000000
+      internalID: -4153725557871030116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_157
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63f799ea107bbc90800000000000000
+      internalID: -7153000322257390741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_158
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8903be9b298a9f590800000000000000
+      internalID: -7639889944719445864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_159
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 224
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8d7cd685d288450800000000000000
+      internalID: 6091168353840781472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e29a288eee89ae60800000000000000
+      internalID: 7974061770374025956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_161
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725cc2b36cae6800800000000000000
+      internalID: 607612543943070322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_162
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa8e45e5bd130c0800000000000000
+      internalID: -4597652546370621632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_163
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b2d2b1e21127080800000000000000
+      internalID: -9191264999787648246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_164
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bcf188a79e406e0800000000000000
+      internalID: -1872114832600216803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_165
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffabedc1719e69a0800000000000000
+      internalID: -6237888515889451024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_166
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195e8a127fcc60540800000000000000
+      internalID: 4973888200270996881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_167
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd2967bf8c1f1b0800000000000000
+      internalID: -5624493477257355368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_168
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433e4317563507fe0800000000000000
+      internalID: -1193362206097087692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_169
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5017dbf6cf61a0800000000000000
+      internalID: -6814008926241005760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_170
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dae2b027e5f2140800000000000000
+      internalID: 4697076780277607821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_171
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe7c47d824eec70800000000000000
+      internalID: 9002205880477281271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_172
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174b9fc8709e1da70800000000000000
+      internalID: 8850110961398953073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_173
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01afc54ccfc2fde0800000000000000
+      internalID: -1300748866105138931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_174
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344561d33a60da340800000000000000
+      internalID: 4876561269686424643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_175
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61eed3fe964af240800000000000000
+      internalID: 4826247599191155052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_176
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98df783847b289770800000000000000
+      internalID: 8617685666396372361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_177
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8750770981ff780800000000000000
+      internalID: -8647165750776858384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_178
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aa964682706ac20800000000000000
+      internalID: 3217266853867530856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_179
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7141da92dcda5c8b0800000000000000
+      internalID: -5132505103639702505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60af2413f1d511e0800000000000000
+      internalID: -2227643598718918545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_181
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da615405fc75eb90800000000000000
+      internalID: -7213221836382704941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_182
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be00f0de83125f40800000000000000
+      internalID: 5715652381198257843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_183
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a182ea44801f550800000000000000
+      internalID: 6192740053683804732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_184
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6b0ddd969f50f50800000000000000
+      internalID: 6847153041575032527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_185
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f075da40bafa10800000000000000
+      internalID: 1944060024618808488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_186
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8a0a72856d4c520800000000000000
+      internalID: 2721535748948928763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_187
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1c1459e157f8e0800000000000000
+      internalID: -1659767875082380494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_188
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff1fedd598baf500800000000000000
+      internalID: 430859668180377589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_189
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee72ce01b9f7fe90800000000000000
+      internalID: -6991845357617250577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_190
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bea74cdf54a8e00800000000000000
+      internalID: 1047726819542494041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_191
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a05beed55ff4ca20800000000000000
+      internalID: 3081868789305528484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_192
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3294d3b85eb00400800000000000000
+      internalID: 288439664335163966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_193
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbef6e5302b60c50800000000000000
+      internalID: 6631183228888673208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_194
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f8ef36e2e59a370800000000000000
+      internalID: 8334296138764947225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_195
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e457b48293c75df0800000000000000
+      internalID: -191469425080707863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_196
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32a2358ea50fefb0800000000000000
+      internalID: -4616464845914332614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_197
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3370d6dee522850800000000000000
+      internalID: 6350742798375269310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_198
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2a98bfb6ba642a0800000000000000
+      internalID: -6753522110925528360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_199
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 160
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889fe30d76d9f540800000000000000
+      internalID: 5042297090243270799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc0d87194dec860800000000000000
+      internalID: 7552207346409197448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_201
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf052a4788316700800000000000000
+      internalID: 531768384722112479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_202
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9faf511a396d960800000000000000
+      internalID: 7626445339066300837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_203
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cbf5a46e59a82d0800000000000000
+      internalID: -3275640962635809651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_204
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1287f479dcd34bed0800000000000000
+      internalID: -2399224748265474015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_205
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52633f92a3d7b9780800000000000000
+      internalID: -8675202568433748443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_206
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ed3c06f7bc7ef0800000000000000
+      internalID: -109010023568514241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_207
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc69e2b034e838a0800000000000000
+      internalID: -6325054778830656324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_208
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee1508713a9fa350800000000000000
+      internalID: 6030207963330060013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_209
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c2434332e558fc0800000000000000
+      internalID: -3493282430663250852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_210
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb3db3f2c6a5c7d0800000000000000
+      internalID: -2898727428899914826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_211
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505f84a2538f4f50800000000000000
+      internalID: 6867852347734708312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_212
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe6880d24de5bcd0800000000000000
+      internalID: -2542865543358550342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_213
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3132319fa4e2170800000000000000
+      internalID: 8155538408842925034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_214
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ab7b9520cad8c0800000000000000
+      internalID: -3973652453446145994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_215
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194df6c63d792f070800000000000000
+      internalID: 8138734410925069457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_216
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8c84b86737e5d0800000000000000
+      internalID: -3033394901165503079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_217
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3177cc50bd039cf0800000000000000
+      internalID: -246838503453265601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_218
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cd7c53a3152f280800000000000000
+      internalID: -9011050593962697725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_219
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e060f188f697631d0800000000000000
+      internalID: -3371373751108172274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0466808298e7fcd00800000000000000
+      internalID: 995153170219427392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_221
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39b27c8f72c1780800000000000000
+      internalID: -8711043629794487335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_222
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92ef494957b1ec90800000000000000
+      internalID: -7142225939922951522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_223
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3227bcf42aa8260800000000000000
+      internalID: 7100666226102379515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_224
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca331c19c50078aa0800000000000000
+      internalID: -6158953567823514708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_225
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29f38b5bd06e0070800000000000000
+      internalID: 8074497677171357997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_226
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12c5031d5274570800000000000000
+      internalID: 8450764806173762030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_227
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7497471843ef371c0800000000000000
+      internalID: -4506979300604085945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_228
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce34bc3d0e86fb6e0800000000000000
+      internalID: -1819620409599114260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_229
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331f02b33b930b60800000000000000
+      internalID: 7711177633321390908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_230
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff219cc633366d60800000000000000
+      internalID: 7883044508211949556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_231
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3062ff75611e244e0800000000000000
+      internalID: -1998787798517209597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_232
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470c9517a4b29a9d0800000000000000
+      internalID: -2762629297685806988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_233
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60fc81aed6e2d00800000000000000
+      internalID: 949817423627749067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_234
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b10750500c99f50800000000000000
+      internalID: 6888748232838486922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_235
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c35f03606c92120800000000000000
+      internalID: 2389658807190240395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_236
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890dca47140f57070800000000000000
+      internalID: 8103647268444098712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_237
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c6c8e61c896fdd0800000000000000
+      internalID: -2452604990505849721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_238
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bb8dfa5b83265c0800000000000000
+      internalID: -4223751147529651347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_239
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b252493927072c0800000000000000
+      internalID: -4435919654788715747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098454dad1af66e10800000000000000
+      internalID: 2190713274130319504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_241
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83e31fdd1693a50800000000000000
+      internalID: 6501335142949075177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_242
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fde8e787f8c19e10800000000000000
+      internalID: 2202762658223549939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_243
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a342779bb12263ef0800000000000000
+      internalID: -128878036862426054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_244
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e35aca0801b9480800000000000000
+      internalID: -8891494894474543543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_245
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aeea085a2424660800000000000000
+      internalID: 7368525218927536740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_246
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd6463b00079640800000000000000
+      internalID: 5086534352293518447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_247
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ff4ee3ee20c7a0800000000000000
+      internalID: -6359031117356469085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_248
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497c0284eb36ddfc0800000000000000
+      internalID: -3468506469100370028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_249
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df41bba061611f60800000000000000
+      internalID: 8003285080639360981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_250
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d27ed98e9269d10800000000000000
+      internalID: 2131937552664833353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_251
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b291003de7644c0800000000000000
+      internalID: -4303612949201081554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_252
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444a2931edd0dff80800000000000000
+      internalID: -8071279709715782588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_253
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c7e5d1cba80dba0800000000000000
+      internalID: -6066196157516841905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_254
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622a2b69364dd1c0800000000000000
+      internalID: -4477345242111401367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_255
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d8cbc7751cb6350800000000000000
+      internalID: 6011110709155106147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_256
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e9783a547af420800000000000000
+      internalID: 2664570060386462011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_257
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3fcdde5e71dd730800000000000000
+      internalID: 4025399918244721652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_258
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41614e58d13572bd0800000000000000
+      internalID: -2655062069046143468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_259
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 64
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7304d444423455700800000000000000
+      internalID: 528402354329698359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_260
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cea730f8e72b1b0800000000000000
+      internalID: -5642308230437999551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_261
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708979f0519d43540800000000000000
+      internalID: 4986849371885115399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_262
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847375e16ae3815f0800000000000000
+      internalID: -785809251781626040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_263
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7bfcea24341e970800000000000000
+      internalID: 8782374702028928948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_264
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a9ef99e2057b8f0800000000000000
+      internalID: -524862670483056128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_265
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb21c3396912faf0800000000000000
+      internalID: -364200680233030666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_266
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a0fa4787b8623f0800000000000000
+      internalID: -925899323908093368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_267
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404ca611699f34d60800000000000000
+      internalID: 7873410996506379268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_268
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d48a22ff37a612e0800000000000000
+      internalID: -2155351478562552622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_269
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26addbddb4de5e9f0800000000000000
+      internalID: -439684478500218270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_270
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a65ef00ffafe6b0800000000000000
+      internalID: -5264795993779115493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_271
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab95340cf95fd990800000000000000
+      internalID: -7359064327162848349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_272
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848c806fd57a7c950800000000000000
+      internalID: 6469323411742574664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_273
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9801674f6bf1070800000000000000
+      internalID: 8079377417595029960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_274
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f260bccc29387d50800000000000000
+      internalID: 6735196107308032758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_275
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a516f0285e2c5960800000000000000
+      internalID: 7591994027884811687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_276
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49befadc8a30c4de0800000000000000
+      internalID: -1347698164950373484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_277
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083efd47e0c40a5c0800000000000000
+      internalID: -4206278426989960320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_278
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed1e266e6c982700800000000000000
+      internalID: 515834155308555751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_279
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 32
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3f6e6d7a05245e0800000000000000
+      internalID: -1926889008765930586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_280
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273be7ec14d055770800000000000000
+      internalID: 8598793639822275442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_281
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e26cde5fe7282b0800000000000000
+      internalID: -5583760993264718256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_282
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aad42ca1320a560800000000000000
+      internalID: 7322891591940418188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_283
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca1d51074c65e5f0800000000000000
+      internalID: -728056712529110331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_284
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc085d8b71c54f60800000000000000
+      internalID: 8018027447999532222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_285
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bbfadcc5bb1fee0800000000000000
+      internalID: -1228995216033203314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_286
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c494259a9aadd7e0800000000000000
+      internalID: -1739046300191255355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_287
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a268b2d2b89a9d0800000000000000
+      internalID: -2762523870295086452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_288
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebb83986f51b8950800000000000000
+      internalID: 6452275039746702312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_289
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e994f8d17abc6550800000000000000
+      internalID: 6155499788842605029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_290
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6779fe1a3a13ba4e0800000000000000
+      internalID: -1969425833178196106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_291
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4391de371cc32ed0800000000000000
+      internalID: -2439882172894440628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_292
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb0cd1e6b1b4d60800000000000000
+      internalID: 7875418533146967210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_293
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fc085f1dd0caa30800000000000000
+      internalID: 4227769345612238637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_294
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f57049c4f0b572c0800000000000000
+      internalID: -4434443692681431563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_295
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18a1c3cc56fb2ad0800000000000000
+      internalID: -2725814271161030630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_296
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef55c9fccc77f17d0800000000000000
+      internalID: -2945503909736851970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_297
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dd3bcffbaf59e60800000000000000
+      internalID: 7968550818187304243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_298
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27c01743302f5e20800000000000000
+      internalID: 3341424853139900204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arinoid_master_299
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40c919927505910800000000000000
+      internalID: 1824053685133247678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      arinoid_master_0: 9123474084262703064
+      arinoid_master_1: 6678882348462866334
+      arinoid_master_10: -4442286121478732571
+      arinoid_master_100: 8083302284925859262
+      arinoid_master_101: 3627677559249477556
+      arinoid_master_102: -190021167414964340
+      arinoid_master_103: -221845367929590109
+      arinoid_master_104: -4905000464018973755
+      arinoid_master_105: 1647776342650837747
+      arinoid_master_106: 5912601515672199713
+      arinoid_master_107: 4489387713101810166
+      arinoid_master_108: 8474860881044123523
+      arinoid_master_109: 2089130861357277937
+      arinoid_master_11: -1687543944570593290
+      arinoid_master_110: 36889265692084425
+      arinoid_master_111: 7542849675678203979
+      arinoid_master_112: 2197574041151411789
+      arinoid_master_113: 6125916281168218358
+      arinoid_master_114: -5092852821542790532
+      arinoid_master_115: 4627103022596256195
+      arinoid_master_116: 7874549800451063564
+      arinoid_master_117: 9133383475796049252
+      arinoid_master_118: 833722120051729279
+      arinoid_master_119: 8992380895957951484
+      arinoid_master_12: 4313887026644301181
+      arinoid_master_120: -8543792086535423316
+      arinoid_master_121: -3118762297733397319
+      arinoid_master_122: 494581105745262208
+      arinoid_master_123: -7263579354995133337
+      arinoid_master_124: -1594614758661746801
+      arinoid_master_125: -4421574563294236889
+      arinoid_master_126: -3125348389281623874
+      arinoid_master_127: -7160316543049241032
+      arinoid_master_128: 2604184567219576910
+      arinoid_master_129: -8972962040761115779
+      arinoid_master_13: 6935913676875402808
+      arinoid_master_130: -3999204115588259700
+      arinoid_master_131: -8762796466556095840
+      arinoid_master_132: -8864525682041667901
+      arinoid_master_133: -7185892297606251723
+      arinoid_master_134: -3279571540872018441
+      arinoid_master_135: -8274560681187520838
+      arinoid_master_136: 3876882188340758382
+      arinoid_master_137: 7575672977379781268
+      arinoid_master_138: -1455740578012860685
+      arinoid_master_139: 899267358610305224
+      arinoid_master_14: 3509497865380556169
+      arinoid_master_140: -2352539756263447724
+      arinoid_master_141: -8350225177426707813
+      arinoid_master_142: 5736960698800809540
+      arinoid_master_143: -6308740852557777745
+      arinoid_master_144: 7198872521598568058
+      arinoid_master_145: 3941659977712803129
+      arinoid_master_146: -5724731163704392064
+      arinoid_master_147: -4510539107458395804
+      arinoid_master_148: 5476603980872454486
+      arinoid_master_149: 5103080423020711332
+      arinoid_master_15: 8801527657291759472
+      arinoid_master_150: -1480406517711470904
+      arinoid_master_151: 7233063546264780301
+      arinoid_master_152: -7398513265047065332
+      arinoid_master_153: -2902187301792774973
+      arinoid_master_154: 4378098139544677729
+      arinoid_master_155: -6853839674600131940
+      arinoid_master_156: -4153725557871030116
+      arinoid_master_157: -7153000322257390741
+      arinoid_master_158: -7639889944719445864
+      arinoid_master_159: 6091168353840781472
+      arinoid_master_16: 7948464913185407071
+      arinoid_master_160: 7974061770374025956
+      arinoid_master_161: 607612543943070322
+      arinoid_master_162: -4597652546370621632
+      arinoid_master_163: -9191264999787648246
+      arinoid_master_164: -1872114832600216803
+      arinoid_master_165: -6237888515889451024
+      arinoid_master_166: 4973888200270996881
+      arinoid_master_167: -5624493477257355368
+      arinoid_master_168: -1193362206097087692
+      arinoid_master_169: -6814008926241005760
+      arinoid_master_17: 1117869250564295966
+      arinoid_master_170: 4697076780277607821
+      arinoid_master_171: 9002205880477281271
+      arinoid_master_172: 8850110961398953073
+      arinoid_master_173: -1300748866105138931
+      arinoid_master_174: 4876561269686424643
+      arinoid_master_175: 4826247599191155052
+      arinoid_master_176: 8617685666396372361
+      arinoid_master_177: -8647165750776858384
+      arinoid_master_178: 3217266853867530856
+      arinoid_master_179: -5132505103639702505
+      arinoid_master_18: 4030693610773744315
+      arinoid_master_180: -2227643598718918545
+      arinoid_master_181: -7213221836382704941
+      arinoid_master_182: 5715652381198257843
+      arinoid_master_183: 6192740053683804732
+      arinoid_master_184: 6847153041575032527
+      arinoid_master_185: 1944060024618808488
+      arinoid_master_186: 2721535748948928763
+      arinoid_master_187: -1659767875082380494
+      arinoid_master_188: 430859668180377589
+      arinoid_master_189: -6991845357617250577
+      arinoid_master_19: 1363564624274597881
+      arinoid_master_190: 1047726819542494041
+      arinoid_master_191: 3081868789305528484
+      arinoid_master_192: 288439664335163966
+      arinoid_master_193: 6631183228888673208
+      arinoid_master_194: 8334296138764947225
+      arinoid_master_195: -191469425080707863
+      arinoid_master_196: -4616464845914332614
+      arinoid_master_197: 6350742798375269310
+      arinoid_master_198: -6753522110925528360
+      arinoid_master_199: 5042297090243270799
+      arinoid_master_2: -6305362609302338346
+      arinoid_master_20: 161940389726430771
+      arinoid_master_200: 7552207346409197448
+      arinoid_master_201: 531768384722112479
+      arinoid_master_202: 7626445339066300837
+      arinoid_master_203: -3275640962635809651
+      arinoid_master_204: -2399224748265474015
+      arinoid_master_205: -8675202568433748443
+      arinoid_master_206: -109010023568514241
+      arinoid_master_207: -6325054778830656324
+      arinoid_master_208: 6030207963330060013
+      arinoid_master_209: -3493282430663250852
+      arinoid_master_21: -5193214667731367907
+      arinoid_master_210: -2898727428899914826
+      arinoid_master_211: 6867852347734708312
+      arinoid_master_212: -2542865543358550342
+      arinoid_master_213: 8155538408842925034
+      arinoid_master_214: -3973652453446145994
+      arinoid_master_215: 8138734410925069457
+      arinoid_master_216: -3033394901165503079
+      arinoid_master_217: -246838503453265601
+      arinoid_master_218: -9011050593962697725
+      arinoid_master_219: -3371373751108172274
+      arinoid_master_22: 7401363378270291568
+      arinoid_master_220: 995153170219427392
+      arinoid_master_221: -8711043629794487335
+      arinoid_master_222: -7142225939922951522
+      arinoid_master_223: 7100666226102379515
+      arinoid_master_224: -6158953567823514708
+      arinoid_master_225: 8074497677171357997
+      arinoid_master_226: 8450764806173762030
+      arinoid_master_227: -4506979300604085945
+      arinoid_master_228: -1819620409599114260
+      arinoid_master_229: 7711177633321390908
+      arinoid_master_23: 4299209468790917929
+      arinoid_master_230: 7883044508211949556
+      arinoid_master_231: -1998787798517209597
+      arinoid_master_232: -2762629297685806988
+      arinoid_master_233: 949817423627749067
+      arinoid_master_234: 6888748232838486922
+      arinoid_master_235: 2389658807190240395
+      arinoid_master_236: 8103647268444098712
+      arinoid_master_237: -2452604990505849721
+      arinoid_master_238: -4223751147529651347
+      arinoid_master_239: -4435919654788715747
+      arinoid_master_24: 1231753278596773978
+      arinoid_master_240: 2190713274130319504
+      arinoid_master_241: 6501335142949075177
+      arinoid_master_242: 2202762658223549939
+      arinoid_master_243: -128878036862426054
+      arinoid_master_244: -8891494894474543543
+      arinoid_master_245: 7368525218927536740
+      arinoid_master_246: 5086534352293518447
+      arinoid_master_247: -6359031117356469085
+      arinoid_master_248: -3468506469100370028
+      arinoid_master_249: 8003285080639360981
+      arinoid_master_25: -829525974120944777
+      arinoid_master_250: 2131937552664833353
+      arinoid_master_251: -4303612949201081554
+      arinoid_master_252: -8071279709715782588
+      arinoid_master_253: -6066196157516841905
+      arinoid_master_254: -4477345242111401367
+      arinoid_master_255: 6011110709155106147
+      arinoid_master_256: 2664570060386462011
+      arinoid_master_257: 4025399918244721652
+      arinoid_master_258: -2655062069046143468
+      arinoid_master_259: 528402354329698359
+      arinoid_master_26: -1498595419792783078
+      arinoid_master_260: -5642308230437999551
+      arinoid_master_261: 4986849371885115399
+      arinoid_master_262: -785809251781626040
+      arinoid_master_263: 8782374702028928948
+      arinoid_master_264: -524862670483056128
+      arinoid_master_265: -364200680233030666
+      arinoid_master_266: -925899323908093368
+      arinoid_master_267: 7873410996506379268
+      arinoid_master_268: -2155351478562552622
+      arinoid_master_269: -439684478500218270
+      arinoid_master_27: 4950353154174888627
+      arinoid_master_270: -5264795993779115493
+      arinoid_master_271: -7359064327162848349
+      arinoid_master_272: 6469323411742574664
+      arinoid_master_273: 8079377417595029960
+      arinoid_master_274: 6735196107308032758
+      arinoid_master_275: 7591994027884811687
+      arinoid_master_276: -1347698164950373484
+      arinoid_master_277: -4206278426989960320
+      arinoid_master_278: 515834155308555751
+      arinoid_master_279: -1926889008765930586
+      arinoid_master_28: -6096566492544994661
+      arinoid_master_280: 8598793639822275442
+      arinoid_master_281: -5583760993264718256
+      arinoid_master_282: 7322891591940418188
+      arinoid_master_283: -728056712529110331
+      arinoid_master_284: 8018027447999532222
+      arinoid_master_285: -1228995216033203314
+      arinoid_master_286: -1739046300191255355
+      arinoid_master_287: -2762523870295086452
+      arinoid_master_288: 6452275039746702312
+      arinoid_master_289: 6155499788842605029
+      arinoid_master_29: 4209688763197534935
+      arinoid_master_290: -1969425833178196106
+      arinoid_master_291: -2439882172894440628
+      arinoid_master_292: 7875418533146967210
+      arinoid_master_293: 4227769345612238637
+      arinoid_master_294: -4434443692681431563
+      arinoid_master_295: -2725814271161030630
+      arinoid_master_296: -2945503909736851970
+      arinoid_master_297: 7968550818187304243
+      arinoid_master_298: 3341424853139900204
+      arinoid_master_299: 1824053685133247678
+      arinoid_master_3: 4195968988523321859
+      arinoid_master_30: -8320352274582236659
+      arinoid_master_31: 7684488539018472044
+      arinoid_master_32: -2356502561262053369
+      arinoid_master_33: 6017190267265493794
+      arinoid_master_34: -1232311314681744277
+      arinoid_master_35: 5454934308262716096
+      arinoid_master_36: -3363398380970224557
+      arinoid_master_37: 3718782196749721652
+      arinoid_master_38: 148626427263786944
+      arinoid_master_39: 3193627336181685412
+      arinoid_master_4: -1394972716035885447
+      arinoid_master_40: 6703512341189392582
+      arinoid_master_41: -1983358248022940245
+      arinoid_master_42: -5449209038533453962
+      arinoid_master_43: 7326465105927489589
+      arinoid_master_44: -1813573374019638011
+      arinoid_master_45: 1912071159809147742
+      arinoid_master_46: -6053397060647497744
+      arinoid_master_47: 7259697500640862780
+      arinoid_master_48: -6356791993347539235
+      arinoid_master_49: 2943813175595154749
+      arinoid_master_5: 7942257308383525151
+      arinoid_master_50: -8027662795974436870
+      arinoid_master_51: 1669059643967017500
+      arinoid_master_52: -4295805967708897453
+      arinoid_master_53: -3561150939267629213
+      arinoid_master_54: 5904234318739344787
+      arinoid_master_55: -8608611670531193072
+      arinoid_master_56: 5846114533778944770
+      arinoid_master_57: 3420969038013296454
+      arinoid_master_58: 971532926735408869
+      arinoid_master_59: -974460967816738110
+      arinoid_master_6: 8790594551159254534
+      arinoid_master_60: 8005383084710128080
+      arinoid_master_61: 7063993445430265451
+      arinoid_master_62: -7329462980579873135
+      arinoid_master_63: 7497361948471914217
+      arinoid_master_64: -6928940958082962720
+      arinoid_master_65: -3607810266034939085
+      arinoid_master_66: -7896813742500788039
+      arinoid_master_67: 8090528454906177568
+      arinoid_master_68: -952505100822513412
+      arinoid_master_69: 1508510248605077239
+      arinoid_master_7: 5776052413349761614
+      arinoid_master_70: 6308237076397346811
+      arinoid_master_71: -2518075041485791219
+      arinoid_master_72: -8059468815127008540
+      arinoid_master_73: -1632448550783265722
+      arinoid_master_74: -5919609938850879078
+      arinoid_master_75: -1210256040439959229
+      arinoid_master_76: -6766951653429435952
+      arinoid_master_77: -6904374376757877519
+      arinoid_master_78: -1993085234638333129
+      arinoid_master_79: -1445575317394806788
+      arinoid_master_8: -6382322295572303947
+      arinoid_master_80: 3495886493249385876
+      arinoid_master_81: -8919092072618100803
+      arinoid_master_82: -4939536151755253098
+      arinoid_master_83: 95262381378072078
+      arinoid_master_84: 7233952038482841486
+      arinoid_master_85: -4372038819972610478
+      arinoid_master_86: 1532176427144715178
+      arinoid_master_87: 3446121721234150862
+      arinoid_master_88: 5975645034915406125
+      arinoid_master_89: -1356768523225721583
+      arinoid_master_9: -8349430706396230157
+      arinoid_master_90: -2204487980883843378
+      arinoid_master_91: 4502293694031462631
+      arinoid_master_92: -3184969875475609876
+      arinoid_master_93: 5602346703163014139
+      arinoid_master_94: -4088411436833562459
+      arinoid_master_95: 5157267094021425057
+      arinoid_master_96: -9122805501305974613
+      arinoid_master_97: -8280651425899428711
+      arinoid_master_98: 1911600205799145950
+      arinoid_master_99: -3315812164619176626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e30056e2f0e12454d950c0b1d0cfd55b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/TileFabs/LoadableSection/LoadableSection_TileFab.asset
+  uploadId: 609826

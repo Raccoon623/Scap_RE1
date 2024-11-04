@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0dcbdee1a5601a4b98c0f22c32f5415
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Tests/Tiles/TpAnimatedTile.asset
+  uploadId: 609826

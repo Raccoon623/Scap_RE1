@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e044f1650882c434da6b54103e8d5803
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Chunking/ChunkDesignScene/ChunkDesign.unity
+  uploadId: 609826

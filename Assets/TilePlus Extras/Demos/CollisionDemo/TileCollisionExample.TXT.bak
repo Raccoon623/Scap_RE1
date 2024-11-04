@@ -1,0 +1,31 @@
+CollisionDemo shows how you can have tiles that react to the environment.
+One way to do this is physics, and in a trip down the rabbit hole, I wanted to see
+if it was possible to map collisions to tiles. 
+
+The scene TileCollisionDemo illustrates how extensions like ICollidableTile, 
+TilePlusCollidableBase, TileCollision, and AnimatedTileWithCollision, and 
+TilemapCollisionDirector do this, but the positioning isn't too accurate for a 
+number of reasons. If your interactive tiles are fairly far apart this scheme 
+could be useful.
+
+The important thing to note here is that the non-animated (Star) tiles in the 
+CollisionDemo scene are all clones of a single TileCollision tile asset with individual 
+changes for force applied, etc. You can edit these variables yourself via the
+Selection Inspector (use the Palette's picking function).
+
+The Animated tile in the center is also modified from the original asset in the Project.
+The 6-frame animation sequence from the Asset in the Project has been reduced to 3-frames. 
+Lists like the Animation sequence can be edited in a normal inspector: just select the painted
+tile with the Tile+Brush and click the 'I' button. 
+
+Note that the reference to the "Effect Prefab" is added to each painted (Star) 
+tile via the Tile+Brush Selection Inspector. 
+
+For each of the painted tiles, the AudioSource reference is added with the Selection
+Inspector as well. 
+
+The animated tile in the center uses the TilePlusTiming helper class. If you select the
+tilemap prior to activating Play mode, you'll notice that the TilePlusRuntimeEvents 
+component is added dynamically the first time that that tile is collided with. 
+
+These scripts are provided as examples only, and aren't supported in any way.

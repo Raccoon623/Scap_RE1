@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c45aa89c66207084da2e654bef617b03
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/CHANGELOG.md
+  uploadId: 609826

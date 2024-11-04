@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63fd1fd6627543f44ad2216e19f27fbd
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/TilePlus.Editor.asmdef
+  uploadId: 609826

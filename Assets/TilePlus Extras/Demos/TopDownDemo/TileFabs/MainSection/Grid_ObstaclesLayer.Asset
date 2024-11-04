@@ -1,0 +1,1134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6129439265252982527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 0
+  m_TileGuid: 
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 419
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f633ffa326a359d4cbba298e8793be94, type: 3}
+  m_Name: Grid_ObstaclesLayer
+  m_EditorClassIdentifier: 
+  m_TimeStamp: 4/27/2023 01:38:56 PM UTC
+  m_ScenePath: ObstaclesLayer.Grid
+  m_OriginalScene: TopDownDemo
+  m_FromGridSelection: 0
+  m_IgnoreInPainter: 0
+  m_UserFlag: 0
+  m_UserString: 
+  m_TilemapBoundsInt:
+    m_Position: {x: -16, y: -8, z: 0}
+    m_Size: {x: 31, y: 30, z: 1}
+  m_TilePlusTiles:
+  - m_Tile: {fileID: -6129439265252982527}
+    m_TilePosition:
+      m_Position: {x: -9, y: -6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  - m_Tile: {fileID: 5435140247479834203}
+    m_TilePosition:
+      m_Position: {x: -7, y: -6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  - m_Tile: {fileID: 3218011784256629558}
+    m_TilePosition:
+      m_Position: {x: 11, y: 3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  m_UnityTiles:
+  - m_Positions:
+    - m_Position: {x: -16, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 21, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 21, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 1f4c6f5ddee08ea4f9a1b5c1619ba665, type: 2}
+  - m_Positions:
+    - m_Position: {x: -15, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -13, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -12, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -10, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -8, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -7, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -4, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -2, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 1, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 2, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 3, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 4, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 5, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 7, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 8, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 9, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 10, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 11, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 12, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 13, y: -8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -7, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -7, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -6, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -6, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -5, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -5, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -4, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -4, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -3, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -3, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -2, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -2, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: -1, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: -1, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 0, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 0, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 1, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 1, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 2, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 2, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 3, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 3, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 4, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 4, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 5, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 5, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 6, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 6, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 7, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 8, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 9, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 10, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 11, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 12, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 13, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 13, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 14, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 14, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 15, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 15, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 16, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 16, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 17, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 17, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 18, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 18, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 19, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 19, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -16, y: 20, z: 0}
+      m_TransformIndex: 1
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 14, y: 20, z: 0}
+      m_TransformIndex: 2
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -15, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -13, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -12, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -10, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -8, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -7, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -4, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -2, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 1, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 2, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 3, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 4, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 5, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 7, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 8, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 9, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 10, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 11, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 12, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 13, y: 21, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 5d4ddb12004521f40a14955c8eea9b41, type: 2}
+  - m_Positions:
+    - m_Position: {x: -11, y: -7, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: fb931836ccd34ec4fbb2c8f91f3234e4, type: 2}
+  - m_Positions:
+    - m_Position: {x: -5, y: -7, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 4be5b899b76d4bf49a56a3c82db1b871, type: 2}
+  - m_Positions:
+    - m_Position: {x: -11, y: -6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -6, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -5, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: -4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -4, z: 0}
+      m_TransformIndex: 3
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 6dbf72a696265364696656ee352c1f7d, type: 2}
+  - m_Positions:
+    - m_Position: {x: 0, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 1, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 2, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 3, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 4, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 5, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 7, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 8, y: -5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: -4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 7, y: -4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 8, y: -4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: -3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: -3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -4, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -2, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: -2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: -1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: 0, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -8, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -7, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -4, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: 1, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: 2, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: 3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -15, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -3, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -2, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 5, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 7, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 8, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 5, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -13, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -12, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -8, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -7, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 6, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 7, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 8, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 9, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: 10, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: 10, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: 11, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: 11, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -1, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 0, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 1, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 2, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 3, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 4, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 5, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: 6, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -15, y: 13, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 13, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 13, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 14, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 14, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 15, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 15, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -14, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -13, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -12, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -11, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -10, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -9, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: 16, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 14ea7f37c89e0184a92ee30352800f64, type: 2}
+  - m_Positions:
+    - m_Position: {x: -11, y: -3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -5, y: -3, z: 0}
+      m_TransformIndex: 4
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: 4cd38c7927612b442977c062be96802f, type: 2}
+  - m_Positions:
+    - m_Position: {x: -10, y: -3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    - m_Position: {x: -6, y: -3, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 1
+    m_UnityTile: {fileID: 11400000, guid: f374cffba094bc14187df8cb60bb4726, type: 2}
+  m_Prefabs: []
+  m_TileFlags: 0300000001000000
+  m_TileTransforms:
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0
+    e01: 1
+    e02: 0
+    e03: 0
+    e10: -1
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0
+    e01: -1
+    e02: 0
+    e03: 0
+    e10: 1
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: -1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_TileColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  m_Guid: 04eb389206cbf84b9fa249ebbdd1ea7c
+--- !u!114 &3218011784256629558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4859b11451cb84faee1c71388740a9, type: 3}
+  m_Name: BlueThing
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 4025399918244721652, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 0
+  m_TileGuid: 
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: 
+  m_LockName: 1
+  m_Version: 1
+  m_SourceAssetName: BlueThing
+  m_TileName: BlueThing
+  m_PaintMask: []
+  m_CustomTileInfo: Sample animated tile for TilePlus demos
+  m_PlayOnStart: 1
+  m_AnimationSpeed: 2
+  m_OneShot: 0
+  m_RewindAfterOneShot: 0
+  m_AnimatedSprites:
+  - {fileID: 4025399918244721652, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  - {fileID: -2655062069046143468, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  - {fileID: -7359064327162848349, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  - {fileID: 6469323411742574664, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  - {fileID: 8079377417595029960, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_UpdatePhysics: 0
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_PreviewIcon: {fileID: 0}
+--- !u!114 &5435140247479834203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 0
+  m_TileGuid: 
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 420
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0

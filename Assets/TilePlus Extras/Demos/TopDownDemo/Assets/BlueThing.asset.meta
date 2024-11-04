@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a098ec4cd54c37d42834df00fb2f4d90
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/Assets/BlueThing.asset
+  uploadId: 609826

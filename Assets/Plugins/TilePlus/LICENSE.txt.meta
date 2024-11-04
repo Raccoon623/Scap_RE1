@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 31393ec0fe0540e997c06ae9e4a18eda
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/LICENSE.txt
+  uploadId: 609826

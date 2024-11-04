@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8881093833109998376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 0
+  m_ColliderType: 0
+  m_TileGuid: 3eeaf2f124502741b6c0f128abe98178
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 426
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0
+--- !u!114 &-6758992034324072280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 0
+  m_ColliderType: 0
+  m_TileGuid: 8a11f06711a3b04b9545ffe6094aa357
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 424
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f633ffa326a359d4cbba298e8793be94, type: 3}
+  m_Name: MainGrid_EffectsLayer 1
+  m_EditorClassIdentifier: 
+  m_TimeStamp: 4/5/2023 12:59:22 PM UTC
+  m_ScenePath: EffectsLayer.MainGrid
+  m_OriginalScene: UnityEngine.SceneManagement.Scene
+  m_FromGridSelection: 1
+  m_IgnoreInPainter: 1
+  m_TilemapBoundsInt:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 16, y: 16, z: 1}
+  m_TilePlusTiles:
+  - m_Tile: {fileID: -6758992034324072280}
+    m_TilePosition:
+      m_Position: {x: 2, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  - m_Tile: {fileID: 602379094581926851}
+    m_TilePosition:
+      m_Position: {x: 12, y: 4, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  - m_Tile: {fileID: -8881093833109998376}
+    m_TilePosition:
+      m_Position: {x: 2, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  - m_Tile: {fileID: 233386908891121625}
+    m_TilePosition:
+      m_Position: {x: 12, y: 12, z: 0}
+      m_TransformIndex: 0
+      m_ColorIndex: 0
+      m_FlagsIndex: 0
+  m_UnityTiles: []
+  m_Prefabs: []
+  m_TileFlags: 00000000
+  m_TileTransforms:
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_TileColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  m_Guid: ad2caa58965bdb40b6c61a2175b79591
+--- !u!114 &233386908891121625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 0
+  m_ColliderType: 0
+  m_TileGuid: 1347f0923a60fd41accf4e462ca1d5f4
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 427
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0
+--- !u!114 &602379094581926851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c08c354236bf3448b55cc24100c406, type: 3}
+  m_Name: TopDownDemo-Agent alt
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 0
+  m_ColliderType: 0
+  m_TileGuid: 37d1d87385c7b842834fde905f62b764
+  m_State: 2
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 0
+  m_Tag: Agent
+  m_LockName: 1
+  m_Version: 425
+  m_SourceAssetName: TopDownDemo-Agent alt
+  m_TileName: TopDownDemo-Agent alt
+  m_PaintMask: []
+  m_CustomTileInfo: An Agent tile with eyeball animations
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 3217266853867530856, guid: 5b284a1b1fca3924a9bb8f9b9d8f32da, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: aed7ad2deea18e34b9fbd7f67609b426, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: arinoid
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LifeTimeMin: 5
+  m_LifeTimeMax: 25
+  m_LifeLeft: 0

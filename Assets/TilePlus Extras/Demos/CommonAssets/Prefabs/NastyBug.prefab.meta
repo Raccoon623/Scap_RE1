@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78f1528de0bec4846a3d4e5e6213dbb5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Prefabs/NastyBug.prefab
+  uploadId: 609826

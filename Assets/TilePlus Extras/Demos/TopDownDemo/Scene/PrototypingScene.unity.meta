@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a3315fd8a642444fbfd1f5c8ee7ef05
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/Scene/PrototypingScene.unity
+  uploadId: 609826

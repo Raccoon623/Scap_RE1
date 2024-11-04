@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e85d35792c77de04594f7fe9afd31085
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Basic/DevelopmentScene/ReadMe.txt
+  uploadId: 609826

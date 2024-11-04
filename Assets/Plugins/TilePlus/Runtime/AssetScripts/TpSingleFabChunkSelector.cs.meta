@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6c8b18b2ff540404f981bc4ed9ecfccd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/AssetScripts/TpSingleFabChunkSelector.cs
+  uploadId: 609826

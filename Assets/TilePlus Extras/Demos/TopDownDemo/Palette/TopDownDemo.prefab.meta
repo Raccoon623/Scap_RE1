@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 004d3ffd56b935b428ead218bd12bc72
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/Palette/TopDownDemo.prefab
+  uploadId: 609826

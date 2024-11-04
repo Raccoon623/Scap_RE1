@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 60fc052c1c4bbf84e9c68cc243de9b1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Scripts/EscToQuit.cs
+  uploadId: 609826

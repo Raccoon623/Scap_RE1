@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2aa92069edb0cf849b9fa3d75d3239a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/Assets/TPP_PoolHost.prefab
+  uploadId: 609826

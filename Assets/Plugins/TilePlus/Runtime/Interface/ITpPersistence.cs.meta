@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1207fafcaefdfca40b9b6b98f8860dc1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/Interface/ITpPersistence.cs
+  uploadId: 609826

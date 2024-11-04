@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c07a12611f743f40a1084e2c7ffe0a0, type: 3}
+  m_Name: LavaTextureClip
+  m_EditorClassIdentifier: 
+  m_Clips:
+  - m_Name: lava
+    m_DefaultTileIndex: 0
+    m_AnimationSpeed: 8
+    m_OneShot: 0
+    m_ManualTimeout: 0
+    m_UnchangingSprites: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: e4c23efeefcfadb4d98b3abebf3bf6b0, type: 3}
+    - {fileID: 21300000, guid: 504817f131cbae74cb23e76997b8f254, type: 3}
+    - {fileID: 21300000, guid: 627aed86f5582c64d9d487ed7cc86a22, type: 3}
+    - {fileID: 21300000, guid: fd91f8df5446b6045813cce0289c8b6a, type: 3}
+    - {fileID: 21300000, guid: 28d4f2f62521d824b8dacb5506754470, type: 3}
+    - {fileID: 21300000, guid: 529b6c92f3b9db544b377c01f2251461, type: 3}
+    - {fileID: 21300000, guid: 6474b2ed8d65f434f85fc43c8bc827be, type: 3}
+    - {fileID: 21300000, guid: 1ddee63dcc298444795f97413f1590b8, type: 3}
+    - {fileID: 21300000, guid: 1970a59121a7e7a45a4bf685f79c6098, type: 3}
+    - {fileID: 21300000, guid: 78bf91dabf693414cbdd6be8d5661d66, type: 3}

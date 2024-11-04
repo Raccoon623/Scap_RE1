@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a81cb5adee4a4a8285bb188e71a47489
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/ReadMe.txt
+  uploadId: 609826

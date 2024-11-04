@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d151597aff4e8f4eb271075bb1fd0a1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Scripts/SimpleSpriteAnimator.cs
+  uploadId: 609826

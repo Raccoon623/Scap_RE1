@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5fbf2ad40ba30b448a7a76563639f2c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Chunking/TemplateChunks/Resources/16by16/MainGrid_TileFab.asset
+  uploadId: 609826

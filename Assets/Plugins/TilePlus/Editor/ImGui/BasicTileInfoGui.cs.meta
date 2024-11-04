@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dd75a711218b0d744a3e01cdb6afd5d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/ImGui/BasicTileInfoGui.cs
+  uploadId: 609826

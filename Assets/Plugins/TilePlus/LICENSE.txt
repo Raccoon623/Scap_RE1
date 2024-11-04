@@ -1,0 +1,7 @@
+Copyright (c) 2023 Jeffrey M. Sasmor
+
+License is the Asset Store license,
+specifically the "Asset Store End User License Agreement"
+https://unity3d.com/legal/as_terms
+
+

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f09e214a955400f46ab5ac4266ed6183
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/Painter/VisualElements/TpPainterTabBar.cs
+  uploadId: 609826

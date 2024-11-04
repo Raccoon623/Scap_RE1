@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c9cf2ba0ee5b34144bee3ce54797750c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Tests/Scene/SanityTest.unity
+  uploadId: 609826

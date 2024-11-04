@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc1b59be78a9f36479beca02b55022b1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CollisionDemo/TileCollisionExample.TXT
+  uploadId: 609826

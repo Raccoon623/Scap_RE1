@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858d6e674f4c3e04a8981fa54778e6bc, type: 3}
+  m_Name: BackgroundSlides
+  m_EditorClassIdentifier: 
+  m_Slides:
+  - m_Name: default
+    m_WrapAround: 1
+    m_StartIndex: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 3ebc56a7b2998eb48b1f892a25d73441, type: 3}
+    - {fileID: 21300000, guid: 5b49529a155d95c47ad64dbd148429ed, type: 3}
+    - {fileID: 21300000, guid: 8c8262515da6f004b9565a520ed2b04c, type: 3}
+    - {fileID: 21300000, guid: 606aa54fb3209b547a752ed72991e8cc, type: 3}
+    - {fileID: 21300000, guid: 765580bbc0563794dab3cc43a202b2e1, type: 3}
+    - {fileID: 21300000, guid: c0f3ad9328ba0e64bb21fec743190a8d, type: 3}
+    - {fileID: 21300000, guid: d0102d1866873bf4290e92079faa58c2, type: 3}
+    - {fileID: 21300000, guid: 564b85fb579c6054a9ea947935ddc9c4, type: 3}

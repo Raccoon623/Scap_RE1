@@ -1,0 +1,5590 @@
+fileFormatVersion: 2
+guid: 934357d2bda4303419af7dc1c2dc8f7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9024441869244137851
+    second: bugz_0
+  - first:
+      213: -3231692079741914184
+    second: bugz_1
+  - first:
+      213: -651135595392658943
+    second: bugz_2
+  - first:
+      213: 3277428464125368623
+    second: bugz_3
+  - first:
+      213: -8619592062847456998
+    second: bugz_4
+  - first:
+      213: 4577225224238507202
+    second: bugz_5
+  - first:
+      213: 5897544608297005873
+    second: bugz_6
+  - first:
+      213: 1854005941869200646
+    second: bugz_7
+  - first:
+      213: -337924622042515345
+    second: bugz_8
+  - first:
+      213: 1274322446141265881
+    second: bugz_9
+  - first:
+      213: 2145663904283489914
+    second: bugz_10
+  - first:
+      213: 9144071907620363813
+    second: bugz_11
+  - first:
+      213: -5789568928339414979
+    second: bugz_12
+  - first:
+      213: -4846219970795814364
+    second: bugz_13
+  - first:
+      213: -7483303757437546428
+    second: bugz_14
+  - first:
+      213: -6766175258171929102
+    second: bugz_15
+  - first:
+      213: 5064262613906435646
+    second: bugz_16
+  - first:
+      213: 5904196917772926723
+    second: bugz_17
+  - first:
+      213: -6748643179285634080
+    second: bugz_18
+  - first:
+      213: -7590557534885456015
+    second: bugz_19
+  - first:
+      213: -2676258906513819091
+    second: bugz_20
+  - first:
+      213: 5784870889687686428
+    second: bugz_21
+  - first:
+      213: 7941152104295003239
+    second: bugz_22
+  - first:
+      213: -8004624482321983659
+    second: bugz_23
+  - first:
+      213: -7953067485232269053
+    second: bugz_24
+  - first:
+      213: 8527170705486455957
+    second: bugz_25
+  - first:
+      213: -8536707171533823830
+    second: bugz_26
+  - first:
+      213: 6732976843225942221
+    second: bugz_27
+  - first:
+      213: 3644972380615160694
+    second: bugz_28
+  - first:
+      213: 7632820499726923507
+    second: bugz_29
+  - first:
+      213: 5517224903022189775
+    second: bugz_30
+  - first:
+      213: -6478685041863058193
+    second: bugz_31
+  - first:
+      213: -5708901919980099187
+    second: bugz_32
+  - first:
+      213: 2752869285536890070
+    second: bugz_33
+  - first:
+      213: -6102750308914130164
+    second: bugz_34
+  - first:
+      213: -872704396580067888
+    second: bugz_35
+  - first:
+      213: -6112951230941971693
+    second: bugz_36
+  - first:
+      213: -3729862068271782592
+    second: bugz_37
+  - first:
+      213: -7409565338920727475
+    second: bugz_38
+  - first:
+      213: 8019531969192058336
+    second: bugz_39
+  - first:
+      213: 5268956637181208363
+    second: bugz_40
+  - first:
+      213: -2508411277242885182
+    second: bugz_41
+  - first:
+      213: 8768350666888302929
+    second: bugz_42
+  - first:
+      213: -308868056129372545
+    second: bugz_43
+  - first:
+      213: 5363233404488563155
+    second: bugz_44
+  - first:
+      213: -222928921780848840
+    second: bugz_45
+  - first:
+      213: 480875230004679837
+    second: bugz_46
+  - first:
+      213: 8388639854379664731
+    second: bugz_47
+  - first:
+      213: -3728213599098551875
+    second: bugz_48
+  - first:
+      213: 1799680718382924209
+    second: bugz_49
+  - first:
+      213: -9176343780208438978
+    second: bugz_50
+  - first:
+      213: 2145031345551106143
+    second: bugz_51
+  - first:
+      213: 3737659854154119709
+    second: bugz_52
+  - first:
+      213: 8995143042916376521
+    second: bugz_53
+  - first:
+      213: 6446572198468857277
+    second: bugz_54
+  - first:
+      213: 5185424440946908275
+    second: bugz_55
+  - first:
+      213: 5485580319422447102
+    second: bugz_56
+  - first:
+      213: -2842605807560529010
+    second: bugz_57
+  - first:
+      213: 5868487320440673256
+    second: bugz_58
+  - first:
+      213: -889972604746181286
+    second: bugz_59
+  - first:
+      213: -6403705657071650349
+    second: bugz_60
+  - first:
+      213: 596082754747214719
+    second: bugz_61
+  - first:
+      213: -1358809053337465262
+    second: bugz_62
+  - first:
+      213: -462245427902166926
+    second: bugz_63
+  - first:
+      213: 8880194451540644152
+    second: bugz_64
+  - first:
+      213: 5873626897104441890
+    second: bugz_65
+  - first:
+      213: -4023925697728162218
+    second: bugz_66
+  - first:
+      213: 123155543494481920
+    second: bugz_67
+  - first:
+      213: -8787632105897548857
+    second: bugz_68
+  - first:
+      213: 4309686971645818737
+    second: bugz_69
+  - first:
+      213: -5763921319677101680
+    second: bugz_70
+  - first:
+      213: -2859551692876335495
+    second: bugz_71
+  - first:
+      213: -1194367145327270855
+    second: bugz_72
+  - first:
+      213: 4566421773870324
+    second: bugz_73
+  - first:
+      213: 1669291412967955447
+    second: bugz_74
+  - first:
+      213: 581279922898562728
+    second: bugz_75
+  - first:
+      213: 1297134903512356925
+    second: bugz_76
+  - first:
+      213: 4240031915439317776
+    second: bugz_77
+  - first:
+      213: -5217306027603474023
+    second: bugz_78
+  - first:
+      213: 3598496232687326246
+    second: bugz_79
+  - first:
+      213: 4293474631048936437
+    second: bugz_80
+  - first:
+      213: 1160986714550830132
+    second: bugz_81
+  - first:
+      213: 1387241393758127004
+    second: bugz_82
+  - first:
+      213: -8700297318408784466
+    second: bugz_83
+  - first:
+      213: -395779533339769526
+    second: bugz_84
+  - first:
+      213: -7269387488186643878
+    second: bugz_85
+  - first:
+      213: 5406261927774142719
+    second: bugz_86
+  - first:
+      213: 1432594930280188857
+    second: bugz_87
+  - first:
+      213: -4724353499403982093
+    second: bugz_88
+  - first:
+      213: 8405100656340144085
+    second: bugz_89
+  - first:
+      213: -1709903542899844430
+    second: bugz_90
+  - first:
+      213: 2138048977532200593
+    second: bugz_91
+  - first:
+      213: 7011701778986486393
+    second: bugz_92
+  - first:
+      213: -4464722751870605773
+    second: bugz_93
+  - first:
+      213: -6230089776768748419
+    second: bugz_94
+  - first:
+      213: -8368879279866152237
+    second: bugz_95
+  - first:
+      213: -4362172640376869866
+    second: bugz_96
+  - first:
+      213: -3952529518959889250
+    second: bugz_97
+  - first:
+      213: -2002490519357560641
+    second: bugz_98
+  - first:
+      213: -4778826006277043217
+    second: bugz_99
+  - first:
+      213: -8007648041629067583
+    second: bugz_100
+  - first:
+      213: 4639384006462770617
+    second: bugz_101
+  - first:
+      213: 3083670581242550306
+    second: bugz_102
+  - first:
+      213: -1956617576584127949
+    second: bugz_103
+  - first:
+      213: -6272877236848906561
+    second: bugz_104
+  - first:
+      213: 8199954902488365287
+    second: bugz_105
+  - first:
+      213: 3000318040066718781
+    second: bugz_106
+  - first:
+      213: 6080165088940979104
+    second: bugz_107
+  - first:
+      213: -5838173353793914634
+    second: bugz_108
+  - first:
+      213: -8886883163860204277
+    second: bugz_109
+  - first:
+      213: 4048313622485558652
+    second: bugz_110
+  - first:
+      213: -3387493235856947017
+    second: bugz_111
+  - first:
+      213: -7542740030500940405
+    second: bugz_112
+  - first:
+      213: -7824590639384441491
+    second: bugz_113
+  - first:
+      213: -3480513548683883609
+    second: bugz_114
+  - first:
+      213: -1442333638369328465
+    second: bugz_115
+  - first:
+      213: 388337284127726255
+    second: bugz_116
+  - first:
+      213: -8248286075695041806
+    second: bugz_117
+  - first:
+      213: 3227163493486113071
+    second: bugz_118
+  - first:
+      213: -8836442733664081911
+    second: bugz_119
+  - first:
+      213: -6075905980971315516
+    second: bugz_120
+  - first:
+      213: 4159036308784127492
+    second: bugz_121
+  - first:
+      213: -7969150030652608469
+    second: bugz_122
+  - first:
+      213: 3764320955993310827
+    second: bugz_123
+  - first:
+      213: 5899957564977830600
+    second: bugz_124
+  - first:
+      213: -5063260014399664134
+    second: bugz_125
+  - first:
+      213: 6540005299833637038
+    second: bugz_126
+  - first:
+      213: 8153010919287723711
+    second: bugz_127
+  - first:
+      213: 8187958658774153107
+    second: bugz_128
+  - first:
+      213: -9011349741975750435
+    second: bugz_129
+  - first:
+      213: -783386117665624186
+    second: bugz_130
+  - first:
+      213: -2545610452329508329
+    second: bugz_131
+  - first:
+      213: -5987772528090281908
+    second: bugz_132
+  - first:
+      213: 4648805703072842008
+    second: bugz_133
+  - first:
+      213: 6096981154265894499
+    second: bugz_134
+  - first:
+      213: 8011465247544194298
+    second: bugz_135
+  - first:
+      213: -1327887283754191290
+    second: bugz_136
+  - first:
+      213: 5971576398570347720
+    second: bugz_137
+  - first:
+      213: -7449202009527555884
+    second: bugz_138
+  - first:
+      213: 7699264083552745338
+    second: bugz_139
+  - first:
+      213: -2710234304347794072
+    second: bugz_140
+  - first:
+      213: 1818128826980544876
+    second: bugz_141
+  - first:
+      213: 3836014760089598776
+    second: bugz_142
+  - first:
+      213: 8897275929656679462
+    second: bugz_143
+  - first:
+      213: 6946982822201957425
+    second: bugz_144
+  - first:
+      213: -6274203317429308689
+    second: bugz_145
+  - first:
+      213: -760881171219060279
+    second: bugz_146
+  - first:
+      213: -4599350736867091007
+    second: bugz_147
+  - first:
+      213: -7774482731387657684
+    second: bugz_148
+  - first:
+      213: -6185519987060860127
+    second: bugz_149
+  - first:
+      213: 7090020041849689945
+    second: bugz_150
+  - first:
+      213: -4385362052513816042
+    second: bugz_151
+  - first:
+      213: 7742122517834137313
+    second: bugz_152
+  - first:
+      213: -8894164266169123644
+    second: bugz_153
+  - first:
+      213: -2934631340235262787
+    second: bugz_154
+  - first:
+      213: 2798874365304077178
+    second: bugz_155
+  - first:
+      213: 4201570550948981894
+    second: bugz_156
+  - first:
+      213: -9005192843191088383
+    second: bugz_157
+  - first:
+      213: 2251712917213857430
+    second: bugz_158
+  - first:
+      213: -4759114731820498019
+    second: bugz_159
+  - first:
+      213: -5895956824870543395
+    second: bugz_160
+  - first:
+      213: 6679911062726738173
+    second: bugz_161
+  - first:
+      213: 4448461978298312355
+    second: bugz_162
+  - first:
+      213: 5770777948698763371
+    second: bugz_163
+  - first:
+      213: -6379611808916047592
+    second: bugz_164
+  - first:
+      213: -1745496624750473689
+    second: bugz_165
+  - first:
+      213: -6725321442642786548
+    second: bugz_166
+  - first:
+      213: 8695418053063950823
+    second: bugz_167
+  - first:
+      213: -6567569379811630155
+    second: bugz_168
+  - first:
+      213: 8950924155217923836
+    second: bugz_169
+  - first:
+      213: -7460535735235310480
+    second: bugz_170
+  - first:
+      213: -5312819179002617297
+    second: bugz_171
+  - first:
+      213: 5947264852383236652
+    second: bugz_172
+  - first:
+      213: -2329816704663581982
+    second: bugz_173
+  - first:
+      213: 7713696572960728642
+    second: bugz_174
+  - first:
+      213: -8003114892918842575
+    second: bugz_175
+  - first:
+      213: 6224059900582976937
+    second: bugz_176
+  - first:
+      213: -5736025175304553403
+    second: bugz_177
+  - first:
+      213: 5703855796145841154
+    second: bugz_178
+  - first:
+      213: 4673287988254665329
+    second: bugz_179
+  - first:
+      213: -1482665057432289478
+    second: bugz_180
+  - first:
+      213: -4153232285564015548
+    second: bugz_181
+  - first:
+      213: 4219869780691654526
+    second: bugz_182
+  - first:
+      213: -6130921080238947150
+    second: bugz_183
+  - first:
+      213: 8728360983833114130
+    second: bugz_184
+  - first:
+      213: -1326768730444691333
+    second: bugz_185
+  - first:
+      213: -4638490631054139453
+    second: bugz_186
+  - first:
+      213: 7981064935492296465
+    second: bugz_187
+  - first:
+      213: -7918052436113962142
+    second: bugz_188
+  - first:
+      213: -5353749871787177092
+    second: bugz_189
+  - first:
+      213: 2901878818022969419
+    second: bugz_190
+  - first:
+      213: 6720199192697165264
+    second: bugz_191
+  - first:
+      213: -8844207381785187749
+    second: bugz_192
+  - first:
+      213: 7319568582661011667
+    second: bugz_193
+  - first:
+      213: -6652391082279009556
+    second: bugz_194
+  - first:
+      213: 852027628822021321
+    second: bugz_195
+  - first:
+      213: 5408357547023921240
+    second: bugz_196
+  - first:
+      213: -2894438461254761098
+    second: bugz_197
+  - first:
+      213: -2606943510803118649
+    second: bugz_198
+  - first:
+      213: -6823892486197385753
+    second: bugz_199
+  - first:
+      213: 4535507569466048419
+    second: bugz_200
+  - first:
+      213: -6689950103246803370
+    second: bugz_201
+  - first:
+      213: -1071720316339628327
+    second: bugz_202
+  - first:
+      213: -1300093991014784000
+    second: bugz_203
+  - first:
+      213: -5818693430897130608
+    second: bugz_204
+  - first:
+      213: -911735898302513054
+    second: bugz_205
+  - first:
+      213: 8484745944380155720
+    second: bugz_206
+  - first:
+      213: 5015410516623002315
+    second: bugz_207
+  - first:
+      213: 714764291285189304
+    second: bugz_208
+  - first:
+      213: 5758419217197210191
+    second: bugz_209
+  - first:
+      213: -8417377478811600619
+    second: bugz_210
+  - first:
+      213: -1696604327790209527
+    second: bugz_211
+  - first:
+      213: -1252227317823204540
+    second: bugz_212
+  - first:
+      213: 1348559440224133703
+    second: bugz_213
+  - first:
+      213: -3053930474577754104
+    second: bugz_214
+  - first:
+      213: 3407828061693039643
+    second: bugz_215
+  - first:
+      213: 8824467991607810729
+    second: bugz_216
+  - first:
+      213: -9066587540769128063
+    second: bugz_217
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bugz_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 356
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71857801124d3d70800000000000000
+      internalID: 9024441869244137851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 356
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b33a8bfc29b623d0800000000000000
+      internalID: -3231692079741914184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 356
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102120830a3b6f6f0800000000000000
+      internalID: -651135595392658943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 356
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2952f4d2d3cb7d20800000000000000
+      internalID: 3277428464125368623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 356
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196339ffae016880800000000000000
+      internalID: -8619592062847456998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 358
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4a1bb1712958f30800000000000000
+      internalID: 4577225224238507202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_6
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 358
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1333090239948d150800000000000000
+      internalID: 5897544608297005873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 334
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c398c490cab910800000000000000
+      internalID: 1854005941869200646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 334
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f683c4eb8537f4bf0800000000000000
+      internalID: -337924622042515345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 334
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d79e8b538d4fa110800000000000000
+      internalID: 1274322446141265881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 334
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76f136e3fde6cd10800000000000000
+      internalID: 2145663904283489914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 334
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e175ed3f446ee70800000000000000
+      internalID: 9144071907620363813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 334
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30b0bfebb157afa0800000000000000
+      internalID: -5789568928339414979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 334
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422cf49ec94cebcb0800000000000000
+      internalID: -4846219970795814364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 334
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440d69f71e6f52890800000000000000
+      internalID: -7483303757437546428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 334
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd00a09377b912a0800000000000000
+      internalID: -6766175258171929102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_16
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 334
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2f270400e74640800000000000000
+      internalID: 5064262613906435646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 334
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fbfcf90dbefe150800000000000000
+      internalID: 5904196917772926723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_18
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 334
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e321d6c8c00852a0800000000000000
+      internalID: -6748643179285634080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 336
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177dcf5732ce8a690800000000000000
+      internalID: -7590557534885456015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 312
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab44634b40cdad0800000000000000
+      internalID: -2676258906513819091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 312
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d1553bc6df74050800000000000000
+      internalID: 5784870889687686428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 312
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76479dbc3c3a43e60800000000000000
+      internalID: 7941152104295003239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5579dc2917cd9e090800000000000000
+      internalID: -8004624482321983659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 312
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3097504624701a190800000000000000
+      internalID: -7953067485232269053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 312
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59423a7e398965670800000000000000
+      internalID: 8527170705486455957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 312
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa062319e06878980800000000000000
+      internalID: -8536707171533823830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 312
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8c96d14c6507d50800000000000000
+      internalID: 6732976843225942221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_28
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 312
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6733daa711b859230800000000000000
+      internalID: 3644972380615160694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 312
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6fa88ddc93de960800000000000000
+      internalID: 7632820499726923507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 312
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc939a51de119c40800000000000000
+      internalID: 5517224903022189775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_31
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 312
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9d1ca7461716a0800000000000000
+      internalID: -6478685041863058193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_32
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 312
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d896a0a63f7e5c0b0800000000000000
+      internalID: -5708901919980099187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_33
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 312
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7285a708243620800000000000000
+      internalID: 2752869285536890070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_34
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 312
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0394448decae4ba0800000000000000
+      internalID: -6102750308914130164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 290
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d56cef99f783e3f0800000000000000
+      internalID: -872704396580067888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 290
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bba664e3f6a2ba0800000000000000
+      internalID: -6112951230941971693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 290
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045e477e53edc3cc0800000000000000
+      internalID: -3729862068271782592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 290
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4591f49feb2990800000000000000
+      internalID: -7409565338920727475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 290
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edd49036d91b4f60800000000000000
+      internalID: 8019531969192058336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_40
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b276f1835281f1940800000000000000
+      internalID: 5268956637181208363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb9a55cb35503dd0800000000000000
+      internalID: -2508411277242885182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_42
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151dfed89707fa970800000000000000
+      internalID: 8768350666888302929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e71ffa32ea6bbf0800000000000000
+      internalID: -308868056129372545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_44
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9bc02ad580e6a40800000000000000
+      internalID: 5363233404488563155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_45
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 290
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8377717a35ff7ecf0800000000000000
+      internalID: -222928921780848840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_46
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9496b159796ca600800000000000000
+      internalID: 480875230004679837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550cfca08f6a6470800000000000000
+      internalID: 8388639854379664731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_48
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db143fa0c79b24cc0800000000000000
+      internalID: -3728213599098551875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b185580410c9f810800000000000000
+      internalID: 1799680718382924209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_50
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319fc343f317a080800000000000000
+      internalID: -9176343780208438978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_51
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 290
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e6a7d4aea4cd10800000000000000
+      internalID: 2145031345551106143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_52
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 268
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a381a95d5ded330800000000000000
+      internalID: 3737659854154119709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 268
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5bd070fa25dc70800000000000000
+      internalID: 8995143042916376521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd25a45243d67950800000000000000
+      internalID: 6446572198468857277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 268
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cd4443e0456f740800000000000000
+      internalID: 5185424440946908275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 268
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd7c069c32b02c40800000000000000
+      internalID: 5485580319422447102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_57
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 268
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b64eb24190d88d0800000000000000
+      internalID: -2842605807560529010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_58
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 268
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e310c7102e017150800000000000000
+      internalID: 5868487320440673256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 268
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55564a91ae26a3f0800000000000000
+      internalID: -889972604746181286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 268
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9b51812a77127a0800000000000000
+      internalID: -6403705657071650349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_61
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 268
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ba1757b16b54800800000000000000
+      internalID: 596082754747214719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 268
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e4c328d5a842de0800000000000000
+      internalID: -1358809053337465262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_63
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 268
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c7de7b36c599f0800000000000000
+      internalID: -462245427902166926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_64
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 268
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831997cedc9cc3b70800000000000000
+      internalID: 8880194451540644152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 268
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22217190b80538150800000000000000
+      internalID: 5873626897104441890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_66
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 268
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656d858c5e42828c0800000000000000
+      internalID: -4023925697728162218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_67
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 268
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008db16705985b100800000000000000
+      internalID: 123155543494481920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_68
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 268
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3a827982f0c0680800000000000000
+      internalID: -8787632105897548857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_69
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 268
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177f31e87751fcb30800000000000000
+      internalID: 4309686971645818737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 246
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099785b29107200b0800000000000000
+      internalID: -5763921319677101680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_71
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 246
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9763d39c2e4d058d0800000000000000
+      internalID: -2859551692876335495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 246
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934ee5bc861cc6fe0800000000000000
+      internalID: -1194367145327270855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_73
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 246
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e9bbe229301000800000000000000
+      internalID: 4566421773870324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_74
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 246
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb909022b38a2710800000000000000
+      internalID: 1669291412967955447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_75
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 246
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae6f67920f111800800000000000000
+      internalID: 581279922898562728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 246
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d385d9d7259500210800000000000000
+      internalID: 1297134903512356925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_77
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 246
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013641cff8e97da30800000000000000
+      internalID: 4240031915439317776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_78
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 246
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c0347fc76897b0800000000000000
+      internalID: -5217306027603474023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_79
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 246
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624d8ea024d60f130800000000000000
+      internalID: 3598496232687326246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_80
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 246
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb2dbdd6c759b30800000000000000
+      internalID: 4293474631048936437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_81
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 246
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43400c50447ac1010800000000000000
+      internalID: 1160986714550830132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_82
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 246
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93cbac92b8704310800000000000000
+      internalID: 1387241393758127004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_83
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 246
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f5ff5fa5524780800000000000000
+      internalID: -8700297318408784466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45c9e18c98e18af0800000000000000
+      internalID: -395779533339769526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_85
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a47f72892fd1b90800000000000000
+      internalID: -7269387488186643878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_86
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff042b76496e60b40800000000000000
+      internalID: 5406261927774142719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_87
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 226
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb4066bf7991e310800000000000000
+      internalID: 1432594930280188857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_88
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fae6a2e589bf6eb0800000000000000
+      internalID: -4724353499403982093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8e8ac38ae4a470800000000000000
+      internalID: 8405100656340144085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_90
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad54589c33548e0800000000000000
+      internalID: -1709903542899844430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 226
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196a13a9730ebad10800000000000000
+      internalID: 2138048977532200593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_92
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ac67f4e919e4160800000000000000
+      internalID: 7011701778986486393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_93
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336e522ff4e1a02c0800000000000000
+      internalID: -4464722751870605773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_94
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 224
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74f7e04b564a89a0800000000000000
+      internalID: -6230089776768748419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_95
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 226
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da737b92a4cbdb80800000000000000
+      internalID: -8368879279866152237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_96
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ca86968137673c0800000000000000
+      internalID: -4362172640376869866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_97
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94762a085bc529c0800000000000000
+      internalID: -3952529518959889250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_98
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 224
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8ea977b79b534e0800000000000000
+      internalID: -2002490519357560641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_99
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 226
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb457c01133eadb0800000000000000
+      internalID: -4778826006277043217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6d850588e1fd090800000000000000
+      internalID: -8007648041629067583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_101
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd87d16c27626040800000000000000
+      internalID: 4639384006462770617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 202
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228d84f3e066bca20800000000000000
+      internalID: 3083670581242550306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_103
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 204
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ada624ea2b8d4e0800000000000000
+      internalID: -1956617576584127949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_104
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeacf1636342f8a0800000000000000
+      internalID: -6272877236848906561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_105
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8ba01e9871cc170800000000000000
+      internalID: 8199954902488365287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_106
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c7f5f6c5543a920800000000000000
+      internalID: 3000318040066718781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 204
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3fe0e2fe5116450800000000000000
+      internalID: 6080165088940979104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_108
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 202
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f876f54444aafea0800000000000000
+      internalID: -5838173353793914634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_109
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0586b1e8d27ba480800000000000000
+      internalID: -8886883163860204277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_110
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 202
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7560af6acf7e2830800000000000000
+      internalID: 4048313622485558652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_111
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 204
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b845b589d43df0d0800000000000000
+      internalID: -3387493235856947017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_112
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b855fd8c7edc25790800000000000000
+      internalID: -7542740030500940405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_113
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc4aa1548796390800000000000000
+      internalID: -7824590639384441491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_114
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 202
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab43c63e5bb2bfc0800000000000000
+      internalID: -3480513548683883609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_115
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 204
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2466d923dcbfbe0800000000000000
+      internalID: -1442333638369328465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_116
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa1971d3b6a36500800000000000000
+      internalID: 388337284127726255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_117
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f27564f383388d80800000000000000
+      internalID: -8248286075695041806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 180
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21395d591039cc20800000000000000
+      internalID: 3227163493486113071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_119
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 182
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908eed5b626ae5580800000000000000
+      internalID: -8836442733664081911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_120
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce888ba3bb0eaba0800000000000000
+      internalID: -6075905980971315516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_121
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e9701cc7dd7b930800000000000000
+      internalID: 4159036308784127492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_122
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20782df444e76190800000000000000
+      internalID: -7969150030652608469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 182
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b664a8a17fd8d3430800000000000000
+      internalID: 3764320955993310827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_124
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad162652cd0e150800000000000000
+      internalID: 5899957564977830600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_125
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 180
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affc44cd7dfabb9b0800000000000000
+      internalID: -5063260014399664134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_126
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 180
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea881c57b24c2ca50800000000000000
+      internalID: 6540005299833637038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_127
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 182
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6960e0c30552170800000000000000
+      internalID: 8153010919287723711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_128
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 180
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39731dbb40971a170800000000000000
+      internalID: 8187958658774153107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_129
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 180
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83ab2672141f280800000000000000
+      internalID: -9011349741975750435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_130
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 180
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f619ef97ad025f0800000000000000
+      internalID: -783386117665624186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_131
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 182
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d064e7cc2cacd0800000000000000
+      internalID: -2545610452329508329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_132
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48065b3c9827eca0800000000000000
+      internalID: -5987772528090281908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_133
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81187711820e38040800000000000000
+      internalID: 4648805703072842008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_134
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 158
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e054e7e04dc9450800000000000000
+      internalID: 6096981154265894499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_135
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 160
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4324232317e2f60800000000000000
+      internalID: 8011465247544194298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_136
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b2160d85629de0800000000000000
+      internalID: -1327887283754191290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_137
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc54e1881d4fd250800000000000000
+      internalID: 5971576398570347720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_138
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8ebf96d3e1f9890800000000000000
+      internalID: -7449202009527555884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b51c34e749da60800000000000000
+      internalID: 7699264083552745338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_140
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86595477240536ad0800000000000000
+      internalID: -2710234304347794072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_141
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b218098a4b3910800000000000000
+      internalID: 1818128826980544876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_142
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 158
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bbb48a9134c3530800000000000000
+      internalID: 3836014760089598776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_143
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 160
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cd1d77159797b70800000000000000
+      internalID: 8897275929656679462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_144
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9612f114a86060800000000000000
+      internalID: 6946982822201957425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_145
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe27c00335d8de8a0800000000000000
+      internalID: -6274203317429308689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_146
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 158
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c964392b9ec075f0800000000000000
+      internalID: -760881171219060279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_147
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd1b9b8fd2db20c0800000000000000
+      internalID: -4599350736867091007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_148
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22ea33952d7b1490800000000000000
+      internalID: -7774482731387657684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_149
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b9824185e982aa0800000000000000
+      internalID: -6185519987060860127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 136
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957d9dcd9afc46260800000000000000
+      internalID: 7090020041849689945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_151
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612af68a2701423c0800000000000000
+      internalID: -4385362052513816042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_152
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee7e03196b817b60800000000000000
+      internalID: 7742122517834137313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_153
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc340529b4919480800000000000000
+      internalID: -8894164266169123644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_154
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db47c8a28581647d0800000000000000
+      internalID: -2934631340235262787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 138
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b75eaf76997d620800000000000000
+      internalID: 2798874365304077178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_156
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c6e0cb72afe4a30800000000000000
+      internalID: 4201570550948981894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_157
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b84b712d0270380800000000000000
+      internalID: -9005192843191088383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_158
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 136
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c0b6d7f0bf3f10800000000000000
+      internalID: 2251712917213857430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_159
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 138
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93c284cd5a34fdb0800000000000000
+      internalID: -4759114731820498019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_160
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1d82818a5d2ea0800000000000000
+      internalID: -5895956824870543395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_161
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0870948bfc3bc50800000000000000
+      internalID: 6679911062726738173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_162
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 136
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a66d4da99c1cbd30800000000000000
+      internalID: 4448461978298312355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_163
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 138
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60e8dd28fbe51050800000000000000
+      internalID: 5770777948698763371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_164
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819fba44cd01777a0800000000000000
+      internalID: -6379611808916047592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_165
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eca1d5110c6c7e0800000000000000
+      internalID: -1745496624750473689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_166
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0785fab7cbdaa2a0800000000000000
+      internalID: -6725321442642786548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_167
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 116
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1456226a45ca870800000000000000
+      internalID: 8695418053063950823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_168
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3689e027e4bd4a0800000000000000
+      internalID: -6567569379811630155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_169
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4a3b5812183c70800000000000000
+      internalID: 8950924155217923836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_170
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0133c64ad67890800000000000000
+      internalID: -7460535735235310480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_171
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 116
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22aaafea131546b0800000000000000
+      internalID: -5312819179002617297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_172
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 114
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22087f8fdde88250800000000000000
+      internalID: 5947264852383236652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_173
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 114
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea81ce0d04daafd0800000000000000
+      internalID: -2329816704663581982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_174
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246e8780a2e8c0b60800000000000000
+      internalID: 7713696572960728642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_175
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b1fee38693fe090800000000000000
+      internalID: -8003114892918842575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_176
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 114
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad500bc08d406650800000000000000
+      internalID: 6224059900582976937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_177
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 114
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c364b6e7b8560b0800000000000000
+      internalID: -5736025175304553403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_178
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 92
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204635350aa282f40800000000000000
+      internalID: 5703855796145841154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_179
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae4094aaadad040800000000000000
+      internalID: 4673287988254665329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_180
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3dda5cf38c6be0800000000000000
+      internalID: -1482665057432289478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_181
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce545bd31cc56c0800000000000000
+      internalID: -4153232285564015548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_182
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77188c253dff8a30800000000000000
+      internalID: 4219869780691654526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_183
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b44762b2c79aeaa0800000000000000
+      internalID: -6130921080238947150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_184
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 92
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21670c8e11e512970800000000000000
+      internalID: 8728360983833114130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 92
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b788fb28ede569de0800000000000000
+      internalID: -1326768730444691333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_186
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 92
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf5a0ac855c0afb0800000000000000
+      internalID: -4638490631054139453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_187
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 92
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1859f54072ce60800000000000000
+      internalID: 7981064935492296465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_188
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 92
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bc280d24d6d1290800000000000000
+      internalID: -7918052436113962142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_189
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 92
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b05d36bd8a3b5b0800000000000000
+      internalID: -5353749871787177092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_190
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 92
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b405d71096b854820800000000000000
+      internalID: 2901878818022969419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_191
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 92
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5d4948f81f24d50800000000000000
+      internalID: 6720199192697165264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_192
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 92
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a6ec0be30134580800000000000000
+      internalID: -8844207381785187749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_193
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d87e9e58d4549560800000000000000
+      internalID: 7319568582661011667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_194
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 70
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce288c97e85fda3a0800000000000000
+      internalID: -6652391082279009556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_195
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c441ca3d9203db00800000000000000
+      internalID: 852027628822021321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_196
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f9a8c8885e0b40800000000000000
+      internalID: 5408357547023921240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_197
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 70
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6758eac0e83e4d7d0800000000000000
+      internalID: -2894438461254761098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_198
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5021960b642dbd0800000000000000
+      internalID: -2606943510803118649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_199
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e56fb630f9ac41a0800000000000000
+      internalID: -6823892486197385753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_200
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af7e12ba1c51fe30800000000000000
+      internalID: 4535507569466048419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_201
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ee2e273d58823a0800000000000000
+      internalID: -6689950103246803370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_202
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6d10eec0c7021f0800000000000000
+      internalID: -1071720316339628327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_203
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004a1f2476325fde0800000000000000
+      internalID: -1300093991014784000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_204
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0934a724729df3fa0800000000000000
+      internalID: -5818693430897130608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_205
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 70
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26005b4f70dd853f0800000000000000
+      internalID: -911735898302513054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_206
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 54
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84727387b7fdfb570800000000000000
+      internalID: 8484745944380155720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_207
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca8216ca415a9540800000000000000
+      internalID: 5015410516623002315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_208
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 54
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b20030065a5be900800000000000000
+      internalID: 714764291285189304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_209
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 54
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a92d4c4c30aef40800000000000000
+      internalID: 5758419217197210191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_210
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519bf0bb7c77f2b80800000000000000
+      internalID: -8417377478811600619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_211
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9069ca55a537478e0800000000000000
+      internalID: -1696604327790209527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_212
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4439b1793e13f9ee0800000000000000
+      internalID: -1252227317823204540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_213
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7422f097aab07b210800000000000000
+      internalID: 1348559440224133703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_214
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088d0ee9624e95d0800000000000000
+      internalID: -3053930474577754104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_215
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1452d011990b4f20800000000000000
+      internalID: 3407828061693039643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_216
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa969362eec67a70800000000000000
+      internalID: 8824467991607810729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugz_217
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 52
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18149732ba20d2280800000000000000
+      internalID: -9066587540769128063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bugz_0: 9024441869244137851
+      bugz_1: -3231692079741914184
+      bugz_10: 2145663904283489914
+      bugz_100: -8007648041629067583
+      bugz_101: 4639384006462770617
+      bugz_102: 3083670581242550306
+      bugz_103: -1956617576584127949
+      bugz_104: -6272877236848906561
+      bugz_105: 8199954902488365287
+      bugz_106: 3000318040066718781
+      bugz_107: 6080165088940979104
+      bugz_108: -5838173353793914634
+      bugz_109: -8886883163860204277
+      bugz_11: 9144071907620363813
+      bugz_110: 4048313622485558652
+      bugz_111: -3387493235856947017
+      bugz_112: -7542740030500940405
+      bugz_113: -7824590639384441491
+      bugz_114: -3480513548683883609
+      bugz_115: -1442333638369328465
+      bugz_116: 388337284127726255
+      bugz_117: -8248286075695041806
+      bugz_118: 3227163493486113071
+      bugz_119: -8836442733664081911
+      bugz_12: -5789568928339414979
+      bugz_120: -6075905980971315516
+      bugz_121: 4159036308784127492
+      bugz_122: -7969150030652608469
+      bugz_123: 3764320955993310827
+      bugz_124: 5899957564977830600
+      bugz_125: -5063260014399664134
+      bugz_126: 6540005299833637038
+      bugz_127: 8153010919287723711
+      bugz_128: 8187958658774153107
+      bugz_129: -9011349741975750435
+      bugz_13: -4846219970795814364
+      bugz_130: -783386117665624186
+      bugz_131: -2545610452329508329
+      bugz_132: -5987772528090281908
+      bugz_133: 4648805703072842008
+      bugz_134: 6096981154265894499
+      bugz_135: 8011465247544194298
+      bugz_136: -1327887283754191290
+      bugz_137: 5971576398570347720
+      bugz_138: -7449202009527555884
+      bugz_139: 7699264083552745338
+      bugz_14: -7483303757437546428
+      bugz_140: -2710234304347794072
+      bugz_141: 1818128826980544876
+      bugz_142: 3836014760089598776
+      bugz_143: 8897275929656679462
+      bugz_144: 6946982822201957425
+      bugz_145: -6274203317429308689
+      bugz_146: -760881171219060279
+      bugz_147: -4599350736867091007
+      bugz_148: -7774482731387657684
+      bugz_149: -6185519987060860127
+      bugz_15: -6766175258171929102
+      bugz_150: 7090020041849689945
+      bugz_151: -4385362052513816042
+      bugz_152: 7742122517834137313
+      bugz_153: -8894164266169123644
+      bugz_154: -2934631340235262787
+      bugz_155: 2798874365304077178
+      bugz_156: 4201570550948981894
+      bugz_157: -9005192843191088383
+      bugz_158: 2251712917213857430
+      bugz_159: -4759114731820498019
+      bugz_16: 5064262613906435646
+      bugz_160: -5895956824870543395
+      bugz_161: 6679911062726738173
+      bugz_162: 4448461978298312355
+      bugz_163: 5770777948698763371
+      bugz_164: -6379611808916047592
+      bugz_165: -1745496624750473689
+      bugz_166: -6725321442642786548
+      bugz_167: 8695418053063950823
+      bugz_168: -6567569379811630155
+      bugz_169: 8950924155217923836
+      bugz_17: 5904196917772926723
+      bugz_170: -7460535735235310480
+      bugz_171: -5312819179002617297
+      bugz_172: 5947264852383236652
+      bugz_173: -2329816704663581982
+      bugz_174: 7713696572960728642
+      bugz_175: -8003114892918842575
+      bugz_176: 6224059900582976937
+      bugz_177: -5736025175304553403
+      bugz_178: 5703855796145841154
+      bugz_179: 4673287988254665329
+      bugz_18: -6748643179285634080
+      bugz_180: -1482665057432289478
+      bugz_181: -4153232285564015548
+      bugz_182: 4219869780691654526
+      bugz_183: -6130921080238947150
+      bugz_184: 8728360983833114130
+      bugz_185: -1326768730444691333
+      bugz_186: -4638490631054139453
+      bugz_187: 7981064935492296465
+      bugz_188: -7918052436113962142
+      bugz_189: -5353749871787177092
+      bugz_19: -7590557534885456015
+      bugz_190: 2901878818022969419
+      bugz_191: 6720199192697165264
+      bugz_192: -8844207381785187749
+      bugz_193: 7319568582661011667
+      bugz_194: -6652391082279009556
+      bugz_195: 852027628822021321
+      bugz_196: 5408357547023921240
+      bugz_197: -2894438461254761098
+      bugz_198: -2606943510803118649
+      bugz_199: -6823892486197385753
+      bugz_2: -651135595392658943
+      bugz_20: -2676258906513819091
+      bugz_200: 4535507569466048419
+      bugz_201: -6689950103246803370
+      bugz_202: -1071720316339628327
+      bugz_203: -1300093991014784000
+      bugz_204: -5818693430897130608
+      bugz_205: -911735898302513054
+      bugz_206: 8484745944380155720
+      bugz_207: 5015410516623002315
+      bugz_208: 714764291285189304
+      bugz_209: 5758419217197210191
+      bugz_21: 5784870889687686428
+      bugz_210: -8417377478811600619
+      bugz_211: -1696604327790209527
+      bugz_212: -1252227317823204540
+      bugz_213: 1348559440224133703
+      bugz_214: -3053930474577754104
+      bugz_215: 3407828061693039643
+      bugz_216: 8824467991607810729
+      bugz_217: -9066587540769128063
+      bugz_22: 7941152104295003239
+      bugz_23: -8004624482321983659
+      bugz_24: -7953067485232269053
+      bugz_25: 8527170705486455957
+      bugz_26: -8536707171533823830
+      bugz_27: 6732976843225942221
+      bugz_28: 3644972380615160694
+      bugz_29: 7632820499726923507
+      bugz_3: 3277428464125368623
+      bugz_30: 5517224903022189775
+      bugz_31: -6478685041863058193
+      bugz_32: -5708901919980099187
+      bugz_33: 2752869285536890070
+      bugz_34: -6102750308914130164
+      bugz_35: -872704396580067888
+      bugz_36: -6112951230941971693
+      bugz_37: -3729862068271782592
+      bugz_38: -7409565338920727475
+      bugz_39: 8019531969192058336
+      bugz_4: -8619592062847456998
+      bugz_40: 5268956637181208363
+      bugz_41: -2508411277242885182
+      bugz_42: 8768350666888302929
+      bugz_43: -308868056129372545
+      bugz_44: 5363233404488563155
+      bugz_45: -222928921780848840
+      bugz_46: 480875230004679837
+      bugz_47: 8388639854379664731
+      bugz_48: -3728213599098551875
+      bugz_49: 1799680718382924209
+      bugz_5: 4577225224238507202
+      bugz_50: -9176343780208438978
+      bugz_51: 2145031345551106143
+      bugz_52: 3737659854154119709
+      bugz_53: 8995143042916376521
+      bugz_54: 6446572198468857277
+      bugz_55: 5185424440946908275
+      bugz_56: 5485580319422447102
+      bugz_57: -2842605807560529010
+      bugz_58: 5868487320440673256
+      bugz_59: -889972604746181286
+      bugz_6: 5897544608297005873
+      bugz_60: -6403705657071650349
+      bugz_61: 596082754747214719
+      bugz_62: -1358809053337465262
+      bugz_63: -462245427902166926
+      bugz_64: 8880194451540644152
+      bugz_65: 5873626897104441890
+      bugz_66: -4023925697728162218
+      bugz_67: 123155543494481920
+      bugz_68: -8787632105897548857
+      bugz_69: 4309686971645818737
+      bugz_7: 1854005941869200646
+      bugz_70: -5763921319677101680
+      bugz_71: -2859551692876335495
+      bugz_72: -1194367145327270855
+      bugz_73: 4566421773870324
+      bugz_74: 1669291412967955447
+      bugz_75: 581279922898562728
+      bugz_76: 1297134903512356925
+      bugz_77: 4240031915439317776
+      bugz_78: -5217306027603474023
+      bugz_79: 3598496232687326246
+      bugz_8: -337924622042515345
+      bugz_80: 4293474631048936437
+      bugz_81: 1160986714550830132
+      bugz_82: 1387241393758127004
+      bugz_83: -8700297318408784466
+      bugz_84: -395779533339769526
+      bugz_85: -7269387488186643878
+      bugz_86: 5406261927774142719
+      bugz_87: 1432594930280188857
+      bugz_88: -4724353499403982093
+      bugz_89: 8405100656340144085
+      bugz_9: 1274322446141265881
+      bugz_90: -1709903542899844430
+      bugz_91: 2138048977532200593
+      bugz_92: 7011701778986486393
+      bugz_93: -4464722751870605773
+      bugz_94: -6230089776768748419
+      bugz_95: -8368879279866152237
+      bugz_96: -4362172640376869866
+      bugz_97: -3952529518959889250
+      bugz_98: -2002490519357560641
+      bugz_99: -4778826006277043217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53f5c81c25c58894f93c2c117648812b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CollisionDemo/Tiles/AnimatedTileCollisionExample.asset
+  uploadId: 609826

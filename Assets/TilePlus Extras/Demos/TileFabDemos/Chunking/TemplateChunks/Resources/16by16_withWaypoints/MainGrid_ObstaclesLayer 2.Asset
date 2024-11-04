@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f633ffa326a359d4cbba298e8793be94, type: 3}
+  m_Name: MainGrid_ObstaclesLayer 2
+  m_EditorClassIdentifier: 
+  m_TimeStamp: 4/25/2023 02:09:19 PM UTC
+  m_ScenePath: ObstaclesLayer.MainGrid
+  m_OriginalScene: UnityEngine.SceneManagement.Scene
+  m_FromGridSelection: 1
+  m_IgnoreInPainter: 0
+  m_UserFlag: 0
+  m_UserString: 
+  m_TilemapBoundsInt:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 16, y: 16, z: 1}
+  m_TilePlusTiles: []
+  m_UnityTiles: []
+  m_Prefabs: []
+  m_TileFlags: 
+  m_TileTransforms: []
+  m_TileColors: []
+  m_Guid: f675d38d49dfa84b87f53f45a639b481

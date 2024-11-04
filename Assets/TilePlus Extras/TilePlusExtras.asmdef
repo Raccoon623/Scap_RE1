@@ -1,0 +1,16 @@
+{
+    "name": "TilePlusExtras",
+    "rootNamespace": "",
+    "references": [
+        "GUID:243809d5a8282b441ba5e0af6b5f8266"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

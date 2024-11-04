@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 779ba919d0b010b47897449588184edb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/Resources/TilePlus/TpGuiSkinPro.guiskin
+  uploadId: 609826

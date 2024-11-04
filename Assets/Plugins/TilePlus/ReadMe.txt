@@ -1,0 +1,1 @@
+Please don't move this folder. TilePlus needs to be in the Plugins Folder

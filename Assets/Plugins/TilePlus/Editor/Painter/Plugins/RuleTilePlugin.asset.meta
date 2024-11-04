@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e645f86b6933cfe449ede86ae5bd1d5b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/Painter/TpPainterPlugins/RuleTilePlugin.asset
+  uploadId: 609826

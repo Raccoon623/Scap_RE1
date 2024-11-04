@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e73061f14c02a564eb3ba79172691ad8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Prefabs/PSystem-rings.mat
+  uploadId: 609826

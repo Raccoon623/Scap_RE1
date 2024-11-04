@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47df09a9a2dceee4f9a99711a3589581, type: 3}
+  m_Name: Grid_TileFab
+  m_EditorClassIdentifier: 
+  m_TileAssets:
+  - m_Asset: {fileID: 11400000, guid: f84c3f411e44a114f8a4556b88f1349d, type: 2}
+    m_TilemapName: FloorLayer
+    m_TilemapTag: Untagged
+  - m_Asset: {fileID: 11400000, guid: cb2d3bdb45675374782e8b9bcd4e86ec, type: 2}
+    m_TilemapName: EffectsLayer
+    m_TilemapTag: Untagged
+  - m_Asset: {fileID: 11400000, guid: 42f1088dae39bc34b918055ea16e80c1, type: 2}
+    m_TilemapName: ObstaclesLayer
+    m_TilemapTag: Untagged
+  - m_Asset: {fileID: 11400000, guid: d1b009148ab819048957577871189c6c, type: 2}
+    m_TilemapName: InteractiveLayer
+    m_TilemapTag: Untagged
+  m_ScenePath: Grid
+  m_TimeStamp: 4/27/2023 01:38:56 PM UTC
+  m_OriginalScene: TopDownDemo
+  m_FromGridSelection: 0
+  m_IgnoreInPainter: 0
+  m_UserFlag: 0
+  m_UserString: 
+  m_Guid: 0dfd1468d57acb41936f186dd39992fc

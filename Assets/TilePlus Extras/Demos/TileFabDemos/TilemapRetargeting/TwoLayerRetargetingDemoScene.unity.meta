@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3396f547a1db93d4e89d2d27faa8ede2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/TilemapRetargeting/TwoLayerRetargetingDemoScene.unity
+  uploadId: 609826

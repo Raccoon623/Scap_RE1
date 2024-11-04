@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b836f935cfcaf3f4594390a7e3d4f3f4
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Basic/DemoScene/TwoLayerMapDemo.unity
+  uploadId: 609826

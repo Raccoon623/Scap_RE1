@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66f30e7c596b26f40b3d855a315b9b21
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/TileFabs/MainSection/Grid_TileFab.asset
+  uploadId: 609826

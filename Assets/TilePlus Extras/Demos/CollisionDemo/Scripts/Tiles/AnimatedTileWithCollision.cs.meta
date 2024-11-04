@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1129903d7f9f71244a49ea40ccb2ff1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CollisionDemo/Scripts/Tiles/AnimatedTileWithCollision.cs
+  uploadId: 609826

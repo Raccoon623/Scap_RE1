@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b50837ab3f3eedc43ba8990f94afdfd8
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Textures/Overaction/License.txt
+  uploadId: 609826

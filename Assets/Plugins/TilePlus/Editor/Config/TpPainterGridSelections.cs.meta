@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f004de5ec2a2429cbe0d0b4dd12dbfba
+timeCreated: 1680872547
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Editor/Painter/TpPainterGridSelections.cs
+  uploadId: 609826

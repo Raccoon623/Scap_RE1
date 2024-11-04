@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7362943e4e488b94e99f4cb4816eec73
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CommonAssets/Prefabs/Baddie.prefab
+  uploadId: 609826

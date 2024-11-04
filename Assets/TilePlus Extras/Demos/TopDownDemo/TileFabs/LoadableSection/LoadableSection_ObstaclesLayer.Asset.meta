@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 211e4bd382b4c8146a4de4fbef8ff4b7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/TileFabs/LoadableSection/LoadableSection_ObstaclesLayer.Asset
+  uploadId: 609826

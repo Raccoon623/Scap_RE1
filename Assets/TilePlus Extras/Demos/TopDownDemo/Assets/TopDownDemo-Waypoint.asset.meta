@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0c4933be6f6e0a499aa71fa1873bd4d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/Assets/TopDownDemo-Waypoint.asset
+  uploadId: 609826

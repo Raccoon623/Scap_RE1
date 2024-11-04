@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c71b5485ef830c439bf40f7f7e8a444
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/Tiles/ZoneBased/TpAnimZoneLoader.cs
+  uploadId: 609826

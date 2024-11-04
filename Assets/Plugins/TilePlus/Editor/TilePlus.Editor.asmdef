@@ -1,0 +1,24 @@
+{
+    "name": "TilePlus.Editor",
+    "rootNamespace": "TilePlus.Editor",
+    "references": [
+        "GUID:3a9781db4804a9945b9883f3a7c46d45",
+        "GUID:243809d5a8282b441ba5e0af6b5f8266",
+        "GUID:613783dc1674e844b87788ea74ede0f6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2022_2_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

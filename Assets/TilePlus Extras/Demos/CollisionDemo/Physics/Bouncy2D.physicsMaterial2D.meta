@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d36b58d5c40b364abecd1b1fcbe8d18
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/CollisionDemo/Physics/Bouncy2D.physicsMaterial2D
+  uploadId: 609826

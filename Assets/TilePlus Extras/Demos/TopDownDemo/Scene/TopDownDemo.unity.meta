@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 483cebac205a97545abd2d085f3505be
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TopDownDemo/Scene/TopDownDemo.unity
+  uploadId: 609826

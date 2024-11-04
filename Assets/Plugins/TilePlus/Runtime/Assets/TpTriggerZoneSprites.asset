@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c07a12611f743f40a1084e2c7ffe0a0, type: 3}
+  m_Name: TpTriggerZoneSprites
+  m_EditorClassIdentifier: 
+  m_Clips:
+  - m_Name: triggerZoneSprites
+    m_DefaultTileIndex: 0
+    m_AnimationSpeed: 0
+    m_OneShot: 0
+    m_ManualTimeout: 0
+    m_UnchangingSprites: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: 4445df828b8f3f243b9b8163ffd612b7, type: 3}
+    - {fileID: 21300000, guid: c7dfb09e89c978d43b7707ff97865a17, type: 3}

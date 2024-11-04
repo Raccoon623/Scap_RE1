@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b58a1cde784f6b84c89321aa5aa50a57
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/Plugins/TilePlus/Runtime/AssetScripts/TpChunkTemplateSelector.cs
+  uploadId: 609826

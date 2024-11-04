@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c71b5485ef830c439bf40f7f7e8a444, type: 3}
+  m_Name: AnimZoneLoader
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: b19a63e74d69df447a8358b12ded6931, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.13999999
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.13999999
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.5
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 0
+  m_ColliderType: 0
+  m_TileGuid: 00
+  m_State: 0
+  m_CachedGuidString: 
+  m_ColliderMode: 3
+  m_TileSpriteClear: 1
+  m_Tag: loader
+  m_LockName: 1
+  m_Version: 17
+  m_SourceAssetName: 
+  m_TileName: 
+  m_PaintMask: []
+  m_CustomTileInfo: Zone loader
+  m_PlayOnStart: 1
+  m_DefaultSprite: {fileID: 21300000, guid: c7dfb09e89c978d43b7707ff97865a17, type: 3}
+  m_ClipSet: {fileID: 11400000, guid: 4d48baf9c26761749baabd96371c50c8, type: 2}
+  m_UseAnimationSpeedOverride: 0
+  m_AnimationSpeedOverride: 1
+  m_ForceOneShot: 0
+  m_RewindAfterForcedOneShot: 0
+  m_UpdatePhysics: 0
+  m_ActiveAnimationClipName: default
+  m_SimulationSpeed: 2
+  m_SimulationTimeout: 1000
+  m_LockXPosition: 0
+  m_LockYPosition: 0
+  m_LockZPosition: 0
+  m_LockZSize: 0
+  m_LockAll: 0
+  m_ZoneBoundsInt:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 1, y: 0, z: 1}
+  m_UseTrigger: 0
+  m_ModifySprite: 0
+  m_PreviewIcon: {fileID: 2800000, guid: b19a63e74d69df447a8358b12ded6931, type: 3}
+  m_TileFab: {fileID: 0}
+  m_LoadingOffset: {x: 0, y: 0, z: 0}
+  m_ShowOffsetPositionGizmo: 0

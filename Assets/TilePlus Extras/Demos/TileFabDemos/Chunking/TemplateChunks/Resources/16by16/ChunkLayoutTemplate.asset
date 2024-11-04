@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ef57c3f98ee2b479e22eb274ff975c, type: 3}
+  m_Name: ChunkLayoutTemplate
+  m_EditorClassIdentifier: 
+  m_TileFabGuids:
+  - 5c131a22-546a-409f-9cc2-33de15294e89
+  - d87fcf99-67a8-443c-b05a-34293c43f843
+  - 11dc232f-7656-4a06-81b2-765a7cbe8130
+  - 31e6ed58-3510-4e4c-9b5c-3b3481e79e85
+  m_TileFabs:
+  - {fileID: 11400000, guid: e5fbf2ad40ba30b448a7a76563639f2c, type: 2}
+  - {fileID: 11400000, guid: a555df8d1e6da18429803a3714da312e, type: 2}
+  - {fileID: 11400000, guid: b7d96bd9f101c914697067dc91c538c0, type: 2}
+  - {fileID: 11400000, guid: eda8c48e395d32745a186579cea1ad22, type: 2}

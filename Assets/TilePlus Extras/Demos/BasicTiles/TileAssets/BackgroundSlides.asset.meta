@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 253dc8f4b5258ff428549099a1df2489
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/BasicTiles/TileAssets/BackgroundSlides.asset
+  uploadId: 609826

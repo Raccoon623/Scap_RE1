@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bfa5151e0dcfb9e48926d70022297b75
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201027
+  packageName: TilePlus Painter and TilePlus Toolkit
+  packageVersion: 2.0.0
+  assetPath: Assets/TilePlus Extras/Demos/TileFabDemos/Chunking/ChunkSystemDemo.unity
+  uploadId: 609826
