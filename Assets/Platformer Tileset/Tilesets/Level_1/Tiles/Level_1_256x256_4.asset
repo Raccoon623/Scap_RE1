@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Level_1_256x256_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -4924701994791171026, guid: ce30cf1a5810f554683780c6723eb003, type: 3}
+  m_Sprite: {fileID: -4924701994791171026, guid: ce30cf1a5810f554683780c6723eb003,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
