@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TutorialRequirement
   - Snowball
+  - Enemy
   layers:
   - Default
   - TransparentFX
