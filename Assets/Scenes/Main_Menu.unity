@@ -878,7 +878,7 @@ PrefabInstance:
     - target: {fileID: 392940593384563300, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}
       propertyPath: m_text
-      value: Build 2
+      value: Build 3
       objectReference: {fileID: 0}
     - target: {fileID: 393129094910237928, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}
@@ -903,7 +903,7 @@ PrefabInstance:
     - target: {fileID: 394424715767597354, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Reference_Scene
+      value: TutorialLevel
       objectReference: {fileID: 0}
     - target: {fileID: 574284348152046688, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}

@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: 418995f8ecb98dc41b7c25876a412686
   - enabled: 1
-    path: Assets/Scenes/Reference_Scene.unity
-    guid: 63386f95e38abba4f98807c618c7cc0d
+    path: Assets/Scenes/TutorialLevel.unity
+    guid: 955af2183d3a23342b3b8b1c01289391
   - enabled: 1
-    path: Assets/Scenes/PlatformtestScene.unity
-    guid: d1ce3a9787b4cab4dba9727a96d1dadc
+    path: Assets/Scenes/ForestLevel.unity
+    guid: c3e7b05d83f9352408e4fd89b634dba6
+  - enabled: 1
+    path: Assets/Scenes/SnowLevel.unity
+    guid: 66762ef291efcaa4eaf8b11b24b23006
   m_configObjects: {}
