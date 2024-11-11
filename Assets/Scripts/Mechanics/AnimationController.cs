@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using Platformer.Core;
 using Platformer.Model;
 using UnityEngine;
@@ -8,50 +9,45 @@ namespace Platformer.Mechanics
     /// <summary>
     /// AnimationController integrates physics and animation. It is generally used for simple enemy animation.
     /// </summary>
-    [RequireComponent(typeof(SpriteRenderer), typeof(Animator), typeof(Rigidbody2D))]
+    [RequireComponent(typeof(SpriteRenderer), typeof(Animator))]
     public class AnimationController : KinematicObject
     {
+        /// <summary>
+        /// Max horizontal speed.
+        /// </summary>
         public float maxSpeed = 7;
+        /// <summary>
+        /// Max jump velocity
+        /// </summary>
         public float jumpTakeOffSpeed = 7;
 
+        /// <summary>
+        /// Used to indicated desired direction of travel.
+        /// </summary>
         public Vector2 move;
+
+        /// <summary>
+        /// Set to true to initiate a jump.
+        /// </summary>
         public bool jump;
+
+        /// <summary>
+        /// Set to true to set the current jump velocity to zero.
+        /// </summary>
         public bool stopJump;
 
-        private SpriteRenderer spriteRenderer;
-        private Animator animator;
-        private Rigidbody2D rb;
-        private PlatformerModel model = Simulation.GetModel<PlatformerModel>();
-
-        private bool isBeingPushedBack = false;  // Flag to check if pushback is active
-        private Vector2 pushbackDirection;
-        private float pushbackDistance;
-        private float pushbackSpeed = 10f;  // Adjust to control how quickly the enemy moves back
+        SpriteRenderer spriteRenderer;
+        Animator animator;
+        PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         protected virtual void Awake()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody2D>();
         }
 
         protected override void ComputeVelocity()
         {
-            if (isBeingPushedBack)
-            {
-                // Apply the pushback effect manually by adjusting position
-                transform.position += (Vector3)(pushbackDirection * pushbackSpeed * Time.deltaTime);
-
-                // Check if pushback distance has been covered, then stop pushback
-                pushbackDistance -= pushbackSpeed * Time.deltaTime;
-                if (pushbackDistance <= 0f)
-                {
-                    isBeingPushedBack = false;  // Stop pushback effect
-                }
-
-                return;  // Skip regular movement while pushback is active
-            }
-
             if (jump && IsGrounded)
             {
                 velocity.y = jumpTakeOffSpeed * model.jumpModifier;
@@ -75,18 +71,6 @@ namespace Platformer.Mechanics
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
             targetVelocity = move * maxSpeed;
-        }
-
-        /// <summary>
-        /// Triggers a pushback effect for the enemy.
-        /// </summary>
-        /// <param name="direction">Direction of the pushback effect.</param>
-        /// <param name="distance">Distance over which the enemy will be pushed back.</param>
-        public void TriggerPushback(Vector2 direction, float distance)
-        {
-            pushbackDirection = direction.normalized;
-            pushbackDistance = distance;
-            isBeingPushedBack = true;
         }
     }
 }

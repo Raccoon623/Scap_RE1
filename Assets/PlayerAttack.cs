@@ -1,4 +1,3 @@
-using Platformer.Mechanics;
 using System.Collections;
 using UnityEngine;
 
@@ -7,8 +6,8 @@ public class PlayerAttack : MonoBehaviour
     public float attackRange = 1.5f;  // Range of the attack (adjustable)
     public float attackDelay = 0.5f;  // Delay before applying pushback (adjustable)
     public Transform attackPoint;     // The point from where the attack is checked (e.g., player's position)
-    public string enemyTag = "Enemy"; // Tag to identify enemies
-    public float pushbackForce = 5f;  // The force applied to push back the enemy
+    public string boxTag = "Box";     // Tag to identify the box objects
+    public float pushbackForce = 5f;  // The force applied to push back the box
 
     private bool canAttack = true;    // Track whether the player can attack again
     private Animator animator;        // Reference to the player's animator
@@ -24,7 +23,7 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         // Detect the attack input using the legacy Input Manager
-        if (canAttack && (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.F) || Input.GetButtonDown("Fire1")))
+        if (canAttack && Input.GetButtonDown("Fire1"))
         {
             // Trigger the attack
             StartCoroutine(PerformAttack());
@@ -51,27 +50,24 @@ public class PlayerAttack : MonoBehaviour
         // Add a delay before the attack is executed
         yield return new WaitForSeconds(attackDelay);
 
-        // Detect enemies in range using an overlap circle
+        // Detect objects tagged "Box" in range using an overlap circle
         Collider2D[] collidersHit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
 
-        // Apply pushback to enemies with the specified tag within range
+        // Apply pushback to objects with the specified tag within range
         foreach (Collider2D collider in collidersHit)
         {
-            if (collider.CompareTag(enemyTag))  // Check if the collider has the enemy tag
+            if (collider.CompareTag(boxTag))  // Check if the collider has the "Box" tag
             {
-                // Determine the pushback direction and apply pushback to the enemy
-                Vector2 pushbackDirection = (collider.transform.position - transform.position).normalized;
-                AnimationController enemyController = collider.GetComponent<AnimationController>();
-
-                if (enemyController != null)
+                // Get the Rigidbody2D component to apply the pushback force
+                Rigidbody2D rb = collider.GetComponent<Rigidbody2D>();
+                if (rb != null && rb.bodyType == RigidbodyType2D.Dynamic) // Only apply force to dynamic bodies
                 {
-                    float pushbackDistance = 2f;  // Adjust the distance for the pushback effect
-                    enemyController.TriggerPushback(pushbackDirection, pushbackDistance);
+                    // Calculate the pushback direction and apply force
+                    Vector2 pushbackDirection = (collider.transform.position - transform.position).normalized;
+                    rb.AddForce(pushbackDirection * pushbackForce, ForceMode2D.Impulse);
                 }
             }
         }
-
-
 
         // End the attack animation
         yield return new WaitForSeconds(0.3f); // Adjust duration as per animation timing

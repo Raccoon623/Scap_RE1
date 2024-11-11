@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 33b0e49b-ddc5-46f7-beeb-fe4e0696c64b
+  m_Id: ce8e79bc-6be5-4fd6-b668-613fac32e867
 --- !u!114 &31705155377717404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   attackRange: 0.4
   attackDelay: 0
   attackPoint: {fileID: 5470986798783418109}
-  enemyTag: Enemy
+  boxTag: Box
   pushbackForce: 5
   attackAudio: {fileID: 0}
 --- !u!1 &7263884054309112974
