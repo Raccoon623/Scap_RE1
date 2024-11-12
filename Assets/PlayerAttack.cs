@@ -1,3 +1,4 @@
+using Platformer.Mechanics;
 using System.Collections;
 using UnityEngine;
 
@@ -14,10 +15,13 @@ public class PlayerAttack : MonoBehaviour
     private AudioSource audioSource;  // Reference to the player's audio source
     public AudioClip attackAudio;     // Sound effect for the attack
 
+    private PlayerController playerController; // Reference to the PlayerController
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        playerController = GetComponent<PlayerController>(); // Get reference to PlayerController
     }
 
     private void Update()
@@ -27,6 +31,25 @@ public class PlayerAttack : MonoBehaviour
         {
             // Trigger the attack
             StartCoroutine(PerformAttack());
+        }
+
+        // Update attackPoint position based on player's facing direction
+        UpdateAttackPointPosition();
+    }
+
+    private void UpdateAttackPointPosition()
+    {
+        if (playerController == null || attackPoint == null)
+            return;
+
+        // Flip the attack point based on the player's facing direction
+        if (playerController.IsFacingRight)
+        {
+            attackPoint.localPosition = new Vector3(Mathf.Abs(attackPoint.localPosition.x), attackPoint.localPosition.y, attackPoint.localPosition.z);
+        }
+        else
+        {
+            attackPoint.localPosition = new Vector3(-Mathf.Abs(attackPoint.localPosition.x), attackPoint.localPosition.y, attackPoint.localPosition.z);
         }
     }
 

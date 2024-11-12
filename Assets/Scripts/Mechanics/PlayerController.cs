@@ -8,29 +8,19 @@ using Platformer.Core;
 
 namespace Platformer.Mechanics
 {
-    /// <summary>
-    /// This is the main class used to implement control of the player.
-    /// It is a superset of the AnimationController class, but is inlined to allow for any kind of customisation.
-    /// </summary>
     public class PlayerController : KinematicObject
     {
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
 
-        /// <sumsmary>
-        /// Max horizontal speed of the player.
-        /// </summary>
         public float maxSpeed = 7;
-        /// <summary>
-        /// Initial jump velocity at the start of a jump.
-        /// </summary>
         public float jumpTakeOffSpeed = 7;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
-        /*internal new*/ public Collider2D collider2d;
-        /*internal new*/ public AudioSource audioSource;
+        public Collider2D collider2d;
+        public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
 
@@ -41,6 +31,10 @@ namespace Platformer.Mechanics
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public Bounds Bounds => collider2d.bounds;
+
+        public bool IsFacingRight => !spriteRenderer.flipX;
+
+        private bool trampolineJump; // Flag for trampoline jump
 
         void Awake()
         {
@@ -104,7 +98,13 @@ namespace Platformer.Mechanics
 
         protected override void ComputeVelocity()
         {
-            if (jump && IsGrounded)
+            // Apply trampoline jump effect if active
+            if (trampolineJump)
+            {
+                velocity.y = jumpTakeOffSpeed * 1.5f; // Adjust multiplier as needed for trampoline effect
+                trampolineJump = false; // Reset trampoline jump after applying
+            }
+            else if (jump && IsGrounded)
             {
                 velocity.y = jumpTakeOffSpeed * model.jumpModifier;
                 jump = false;
@@ -127,6 +127,16 @@ namespace Platformer.Mechanics
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
             targetVelocity = move * maxSpeed;
+        }
+
+        // Method to apply a trampoline jump effect
+        public void ApplyTrampolineJump(float trampolineForceMultiplier)
+        {
+            if (IsGrounded) // Ensure it only applies if grounded
+            {
+                trampolineJump = true;
+                velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier; // Apply extra jump force
+            }
         }
 
         public enum JumpState
