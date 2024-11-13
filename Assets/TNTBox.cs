@@ -1,3 +1,4 @@
+using Platformer.Mechanics;
 using System.Collections;
 using UnityEngine;
 
@@ -9,42 +10,58 @@ public class BoxTNT : MonoBehaviour
     public string crackedTag = "Cracked"; // Tag to identify cracked objects
 
     private Animator animator; // Reference to the animator
-    private Collider2D boxCollider; // Reference to the box collider
+    private SpriteRenderer spriteRenderer; // Reference to the sprite renderer for color change
     private bool isActivated = false; // Track if the box has already been activated
 
-    void Awake()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
-        boxCollider = GetComponent<Collider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isActivated && collision.gameObject.CompareTag(playerTag))
         {
             // Start the explosion timer if the player jumps on it
             StartCoroutine(StartExplosionTimer());
+
+            // Access PlayerController to play TNT sound
+            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+            if (playerController != null)
+            {
+                playerController.PlayBoxTNTSound();
+            }
+
             isActivated = true;
         }
     }
 
     private IEnumerator StartExplosionTimer()
     {
-        yield return new WaitForSeconds(explosionDelay);
+        float timeElapsed = 0f;
+
+        while (timeElapsed < explosionDelay)
+        {
+            // Gradually change color to red over time
+            float t = timeElapsed / explosionDelay;
+            spriteRenderer.color = Color.Lerp(Color.white, Color.red, t);
+
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // Ensure the box color is fully red when the timer ends
+        spriteRenderer.color = Color.red;
 
         // Turn on the explosion animation
         if (animator != null)
         {
-            animator.enabled = true; // Enable the animator to play the explosion animation
+            animator.enabled = true;
+            animator.SetTrigger("Explode");
         }
 
-        // Disable the collider to prevent further interactions
-        if (boxCollider != null)
-        {
-            boxCollider.enabled = false;
-        }
-
-        // Wait for the animation to complete before destroying the box and nearby objects
+        // Wait for the destroy delay before destroying the box and nearby objects
         yield return new WaitForSeconds(destroyDelay);
 
         // Destroy all objects tagged as Player and Cracked within a certain radius

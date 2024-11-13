@@ -15,7 +15,8 @@ namespace Platformer.Mechanics
         public AudioClip ouchAudio;
 
         // Updated BoxEmpty audio clip
-        public AudioClip BoxEmptySound;
+        public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
+        public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
 
         public float maxSpeed = 7;
         public float jumpTakeOffSpeed = 7;
@@ -128,10 +129,18 @@ namespace Platformer.Mechanics
         {
             velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier; // Apply trampoline jump force
 
-            // Play the BoxEmpty sound
+            // Play the BoxEmpty sound if it exists
             if (BoxEmptySound != null && audioSource != null)
             {
                 audioSource.PlayOneShot(BoxEmptySound);
+            }
+        }
+
+        public void PlayBoxTNTSound()
+        {
+            if (BoxTNTSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(BoxTNTSound);
             }
         }
 
