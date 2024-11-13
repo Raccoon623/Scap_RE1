@@ -193,5 +193,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc799e078147ee3469f39df6c64768a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trampolineForceMultiplier: 0.5
-  explosionSound: {fileID: 0}
+  trampolineForceMultiplier: 0.4

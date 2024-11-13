@@ -5,17 +5,14 @@ using UnityEngine;
 public class BoxEmpty : MonoBehaviour
 {
     public float trampolineForceMultiplier = 1.5f; // Adjustable multiplier for trampoline effect
-    public AudioClip explosionSound;
 
     private Animator animator;
-    private AudioSource audioSource;
     private Collider2D boxCollider;
     private bool hasExploded = false;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
         boxCollider = GetComponent<Collider2D>();
 
         if (animator != null)
@@ -38,11 +35,6 @@ public class BoxEmpty : MonoBehaviour
                     {
                         animator.enabled = true;
                         animator.SetTrigger("Explode");
-                    }
-
-                    if (audioSource != null && explosionSound != null)
-                    {
-                        audioSource.PlayOneShot(explosionSound);
                     }
 
                     PlayerController player = collision.gameObject.GetComponent<PlayerController>();

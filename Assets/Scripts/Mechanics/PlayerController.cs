@@ -14,6 +14,9 @@ namespace Platformer.Mechanics
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
 
+        // Updated BoxEmpty audio clip
+        public AudioClip BoxEmptySound;
+
         public float maxSpeed = 7;
         public float jumpTakeOffSpeed = 7;
 
@@ -31,10 +34,7 @@ namespace Platformer.Mechanics
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public Bounds Bounds => collider2d.bounds;
-
         public bool IsFacingRight => !spriteRenderer.flipX;
-
-        private bool trampolineJump; // Flag for trampoline jump
 
         void Awake()
         {
@@ -98,13 +98,7 @@ namespace Platformer.Mechanics
 
         protected override void ComputeVelocity()
         {
-            // Apply trampoline jump effect if active
-            if (trampolineJump)
-            {
-                velocity.y = jumpTakeOffSpeed * 1.5f; // Adjust multiplier as needed for trampoline effect
-                trampolineJump = false; // Reset trampoline jump after applying
-            }
-            else if (jump && IsGrounded)
+            if (jump && IsGrounded)
             {
                 velocity.y = jumpTakeOffSpeed * model.jumpModifier;
                 jump = false;
@@ -129,13 +123,15 @@ namespace Platformer.Mechanics
             targetVelocity = move * maxSpeed;
         }
 
-        // Method to apply a trampoline jump effect
+        // Method to apply a trampoline jump effect with a specific multiplier
         public void ApplyTrampolineJump(float trampolineForceMultiplier)
         {
-            if (IsGrounded) // Ensure it only applies if grounded
+            velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier; // Apply trampoline jump force
+
+            // Play the BoxEmpty sound
+            if (BoxEmptySound != null && audioSource != null)
             {
-                trampolineJump = true;
-                velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier; // Apply extra jump force
+                audioSource.PlayOneShot(BoxEmptySound);
             }
         }
 
