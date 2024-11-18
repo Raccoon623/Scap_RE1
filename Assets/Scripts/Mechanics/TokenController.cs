@@ -16,6 +16,12 @@ namespace Platformer.Mechanics
         [Tooltip("Instances of tokens which are animated. If empty, token instances are found and loaded at runtime.")]
         public TokenInstance[] tokens;
 
+        public static TokenController Instance { get; private set; } // Singleton for easy access
+
+        private int collectedTokenCount;
+
+        public int CollectedTokenCount => collectedTokenCount; // Public getter for collected tokens
+
         float nextFrameTime = 0;
 
         [ContextMenu("Find All Tokens")]
@@ -26,11 +32,16 @@ namespace Platformer.Mechanics
 
         void Awake()
         {
-            //if tokens are empty, find all instances.
-            //if tokens are not empty, they've been added at editor time.
+            if (Instance == null)
+                Instance = this; // Set up singleton
+            else
+                Destroy(gameObject);
+
+            // If tokens are empty, find all instances.
             if (tokens.Length == 0)
                 FindAllTokensInScene();
-            //Register all tokens so they can work with this controller.
+
+            // Register all tokens so they can work with this controller.
             for (var i = 0; i < tokens.Length; i++)
             {
                 tokens[i].tokenIndex = i;
@@ -38,16 +49,21 @@ namespace Platformer.Mechanics
             }
         }
 
+        public void IncrementTokenCount()
+        {
+            collectedTokenCount++; // Increment the token count
+        }
+
         void Update()
         {
-            //if it's time for the next frame...
+            // If it's time for the next frame...
             if (Time.time - nextFrameTime > (1f / frameRate))
             {
-                //update all tokens with the next animation frame.
+                // Update all tokens with the next animation frame.
                 for (var i = 0; i < tokens.Length; i++)
                 {
                     var token = tokens[i];
-                    //if token is null, it has been disabled and is no longer animated.
+                    // If token is null, it has been disabled and is no longer animated.
                     if (token != null)
                     {
                         token._renderer.sprite = token.sprites[token.frame];
@@ -62,10 +78,9 @@ namespace Platformer.Mechanics
                         }
                     }
                 }
-                //calculate the time of the next frame.
+                // Calculate the time of the next frame.
                 nextFrameTime += 1f / frameRate;
             }
         }
-
     }
 }
