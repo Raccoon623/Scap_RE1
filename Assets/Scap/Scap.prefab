@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6118427316026214161}
   - component: {fileID: 1171654553750462989}
   - component: {fileID: 31705155377717404}
-  - component: {fileID: 2398193888109988774}
+  - component: {fileID: 2639346771620619100}
   m_Layer: 13
   m_Name: Scap
   m_TagString: Player
@@ -64,7 +64,7 @@ MonoBehaviour:
   maxSpeed: 3
   jumpTakeOffSpeed: 7
   jumpState: 0
-  collider2d: {fileID: 0}
+  collider2d: {fileID: 2639346771620619100}
   audioSource: {fileID: 0}
   health: {fileID: 0}
   controlEnabled: 1
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 657fb827-80ee-4287-84c9-c4943babe9e5
+  m_Id: 3dcb2427-a9dc-43c5-a33c-da57d67a9df7
 --- !u!114 &31705155377717404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,8 +308,8 @@ MonoBehaviour:
   boxTag: Box
   pushbackForce: 5
   attackAudio: {fileID: 0}
---- !u!70 &2398193888109988774
-CapsuleCollider2D:
+--- !u!61 &2639346771620619100
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -340,9 +340,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08134347, y: -0.039044857}
-  m_Size: {x: 0.3194306, y: 0.46910214}
-  m_Direction: 0
+  m_Offset: {x: -0.021861553, y: -0.07844417}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 1.25}
+    newSize: {x: 10, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28552246, y: 0.33696112}
+  m_EdgeRadius: 0
 --- !u!1 &7263884054309112974
 GameObject:
   m_ObjectHideFlags: 0

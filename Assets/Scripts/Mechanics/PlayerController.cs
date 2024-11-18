@@ -14,7 +14,7 @@ namespace Platformer.Mechanics
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
 
-        // Updated BoxEmpty audio clip
+        // Updated BoxEmpty and BoxTNT audio clips
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
         public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
 
@@ -99,6 +99,7 @@ namespace Platformer.Mechanics
 
         protected override void ComputeVelocity()
         {
+            // Handle jump velocity
             if (jump && IsGrounded)
             {
                 velocity.y = jumpTakeOffSpeed * model.jumpModifier;
@@ -113,10 +114,23 @@ namespace Platformer.Mechanics
                 }
             }
 
+            // Handle collision with walls to prevent sticking
+            RaycastHit2D wallHit = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(move.x), 0.1f);
+            if (wallHit.collider != null && !IsGrounded)
+            {
+                // Check if the collision is with a wall (not the ground)
+                if (wallHit.collider.gameObject.CompareTag("Wall"))
+                {
+                    // Maintain horizontal velocity to prevent sticking
+                    targetVelocity.x = move.x * maxSpeed;
+                }
+            }
+
+            // Flip the sprite based on movement direction
             if (move.x > 0.01f)
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = false; // Facing right
             else if (move.x < -0.01f)
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = true; // Facing left
 
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
@@ -136,6 +150,7 @@ namespace Platformer.Mechanics
             }
         }
 
+        // Method to play TNT explosion sound
         public void PlayBoxTNTSound()
         {
             if (BoxTNTSound != null && audioSource != null)
@@ -143,6 +158,8 @@ namespace Platformer.Mechanics
                 audioSource.PlayOneShot(BoxTNTSound);
             }
         }
+
+
 
         public enum JumpState
         {
