@@ -235,18 +235,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.05490196}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6745098}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 49596b1c5631ac443b31bcbc9d728fe4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb3576fbd82bf4c4bb5dfd6765ae939c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -903,7 +903,7 @@ PrefabInstance:
     - target: {fileID: 394424715767597354, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: TutorialLevel
+      value: ForestLevel
       objectReference: {fileID: 0}
     - target: {fileID: 574284348152046688, guid: 0a68be1bd13d8694e8d8fe85574ac075,
         type: 3}
