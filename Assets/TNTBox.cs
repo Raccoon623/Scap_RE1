@@ -24,20 +24,13 @@ public class BoxTNT : MonoBehaviour
         if (!isActivated && collision.gameObject.CompareTag(playerTag))
         {
             // Start the explosion timer if the player jumps on it
-            StartCoroutine(StartExplosionTimer());
-
-            // Access PlayerController to play TNT sound
-            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
-            if (playerController != null)
-            {
-                playerController.PlayBoxTNTSound();
-            }
+            StartCoroutine(StartExplosionTimer(collision.gameObject));
 
             isActivated = true;
         }
     }
 
-    private IEnumerator StartExplosionTimer()
+    private IEnumerator StartExplosionTimer(GameObject player)
     {
         float timeElapsed = 0f;
 
@@ -53,6 +46,13 @@ public class BoxTNT : MonoBehaviour
 
         // Ensure the box color is fully red when the timer ends
         spriteRenderer.color = Color.red;
+
+        // Trigger the explosion sound through PlayerController after the delay
+        PlayerController playerController = player.GetComponent<PlayerController>();
+        if (playerController != null)
+        {
+            playerController.PlayBoxTNTSound();
+        }
 
         // Turn on the explosion animation
         if (animator != null)
