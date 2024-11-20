@@ -1,3 +1,5 @@
+using Platformer.Core;
+using Platformer.Gameplay;
 using Platformer.Mechanics;
 using System.Collections;
 using UnityEngine;
@@ -6,7 +8,9 @@ public class BoxTNT : MonoBehaviour
 {
     public float explosionDelay = 3f; // Time in seconds before the TNT explodes
     public float destroyDelay = 0.5f; // Time after turning on the animator before destroying the box
-    public string playerTag = "Player"; // Tag to identify player objects
+    public float explosionRadius = 2f; // Radius of the explosion effect
+
+    public string enemyTag = "Enemy"; // Tag to identify enemy objects
     public string crackedTag = "Cracked"; // Tag to identify cracked objects
 
     private Animator animator; // Reference to the animator
@@ -21,9 +25,9 @@ public class BoxTNT : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!isActivated && collision.gameObject.CompareTag(playerTag))
+        if (!isActivated && collision.gameObject.GetComponent<PlayerController>() != null)
         {
-            // Start the explosion timer if the player jumps on it
+            // Start the explosion timer if the player collides with it
             StartCoroutine(StartExplosionTimer(collision.gameObject));
 
             isActivated = true;
@@ -47,7 +51,7 @@ public class BoxTNT : MonoBehaviour
         // Ensure the box color is fully red when the timer ends
         spriteRenderer.color = Color.red;
 
-        // Trigger the explosion sound through PlayerController after the delay
+        // Trigger the explosion sound through PlayerController
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController != null)
         {
@@ -61,10 +65,13 @@ public class BoxTNT : MonoBehaviour
             animator.SetTrigger("Explode");
         }
 
-        // Wait for the destroy delay before destroying the box and nearby objects
+        // Disable further interactions
+        GetComponent<Collider2D>().enabled = false;
+
+        // Wait for the destroy delay before destroying the box and applying effects
         yield return new WaitForSeconds(destroyDelay);
 
-        // Destroy all objects tagged as Player and Cracked within a certain radius
+        // Apply explosion effects
         Explode();
 
         // Destroy the TNT box itself
@@ -73,14 +80,31 @@ public class BoxTNT : MonoBehaviour
 
     private void Explode()
     {
-        // Find all objects within a certain radius (customize as needed)
-        Collider2D[] objectsToDestroy = Physics2D.OverlapCircleAll(transform.position, 2f);
+        // Find all objects within the explosion radius
+        Collider2D[] objectsToAffect = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
 
-        foreach (Collider2D obj in objectsToDestroy)
+        foreach (Collider2D obj in objectsToAffect)
         {
-            if (obj.CompareTag(playerTag) || obj.CompareTag(crackedTag))
+            // Check if it's the player (Scap)
+            var playerController = obj.GetComponent<PlayerController>();
+            if (playerController != null)
             {
-                Destroy(obj.gameObject); // Destroy the object if it's tagged as Player or Cracked
+                // Trigger the same event as DeathZone
+                var ev = Simulation.Schedule<PlayerEnteredDeathZone>();
+                ev.deathzone = null; // Set this to null or customize if needed
+                continue;
+            }
+
+            // Destroy objects tagged as "Cracked"
+            if (obj.CompareTag(crackedTag))
+            {
+                Destroy(obj.gameObject);
+            }
+
+            // Destroy objects tagged as "Enemy"
+            if (obj.CompareTag(enemyTag))
+            {
+                Destroy(obj.gameObject);
             }
         }
     }
@@ -89,6 +113,6 @@ public class BoxTNT : MonoBehaviour
     {
         // Optional: Draw a gizmo to visualize the explosion radius in the editor
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 2f); // Customize radius as needed
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
 }
