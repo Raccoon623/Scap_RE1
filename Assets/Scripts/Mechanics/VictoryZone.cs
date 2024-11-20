@@ -1,36 +1,25 @@
-using Platformer.Gameplay;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Required for scene management
-using TMPro; // Required for TextMeshPro
-using static Platformer.Core.Simulation;
+using UnityEngine.SceneManagement; // For scene management
+using TMPro; // For TextMeshPro elements
+using System.Collections;
 
 namespace Platformer.Mechanics
 {
-    /// <summary>
-    /// Marks a trigger as a VictoryZone, usually used to end the current game level.
-    /// </summary>
     public class VictoryZone : MonoBehaviour
     {
-        [SerializeField]
-        private int nextSceneIndex = 0; // Index of the next scene to load, set in the Inspector
+        [SerializeField] private int nextSceneIndex = 0; // Index of the next scene to load, set in the Inspector
+        [SerializeField] private GameObject victoryCanvas; // Reference to the Victory Canvas
+        [SerializeField] private TMP_Text tokensCollectedText; // Reference to the TextMeshPro UI for collected tokens
+        [SerializeField] private TMP_Text timeTakenText; // Reference to the TextMeshPro UI for time taken
 
-        [SerializeField]
-        private GameObject victoryCanvas; // Reference to the Victory Canvas
-
-        [SerializeField]
-        private TextMeshProUGUI tokensCollectedText; // Reference to the TextMeshPro UI for collected tokens
-
-        [SerializeField]
-        private TextMeshProUGUI timeTakenText; // Reference to the TextMeshPro UI for time taken
+        private bool victoryActivated = false; // To track if the victory screen is active
 
         private void OnTriggerEnter2D(Collider2D collider)
         {
             var player = collider.gameObject.GetComponent<PlayerController>();
-            if (player != null)
+            if (player != null && !victoryActivated)
             {
-                var ev = Schedule<PlayerEnteredVictoryZone>();
-                ev.victoryZone = this;
+                victoryActivated = true;
 
                 // Activate the Victory Canvas
                 if (victoryCanvas != null)
@@ -44,11 +33,8 @@ namespace Platformer.Mechanics
                 // Pause the game
                 Time.timeScale = 0f;
 
-                // Stop the timer
-                if (GameTimer.Instance != null)
-                {
-                    GameTimer.Instance.StopTimer();
-                }
+                // Start listening for any key press
+                StartCoroutine(WaitForAnyKey(player));
             }
         }
 
@@ -69,10 +55,31 @@ namespace Platformer.Mechanics
             }
         }
 
-        public void OnContinueButtonPressed()
+        private IEnumerator WaitForAnyKey(PlayerController player)
         {
+            // Wait for any key to be pressed
+            while (!Input.anyKeyDown)
+            {
+                yield return null;
+            }
+
+            // Play the player's victory animation
+            if (player != null && player.animator != null)
+            {
+                player.animator.SetTrigger("victory"); // Trigger sthe victory animation
+            }
+
             // Unpause the game
             Time.timeScale = 1f;
+
+            // Disable the Victory Canvas
+            if (victoryCanvas != null)
+            {
+                victoryCanvas.SetActive(false);
+            }
+
+            // Wait for 2 seconds to allow the animation to play
+            yield return new WaitForSeconds(2f);
 
             // Load the next scene
             SceneManager.LoadScene(nextSceneIndex);
