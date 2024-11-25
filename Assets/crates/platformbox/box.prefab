@@ -194,3 +194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trampolineForceMultiplier: 0.4
+  enemyKillForce: 1
+  enemyLaunchForce: 10
+  shrinkDuration: 1

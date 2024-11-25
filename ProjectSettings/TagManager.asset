@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Box
   - TNT
+  - Attack
   - Wall
   layers:
   - Default

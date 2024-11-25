@@ -150,6 +150,17 @@ namespace Platformer.Mechanics
             }
         }
 
+        // Method to check if the player is currently attacking
+        public bool IsAttacking()
+        {
+            // Check if the animator has "isAttacking" or "isPoweredAttacking" set to true
+            if (animator != null)
+            {
+                return animator.GetBool("isAttacking") || animator.GetBool("isPoweredAttacking");
+            }
+            return false;
+        }
+
         // Method to play TNT explosion sound
         public void PlayBoxTNTSound()
         {

@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 101505435}
   m_Layer: 0
   m_Name: Groundtiles
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15399,6 +15399,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2763268767364200026, guid: 9aca309a9ee32f5449701866ac8c8266,
         type: 3}
+      propertyPath: enemyKillForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763268767364200026, guid: 9aca309a9ee32f5449701866ac8c8266,
+        type: 3}
       propertyPath: explosionSound
       value: 
       objectReference: {fileID: 8300000, guid: 8b48410e9949ad24c9ffea024de2eb79, type: 3}
@@ -25622,6 +25627,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scap
       objectReference: {fileID: 0}
+    - target: {fileID: 7263884054309112974, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: m_TagString
+      value: Attack
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29984,7 +29994,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 43.941856, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -29995,7 +30005,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100, y: 10}
+  m_Size: {x: 187.88368, y: 10}
   m_EdgeRadius: 0
 --- !u!4 &1090666648
 Transform:
@@ -59545,20 +59555,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: enemyCollisionForce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_Name
       value: BombBox
       objectReference: {fileID: 0}
+    - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8713474581368142038, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.01
+      value: 4.61
       objectReference: {fileID: 0}
     - target: {fileID: 8713474581368142038, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.86
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8713474581368142038, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
