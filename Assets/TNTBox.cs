@@ -15,12 +15,14 @@ public class BoxTNT : MonoBehaviour
 
     private Animator animator; // Reference to the animator
     private SpriteRenderer spriteRenderer; // Reference to the sprite renderer for color change
+    private Collider2D boxCollider; // Reference to the box collider
     private bool isActivated = false; // Track if the box has already been activated
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        boxCollider = GetComponent<Collider2D>(); // Initialize the box collider
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -51,6 +53,17 @@ public class BoxTNT : MonoBehaviour
         // Ensure the box color is fully red when the timer ends
         spriteRenderer.color = Color.red;
 
+        // Disable collider and Rigidbody2D during animation
+        var rigidbody = GetComponent<Rigidbody2D>();
+        if (rigidbody != null)
+        {
+            rigidbody.simulated = false; // Disable physics
+        }
+        if (boxCollider != null)
+        {
+            boxCollider.enabled = false; // Disable collisions
+        }
+
         // Trigger the explosion sound through PlayerController
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController != null)
@@ -64,9 +77,6 @@ public class BoxTNT : MonoBehaviour
             animator.enabled = true;
             animator.SetTrigger("Explode");
         }
-
-        // Disable further interactions
-        GetComponent<Collider2D>().enabled = false;
 
         // Wait for the destroy delay before destroying the box and applying effects
         yield return new WaitForSeconds(destroyDelay);
