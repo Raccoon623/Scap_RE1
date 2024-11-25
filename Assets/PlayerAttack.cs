@@ -8,7 +8,10 @@ public class PlayerAttack : MonoBehaviour
     public float attackDelay = 0.5f;  // Delay before applying pushback (adjustable)
     public Transform attackPoint;     // The point from where the attack is checked (e.g., player's position)
     public string boxTag = "Box";     // Tag to identify the box objects
+    public string enemyTag = "Enemy"; // Tag to identify enemies
     public float pushbackForce = 5f;  // The force applied to push back the box
+    public float enemyLaunchForce = 10f; // Force applied to launch the enemy upwards
+    public float shrinkDuration = 1f; // Time it takes for enemies to shrink and disappear
 
     private bool canAttack = true;    // Track whether the player can attack again
     private Animator animator;        // Reference to the player's animator
@@ -16,6 +19,7 @@ public class PlayerAttack : MonoBehaviour
     public AudioClip attackAudio;     // Sound effect for the attack
 
     private PlayerController playerController; // Reference to the PlayerController
+    private bool isPoweredUp = false;          // Track if the player is powered up
 
     private void Awake()
     {
@@ -61,7 +65,14 @@ public class PlayerAttack : MonoBehaviour
         // Trigger the attack animation
         if (animator != null)
         {
-            animator.SetBool("isAttacking", true);
+            if (isPoweredUp)
+            {
+                animator.SetBool("isPoweredAttacking", true);
+            }
+            else
+            {
+                animator.SetBool("isAttacking", true);
+            }
         }
 
         // Play attack sound if available
@@ -73,22 +84,26 @@ public class PlayerAttack : MonoBehaviour
         // Add a delay before the attack is executed
         yield return new WaitForSeconds(attackDelay);
 
-        // Detect objects tagged "Box" in range using an overlap circle
+        // Detect objects in range using an overlap circle
         Collider2D[] collidersHit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
 
-        // Apply pushback to objects with the specified tag within range
         foreach (Collider2D collider in collidersHit)
         {
-            if (collider.CompareTag(boxTag))  // Check if the collider has the "Box" tag
+            // Handle boxes (pushback)
+            if (collider.CompareTag(boxTag))
             {
-                // Get the Rigidbody2D component to apply the pushback force
                 Rigidbody2D rb = collider.GetComponent<Rigidbody2D>();
                 if (rb != null && rb.bodyType == RigidbodyType2D.Dynamic) // Only apply force to dynamic bodies
                 {
-                    // Calculate the pushback direction and apply force
                     Vector2 pushbackDirection = (collider.transform.position - transform.position).normalized;
                     rb.AddForce(pushbackDirection * pushbackForce, ForceMode2D.Impulse);
                 }
+            }
+
+            // Handle enemies (baseball hit effect)
+            if (isPoweredUp && collider.CompareTag(enemyTag))
+            {
+                StartCoroutine(BaseballHitEnemy(collider.gameObject));
             }
         }
 
@@ -97,10 +112,49 @@ public class PlayerAttack : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool("isAttacking", false);
+            animator.SetBool("isPoweredAttacking", false);
         }
 
         // Re-enable attacking after the attack is finished
         canAttack = true;
+    }
+
+    private IEnumerator BaseballHitEnemy(GameObject enemy)
+    {
+        // Apply launch force
+        Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>();
+        if (enemyRb != null)
+        {
+            enemyRb.bodyType = RigidbodyType2D.Dynamic; // Temporarily make the enemy dynamic
+            enemyRb.AddForce(Vector2.up * enemyLaunchForce, ForceMode2D.Impulse); // Launch upwards
+        }
+
+        // Shrink the enemy over time
+        Vector3 originalScale = enemy.transform.localScale;
+        float elapsed = 0f;
+
+        while (elapsed < shrinkDuration)
+        {
+            float scale = Mathf.Lerp(1f, 0f, elapsed / shrinkDuration); // Gradually scale down
+            enemy.transform.localScale = originalScale * scale;
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // Destroy the enemy
+        Destroy(enemy);
+    }
+
+    // Enable the power-up
+    public void ActivatePowerUp()
+    {
+        isPoweredUp = true;
+    }
+
+    // Disable the power-up
+    public void DeactivatePowerUp()
+    {
+        isPoweredUp = false;
     }
 
     // Optional: Draw a gizmo to visualize the attack range in the editor
