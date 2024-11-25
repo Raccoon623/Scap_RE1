@@ -27,16 +27,16 @@ public class BoxTNT : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!isActivated && collision.gameObject.GetComponent<PlayerController>() != null)
+        if (!isActivated && (collision.gameObject.GetComponent<PlayerController>() != null || collision.gameObject.CompareTag(enemyTag)))
         {
-            // Start the explosion timer if the player collides with it
+            // Start the explosion timer if the player or enemy collides with it
             StartCoroutine(StartExplosionTimer(collision.gameObject));
 
             isActivated = true;
         }
     }
 
-    private IEnumerator StartExplosionTimer(GameObject player)
+    private IEnumerator StartExplosionTimer(GameObject triggeringObject)
     {
         float timeElapsed = 0f;
 
@@ -64,8 +64,8 @@ public class BoxTNT : MonoBehaviour
             boxCollider.enabled = false; // Disable collisions
         }
 
-        // Trigger the explosion sound through PlayerController
-        PlayerController playerController = player.GetComponent<PlayerController>();
+        // Trigger the explosion sound through PlayerController if triggered by the player
+        var playerController = triggeringObject.GetComponent<PlayerController>();
         if (playerController != null)
         {
             playerController.PlayBoxTNTSound();
