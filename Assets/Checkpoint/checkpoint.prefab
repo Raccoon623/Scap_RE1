@@ -95,7 +95,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7885503528565743264}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 25bd66edaeec1254caba4f402b6e382f, type: 2}
   m_CullingMode: 0
@@ -120,6 +120,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff841039e45c1643aaa6fb4a984a685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointAnimator: {fileID: 0}
+  playerTag: Player
+  objectToMove: {fileID: 0}
+  yOffset: 2
+  checkpointSound: {fileID: 0}
+  nearCheckpointSound: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!61 &-6887386928392900311
 BoxCollider2D:
   m_ObjectHideFlags: 0
