@@ -13,6 +13,7 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        public AudioClip respawnGlass;
 
         // Updated BoxEmpty and BoxTNT audio clips
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
