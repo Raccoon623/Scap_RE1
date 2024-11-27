@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
@@ -15,7 +14,6 @@ namespace Platformer.Mechanics
         public AudioClip ouchAudio;
         public AudioClip respawnGlass;
 
-        // Updated BoxEmpty and BoxTNT audio clips
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
         public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
 
@@ -28,6 +26,10 @@ namespace Platformer.Mechanics
         public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
+
+        [SerializeField] private float wallDetectionRadius = 1f; // Radius for wall detection
+        [SerializeField] private LayerMask wallLayer; // LayerMask for walls
+        [SerializeField] private float raycastAngle = -55f; // Angle of the raycast (adjustable in the Inspector)
 
         bool jump;
         Vector2 move;
@@ -64,6 +66,7 @@ namespace Platformer.Mechanics
             {
                 move.x = 0;
             }
+
             UpdateJumpState();
             base.Update();
         }
@@ -115,17 +118,23 @@ namespace Platformer.Mechanics
                 }
             }
 
-            // Handle collision with walls to prevent sticking
-            RaycastHit2D wallHit = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(move.x), 0.1f);
-            if (wallHit.collider != null && !IsGrounded)
+            // Handle wall collision detection and prevent movement toward walls
+            if (CheckWallCollision(out RaycastHit2D wallHit))
             {
-                // Check if the collision is with a wall (not the ground)
-                if (wallHit.collider.gameObject.CompareTag("Wall"))
+                Debug.Log($"Wall detected at {wallHit.point}. Preventing movement toward the wall.");
+
+                // Check the direction the player is moving
+                float moveDirection = move.x;
+                float wallDirection = IsFacingRight ? 1 : -1;
+
+                // Prevent movement toward the wall, but allow movement away
+                if (Mathf.Sign(moveDirection) == Mathf.Sign(wallDirection))
                 {
-                    // Maintain horizontal velocity to prevent sticking
-                    targetVelocity.x = move.x * maxSpeed;
+                    move.x = 0; // Stop movement toward the wall
                 }
             }
+
+            targetVelocity = move * maxSpeed;
 
             // Flip the sprite based on movement direction
             if (move.x > 0.01f)
@@ -135,8 +144,37 @@ namespace Platformer.Mechanics
 
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+        }
 
-            targetVelocity = move * maxSpeed;
+        // Method to check if the player is colliding with a wall in front
+        private bool CheckWallCollision(out RaycastHit2D wallHit)
+        {
+            // Determine the direction based on the player's facing direction
+            Vector2 direction = IsFacingRight ? Vector2.right : Vector2.left;
+
+            // Adjust the angle based on the facing direction
+            float adjustedAngle = IsFacingRight ? raycastAngle : -raycastAngle;
+
+            // Rotate the ray direction based on the adjusted angle
+            direction = Quaternion.Euler(0, 0, adjustedAngle) * direction;
+
+            // Perform a raycast in the direction the player is facing
+            wallHit = Physics2D.Raycast(transform.position, direction, wallDetectionRadius, wallLayer);
+
+            // Visualize the ray in the scene view for debugging
+            Debug.DrawRay(transform.position, direction * wallDetectionRadius, Color.red);
+
+            // Return true if the ray hits a wall
+            return wallHit.collider != null;
+        }
+
+        // Method to play TNT explosion sound
+        public void PlayBoxTNTSound()
+        {
+            if (BoxTNTSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(BoxTNTSound);
+            }
         }
 
         // Method to apply a trampoline jump effect with a specific multiplier
@@ -150,28 +188,6 @@ namespace Platformer.Mechanics
                 audioSource.PlayOneShot(BoxEmptySound);
             }
         }
-
-        // Method to check if the player is currently attacking
-        public bool IsAttacking()
-        {
-            // Check if the animator has "isAttacking" or "isPoweredAttacking" set to true
-            if (animator != null)
-            {
-                return animator.GetBool("isAttacking") || animator.GetBool("isPoweredAttacking");
-            }
-            return false;
-        }
-
-        // Method to play TNT explosion sound
-        public void PlayBoxTNTSound()
-        {
-            if (BoxTNTSound != null && audioSource != null)
-            {
-                audioSource.PlayOneShot(BoxTNTSound);
-            }
-        }
-
-
 
         public enum JumpState
         {
