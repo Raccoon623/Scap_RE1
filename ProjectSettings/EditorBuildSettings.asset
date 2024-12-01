@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ForestLevel.unity
     guid: c3e7b05d83f9352408e4fd89b634dba6
   - enabled: 0
+    path: Assets/Raccoon/FakeForest2.unity
+    guid: d4dfee053f1265a40baccb6cdaf14045
+  - enabled: 0
     path: Assets/Scenes/SnowLevel.unity
     guid: 66762ef291efcaa4eaf8b11b24b23006
   - enabled: 0

@@ -4,11 +4,6 @@ using static Platformer.Core.Simulation;
 
 namespace Platformer.Mechanics
 {
-    /// <summary>
-    /// This class contains the data required for implementing token collection mechanics.
-    /// It does not perform animation of the token, this is handled in a batch by the 
-    /// TokenController in the scene.
-    /// </summary>
     [RequireComponent(typeof(Collider2D))]
     public class TokenInstance : MonoBehaviour
     {
@@ -22,19 +17,20 @@ namespace Platformer.Mechanics
 
         internal SpriteRenderer _renderer;
 
-        //unique index which is assigned by the TokenController in a scene.
+        // Unique index which is assigned by the TokenController in a scene.
         internal int tokenIndex = -1;
         internal TokenController controller;
-        //active frame in animation, updated by the controller.
+        // Active frame in animation, updated by the controller.
         internal int frame = 0;
         internal bool collected = false;
 
         void Awake()
         {
             _renderer = GetComponent<SpriteRenderer>();
-            if (randomAnimationStartTime)
-                frame = Random.Range(0, sprites.Length);
-            sprites = idleAnimation;
+            sprites = idleAnimation; // Start with idle animation
+
+            if (randomAnimationStartTime && sprites.Length > 0)
+                frame = Random.Range(0, sprites.Length); // Randomize animation start frame
         }
 
         void OnTriggerEnter2D(Collider2D other)
@@ -46,21 +42,46 @@ namespace Platformer.Mechanics
 
         void OnPlayerEnter(PlayerController player)
         {
-            if (collected) return;
+            if (collected) return; // If already collected, do nothing
 
-            // Disable the gameObject and remove it from the controller update list.
-            frame = 0;
-            sprites = collectedAnimation;
+            collected = true; // Mark token as collected
+            frame = 0; // Reset animation frame
+            sprites = collectedAnimation; // Switch to collected animation
+
+            // Notify the controller that the token is collected
             if (controller != null)
             {
-                collected = true;
-                controller.IncrementTokenCount(); // Increment the collected token count
+                controller.IncrementTokenCount();
             }
 
-            // Send an event into the gameplay system to perform some behaviour.
+            // Play collection sound if available
+            if (tokenCollectAudio != null)
+            {
+                AudioSource.PlayClipAtPoint(tokenCollectAudio, transform.position);
+            }
+
+            // Send an event into the gameplay system
             var ev = Schedule<PlayerTokenCollision>();
             ev.token = this;
             ev.player = player;
+
+            // Start the collected animation and hide the token after it finishes
+            Invoke(nameof(HideToken), collectedAnimation.Length / controller.frameRate);
+        }
+
+        private void HideToken()
+        {
+            gameObject.SetActive(false); // Disable the token
+        }
+
+        void Update()
+        {
+            // Ensure collected tokens still animate properly before being hidden
+            if (collected && frame < sprites.Length)
+            {
+                _renderer.sprite = sprites[frame];
+                frame++;
+            }
         }
     }
 }

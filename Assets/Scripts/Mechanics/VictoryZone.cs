@@ -40,6 +40,22 @@ namespace Platformer.Mechanics
 
         private void UpdateVictoryUI()
         {
+            // Ensure TokenController.Instance is valid
+            if (TokenController.Instance == null)
+            {
+                Debug.LogWarning("TokenController.Instance is null. Attempting to find TokenController in the scene...");
+                var foundTokenController = FindObjectOfType<TokenController>();
+                if (foundTokenController != null)
+                {
+                    Debug.Log("TokenController found in the scene.");
+                }
+                else
+                {
+                    Debug.LogError("No TokenController found in the scene!");
+                    return; // Exit the method early if no TokenController is found
+                }
+            }
+
             // Update tokens collected text
             if (tokensCollectedText != null && TokenController.Instance != null)
             {
@@ -54,6 +70,8 @@ namespace Platformer.Mechanics
                 timeTakenText.text = $"Time Taken: {timeTaken:F2} seconds";
             }
         }
+
+
 
         private IEnumerator WaitForAnyKey(PlayerController player)
         {
