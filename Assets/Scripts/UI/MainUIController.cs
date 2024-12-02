@@ -21,6 +21,14 @@ namespace Platformer.UI
             }
         }
 
+        public void QuitGame()
+        {
+            Debug.Log("Exiting game..."); // This will display in the console when exiting in the editor.
+
+            // Quit the application.
+            Application.Quit();
+        }
+
         void OnEnable()
         {
             SetActivePanel(0);
