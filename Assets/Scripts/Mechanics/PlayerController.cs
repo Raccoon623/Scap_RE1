@@ -16,6 +16,7 @@ namespace Platformer.Mechanics
 
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
         public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
+        public AudioClip PowerUpSound; // Sound for PowerUp interaction
 
         public float maxSpeed = 7;
         public float jumpTakeOffSpeed = 7;
@@ -181,6 +182,25 @@ namespace Platformer.Mechanics
                 ParticleSystem dust = Instantiate(dustEffect, dustSpawnPoint.position, Quaternion.identity);
                 dust.Play();
                 Destroy(dust.gameObject, dust.main.duration); // Destroy the effect after it finishes
+            }
+        }
+
+        // Method to play the PowerUp sound
+        private void PlayPowerUpSound()
+        {
+            if (PowerUpSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(PowerUpSound);
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            // Check if the object has the "PowerUp" tag
+            if (other.CompareTag("PowerUp"))
+            {
+                PlayPowerUpSound();
+                Debug.Log("Player touched a PowerUp!");
             }
         }
 
