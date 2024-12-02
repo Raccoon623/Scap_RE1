@@ -35634,6 +35634,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 59491a71c6cc91e4c82ab23fb16c9258, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a29442459b7e66d499c47f36b9a623af, type: 3}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
       propertyPath: dustEffect
       value: 
       objectReference: {fileID: 19800002, guid: a05ef7dc0f98f4b449c13c29cda48254,
@@ -35645,12 +35650,22 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: e8c3995a7caba6744bb183ea4baeb631, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
+      propertyPath: PowerUpSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
       propertyPath: respawnAudio
       value: 
       objectReference: {fileID: 8300000, guid: b76dd3d1a3a58d542b4828be8d61b33d, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: respawnGlass
+      value: 
+      objectReference: {fileID: 8300000, guid: a29442459b7e66d499c47f36b9a623af, type: 3}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: respawnSound
       value: 
       objectReference: {fileID: 8300000, guid: a29442459b7e66d499c47f36b9a623af, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
@@ -35672,6 +35687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: wallLayer.m_Bits
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: respawnSoundDelay
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
@@ -41561,7 +41581,7 @@ GameObject:
   - component: {fileID: 1099919563}
   m_Layer: 0
   m_Name: PowerUp1
-  m_TagString: Untagged
+  m_TagString: PowerUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

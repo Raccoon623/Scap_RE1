@@ -17,6 +17,8 @@ namespace Platformer.Mechanics
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
         public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
         public AudioClip PowerUpSound; // Sound for PowerUp interaction
+        [SerializeField] private AudioClip respawnSound; // Serialize field for respawn sound
+        [SerializeField] private float respawnSoundDelay = 2f; // Delay for playing the respawn sound
 
         public float maxSpeed = 7;
         public float jumpTakeOffSpeed = 7;
@@ -69,6 +71,12 @@ namespace Platformer.Mechanics
             else
             {
                 move.x = 0;
+            }
+
+            // Check if the respawn condition is met and play the respawn sound after delay
+            if (animator.GetBool("dead"))
+            {
+                StartCoroutine(PlayRespawnSoundWithDelay());
             }
 
             UpdateJumpState();
@@ -182,6 +190,20 @@ namespace Platformer.Mechanics
                 ParticleSystem dust = Instantiate(dustEffect, dustSpawnPoint.position, Quaternion.identity);
                 dust.Play();
                 Destroy(dust.gameObject, dust.main.duration); // Destroy the effect after it finishes
+            }
+        }
+
+        // Method to play the respawn sound after a delay
+        private IEnumerator PlayRespawnSoundWithDelay()
+        {
+            // Wait for the delay duration
+            yield return new WaitForSeconds(respawnSoundDelay);
+
+            // Play the respawn sound
+            if (respawnSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(respawnSound);
+                Debug.Log("Respawn sound played after delay!");
             }
         }
 
