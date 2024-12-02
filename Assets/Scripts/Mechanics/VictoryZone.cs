@@ -11,8 +11,23 @@ namespace Platformer.Mechanics
         [SerializeField] private GameObject victoryCanvas; // Reference to the Victory Canvas
         [SerializeField] private TMP_Text tokensCollectedText; // Reference to the TextMeshPro UI for collected tokens
         [SerializeField] private TMP_Text timeTakenText; // Reference to the TextMeshPro UI for time taken
+        [SerializeField] private AudioClip victorySound; // Audio clip to play upon entering the Victory Zone
+        [SerializeField] private AudioSource audioSource; // AudioSource to play the victory sound
 
         private bool victoryActivated = false; // To track if the victory screen is active
+
+        private void Awake()
+        {
+            // Ensure an AudioSource is available
+            if (audioSource == null)
+            {
+                audioSource = GetComponent<AudioSource>();
+                if (audioSource == null)
+                {
+                    Debug.LogWarning("No AudioSource assigned or found. Please add an AudioSource to this GameObject.");
+                }
+            }
+        }
 
         private void OnTriggerEnter2D(Collider2D collider)
         {
@@ -20,6 +35,9 @@ namespace Platformer.Mechanics
             if (player != null && !victoryActivated)
             {
                 victoryActivated = true;
+
+                // Play the victory sound
+                PlayVictorySound();
 
                 // Activate the Victory Canvas
                 if (victoryCanvas != null)
@@ -35,6 +53,19 @@ namespace Platformer.Mechanics
 
                 // Start listening for any key press
                 StartCoroutine(WaitForAnyKey(player));
+            }
+        }
+
+        private void PlayVictorySound()
+        {
+            if (victorySound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(victorySound);
+                Debug.Log("Victory sound played!");
+            }
+            else
+            {
+                Debug.LogWarning("Victory sound or AudioSource is missing!");
             }
         }
 
@@ -71,8 +102,6 @@ namespace Platformer.Mechanics
             }
         }
 
-
-
         private IEnumerator WaitForAnyKey(PlayerController player)
         {
             // Wait for any key to be pressed
@@ -84,7 +113,7 @@ namespace Platformer.Mechanics
             // Play the player's victory animation
             if (player != null && player.animator != null)
             {
-                player.animator.SetTrigger("victory"); // Trigger sthe victory animation
+                player.animator.SetTrigger("victory"); // Trigger the victory animation
             }
 
             // Unpause the game

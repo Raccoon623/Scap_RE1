@@ -21069,6 +21069,8 @@ MonoBehaviour:
   victoryCanvas: {fileID: 237554287}
   tokensCollectedText: {fileID: 984995213}
   timeTakenText: {fileID: 984995212}
+  victorySound: {fileID: 8300000, guid: 7ca51033b6d227b45b343e310fa6d49a, type: 3}
+  audioSource: {fileID: 1826839689}
 --- !u!61 &480004329
 BoxCollider2D:
   m_ObjectHideFlags: 0
