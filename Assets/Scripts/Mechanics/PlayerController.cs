@@ -27,6 +27,9 @@ namespace Platformer.Mechanics
         public Health health;
         public bool controlEnabled = true;
 
+        [SerializeField] private ParticleSystem dustEffect; // Reference to dust particle effect
+        [SerializeField] private Transform dustSpawnPoint;  // Spawn point for the particle effect
+
         [SerializeField] private float wallDetectionRadius = 1f; // Radius for wall detection
         [SerializeField] private LayerMask wallLayer; // LayerMask for walls
         [SerializeField] private float raycastAngle = -55f; // Angle of the raycast (adjustable in the Inspector)
@@ -92,6 +95,7 @@ namespace Platformer.Mechanics
                     if (IsGrounded)
                     {
                         Schedule<PlayerLanded>().player = this;
+                        TriggerDustEffect(); // Trigger the dust effect upon landing
                         jumpState = JumpState.Landed;
                     }
                     break;
@@ -168,6 +172,18 @@ namespace Platformer.Mechanics
             return wallHit.collider != null;
         }
 
+        // Method to trigger the dust particle effect
+        private void TriggerDustEffect()
+        {
+            if (dustEffect != null && dustSpawnPoint != null)
+            {
+                // Instantiate the dust effect at the spawn point
+                ParticleSystem dust = Instantiate(dustEffect, dustSpawnPoint.position, Quaternion.identity);
+                dust.Play();
+                Destroy(dust.gameObject, dust.main.duration); // Destroy the effect after it finishes
+            }
+        }
+
         // Method to play TNT explosion sound
         public void PlayBoxTNTSound()
         {
@@ -197,8 +213,5 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
-
-
-
     }
 }

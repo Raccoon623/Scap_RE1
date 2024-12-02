@@ -9085,6 +9085,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 541024031}
   m_SourcePrefab: {fileID: 100100000, guid: f158aa2be3df6489185ef721f6fd79c1, type: 3}
+--- !u!1 &261593803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261593804}
+  m_Layer: 13
+  m_Name: DustPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261593804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261593803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14, y: -0.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1281370994}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262243686
 GameObject:
   m_ObjectHideFlags: 0
@@ -31214,6 +31245,12 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 59491a71c6cc91e4c82ab23fb16c9258, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
+      propertyPath: dustEffect
+      value: 
+      objectReference: {fileID: 19800002, guid: a05ef7dc0f98f4b449c13c29cda48254,
+        type: 3}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
       propertyPath: BoxTNTSound
       value: 
       objectReference: {fileID: 8300000, guid: e8c3995a7caba6744bb183ea4baeb631, type: 3}
@@ -31232,6 +31269,11 @@ PrefabInstance:
       propertyPath: BoxEmptySound
       value: 
       objectReference: {fileID: 8300000, guid: ac8719f3e488043479ec0dbb58196829, type: 3}
+    - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: dustSpawnPoint
+      value: 
+      objectReference: {fileID: 261593804}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: trampolineAudio
@@ -31264,7 +31306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3911297049692511693, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 261593804}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c564d6379f1c53c45bfaf41ed5eb5b79, type: 3}
 --- !u!1001 &910796207
