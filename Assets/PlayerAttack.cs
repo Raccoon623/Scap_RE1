@@ -13,9 +13,11 @@ public class PlayerAttack : MonoBehaviour
     public float enemyLaunchForce = 10f; // Force applied to launch the enemy upwards
     public float shrinkDuration = 1f; // Time it takes for enemies to shrink and disappear
 
+    [SerializeField] private AudioClip baseballHitSound; // Sound for hitting an enemy with a baseball swing
+    private AudioSource audioSource; // Reference to the player's audio source
+
     private bool canAttack = true;    // Track whether the player can attack again
     private Animator animator;        // Reference to the player's animator
-    private AudioSource audioSource;  // Reference to the player's audio source
     public AudioClip attackAudio;     // Sound effect for the attack
 
     private PlayerController playerController; // Reference to the PlayerController
@@ -121,6 +123,12 @@ public class PlayerAttack : MonoBehaviour
 
     private IEnumerator BaseballHitEnemy(GameObject enemy)
     {
+        // Play the baseball hit sound
+        if (baseballHitSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(baseballHitSound);
+        }
+
         // Apply launch force
         Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>();
         if (enemyRb != null)

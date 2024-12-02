@@ -35571,6 +35571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 31705155377717404, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
+      propertyPath: baseballHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 22494e48dd1a8b34ea1cf2fee351b447, type: 3}
+    - target: {fileID: 31705155377717404, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
       propertyPath: enemyLaunchForce
       value: 12
       objectReference: {fileID: 0}
