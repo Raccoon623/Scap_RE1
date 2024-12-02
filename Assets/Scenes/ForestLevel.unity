@@ -5087,6 +5087,21 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1826839689}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: warningSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: explosionDelay
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_Name
@@ -10304,6 +10319,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1826839689}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: warningSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: explosionDelay
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_Name
@@ -33139,6 +33169,21 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1826839689}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: warningSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: explosionDelay
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_Name
@@ -33584,6 +33629,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1826839689}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: warningSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: explosionDelay
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8344201046823811572, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: m_Name
@@ -35674,7 +35734,7 @@ PrefabInstance:
         type: 3}
       propertyPath: respawnSound
       value: 
-      objectReference: {fileID: 8300000, guid: a29442459b7e66d499c47f36b9a623af, type: 3}
+      objectReference: {fileID: 8300000, guid: f1bdff2ade2445945b433db4ad3e3054, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: BoxEmptySound
@@ -35698,7 +35758,7 @@ PrefabInstance:
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: respawnSoundDelay
-      value: 2.1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
@@ -63444,7 +63504,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754240606}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 43d09f2aa72ce5e4c88e625135fc509e, type: 3}
@@ -75963,6 +76023,11 @@ PrefabInstance:
       propertyPath: warningSound
       value: 
       objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: explosionDelay
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
       propertyPath: enemyCollisionForce
