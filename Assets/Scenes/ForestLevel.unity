@@ -75948,6 +75948,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
         type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1826839689}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
+      propertyPath: warningSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dc48ec40910fb574d891f4ff74bd23a8, type: 3}
+    - target: {fileID: 5324882327925740500, guid: 59e5f5b2d5d271b46bbc5b0c3c1fd96b,
+        type: 3}
       propertyPath: enemyCollisionForce
       value: 1
       objectReference: {fileID: 0}

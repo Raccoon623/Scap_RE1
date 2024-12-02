@@ -6,12 +6,15 @@ using UnityEngine;
 
 public class BoxTNT : MonoBehaviour
 {
-    public float explosionDelay = 3f; // Time in seconds before the TNT explodes
-    public float destroyDelay = 0.5f; // Time after turning on the animator before destroying the box
-    public float explosionRadius = 2f; // Radius of the explosion effect
+    [SerializeField] private float explosionDelay = 3f; // Time in seconds before the TNT explodes
+    [SerializeField] private float destroyDelay = 0.5f; // Time after turning on the animator before destroying the box
+    [SerializeField] private float explosionRadius = 2f; // Radius of the explosion effect
 
-    public string enemyTag = "Enemy"; // Tag to identify enemy objects
-    public string crackedTag = "Cracked"; // Tag to identify cracked objects
+    [SerializeField] private string enemyTag = "Enemy"; // Tag to identify enemy objects
+    [SerializeField] private string crackedTag = "Cracked"; // Tag to identify cracked objects
+
+    [SerializeField] private AudioClip warningSound; // Serialize field for the warning sound
+    [SerializeField] private AudioSource audioSource; // Reference to AudioSource for playing the warning sound
 
     private Animator animator; // Reference to the animator
     private SpriteRenderer spriteRenderer; // Reference to the sprite renderer for color change
@@ -23,6 +26,11 @@ public class BoxTNT : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         boxCollider = GetComponent<Collider2D>(); // Initialize the box collider
+
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>(); // Fallback to attached AudioSource
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,6 +48,14 @@ public class BoxTNT : MonoBehaviour
     {
         float timeElapsed = 0f;
 
+        // Play the warning sound at the start of the timer
+        if (warningSound != null && audioSource != null)
+        {
+            audioSource.loop = true; // Enable looping for the warning sound
+            audioSource.clip = warningSound;
+            audioSource.Play();
+        }
+
         while (timeElapsed < explosionDelay)
         {
             // Gradually change color to red over time
@@ -48,6 +64,13 @@ public class BoxTNT : MonoBehaviour
 
             timeElapsed += Time.deltaTime;
             yield return null;
+        }
+
+        // Stop the warning sound when the timer ends
+        if (audioSource != null && audioSource.clip == warningSound)
+        {
+            audioSource.Stop();
+            audioSource.loop = false; // Disable looping
         }
 
         // Ensure the box color is fully red when the timer ends
