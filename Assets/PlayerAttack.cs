@@ -33,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         // Detect the attack input using the legacy Input Manager
-        if (canAttack && Input.GetButtonDown("Fire1"))
+        if (canAttack && Input.GetButtonDown("Fire1") && IsPlayerGrounded())
         {
             // Trigger the attack
             StartCoroutine(PerformAttack());
@@ -163,6 +163,12 @@ public class PlayerAttack : MonoBehaviour
     public void DeactivatePowerUp()
     {
         isPoweredUp = false;
+    }
+
+    // Check if the player is grounded
+    private bool IsPlayerGrounded()
+    {
+        return playerController != null && playerController.jumpState == PlayerController.JumpState.Grounded;
     }
 
     // Optional: Draw a gizmo to visualize the attack range in the editor
