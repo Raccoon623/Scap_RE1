@@ -35724,7 +35724,7 @@ PrefabInstance:
         type: 3}
       propertyPath: respawnAudio
       value: 
-      objectReference: {fileID: 8300000, guid: b76dd3d1a3a58d542b4828be8d61b33d, type: 3}
+      objectReference: {fileID: 8300000, guid: e837143f468e60040bf0f26a66cdabfd, type: 3}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: respawnGlass
@@ -35734,7 +35734,7 @@ PrefabInstance:
         type: 3}
       propertyPath: respawnSound
       value: 
-      objectReference: {fileID: 8300000, guid: f1bdff2ade2445945b433db4ad3e3054, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: BoxEmptySound
@@ -35758,7 +35758,7 @@ PrefabInstance:
     - target: {fileID: 4969219058009489739, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
       propertyPath: respawnSoundDelay
-      value: 2.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}

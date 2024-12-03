@@ -9,45 +9,50 @@ namespace Platformer.Mechanics
 {
     public class PlayerController : KinematicObject
     {
+        // Audio clips
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
         public AudioClip respawnGlass;
-
         public AudioClip BoxEmptySound; // Sound for BoxEmpty interaction
         public AudioClip BoxTNTSound;   // Sound for BoxTNT explosion
         public AudioClip PowerUpSound; // Sound for PowerUp interaction
-        [SerializeField] private AudioClip respawnSound; // Serialize field for respawn sound
-        [SerializeField] private float respawnSoundDelay = 2f; // Delay for playing the respawn sound
 
+        // Movement and jump variables
         public float maxSpeed = 7;
         public float jumpTakeOffSpeed = 7;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
+
+        // Component references
         public Collider2D collider2d;
         public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
 
-        [SerializeField] private ParticleSystem dustEffect; // Reference to dust particle effect
-        [SerializeField] private Transform dustSpawnPoint;  // Spawn point for the particle effect
+        // Effects and additional gameplay variables
+        [SerializeField] private ParticleSystem dustEffect;
+        [SerializeField] private Transform dustSpawnPoint;
+        [SerializeField] private float wallDetectionRadius = 1f;
+        [SerializeField] private LayerMask wallLayer;
+        [SerializeField] private float raycastAngle = -55f;
 
-        [SerializeField] private float wallDetectionRadius = 1f; // Radius for wall detection
-        [SerializeField] private LayerMask wallLayer; // LayerMask for walls
-        [SerializeField] private float raycastAngle = -55f; // Angle of the raycast (adjustable in the Inspector)
-
-        bool jump;
-        Vector2 move;
-        SpriteRenderer spriteRenderer;
+        private bool jump;
+        private Vector2 move;
+        private SpriteRenderer spriteRenderer;
         internal Animator animator;
-        readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
+        private readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
+
+        private bool respawnAudioPlayed = false; // To track if the respawn audio has been played
+        private bool isPlayingRespawnAudio = false; // Guard to ensure coroutine doesn't overlap
 
         public Bounds Bounds => collider2d.bounds;
         public bool IsFacingRight => !spriteRenderer.flipX;
 
         void Awake()
         {
+            // Initialize component references
             health = GetComponent<Health>();
             audioSource = GetComponent<AudioSource>();
             collider2d = GetComponent<Collider2D>();
@@ -60,8 +65,11 @@ namespace Platformer.Mechanics
             if (controlEnabled)
             {
                 move.x = Input.GetAxis("Horizontal");
+
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                {
                     jumpState = JumpState.PrepareToJump;
+                }
                 else if (Input.GetButtonUp("Jump"))
                 {
                     stopJump = true;
@@ -73,19 +81,28 @@ namespace Platformer.Mechanics
                 move.x = 0;
             }
 
-            // Check if the respawn condition is met and play the respawn sound after delay
+            // Check the "dead" condition and handle respawn audio
             if (animator.GetBool("dead"))
             {
-                StartCoroutine(PlayRespawnSoundWithDelay());
+                if (!respawnAudioPlayed && !isPlayingRespawnAudio)
+                {
+                    respawnAudioPlayed = true; // Mark respawn audio as played
+                    StartCoroutine(PlayRespawnAudioWithDelay());
+                }
+            }
+            else
+            {
+                respawnAudioPlayed = false; // Reset flag when "dead" is false
             }
 
             UpdateJumpState();
             base.Update();
         }
 
-        void UpdateJumpState()
+        private void UpdateJumpState()
         {
             jump = false;
+
             switch (jumpState)
             {
                 case JumpState.PrepareToJump:
@@ -93,6 +110,7 @@ namespace Platformer.Mechanics
                     jump = true;
                     stopJump = false;
                     break;
+
                 case JumpState.Jumping:
                     if (!IsGrounded)
                     {
@@ -100,14 +118,16 @@ namespace Platformer.Mechanics
                         jumpState = JumpState.InFlight;
                     }
                     break;
+
                 case JumpState.InFlight:
                     if (IsGrounded)
                     {
                         Schedule<PlayerLanded>().player = this;
-                        TriggerDustEffect(); // Trigger the dust effect upon landing
+                        TriggerDustEffect();
                         jumpState = JumpState.Landed;
                     }
                     break;
+
                 case JumpState.Landed:
                     jumpState = JumpState.Grounded;
                     break;
@@ -127,20 +147,17 @@ namespace Platformer.Mechanics
                 stopJump = false;
                 if (velocity.y > 0)
                 {
-                    velocity.y = velocity.y * model.jumpDeceleration;
+                    velocity.y *= model.jumpDeceleration;
                 }
             }
 
-            // Handle wall collision detection and prevent movement toward walls
+            // Handle wall collision detection
             if (CheckWallCollision(out RaycastHit2D wallHit))
             {
                 Debug.Log($"Wall detected at {wallHit.point}. Preventing movement toward the wall.");
-
-                // Check the direction the player is moving
                 float moveDirection = move.x;
                 float wallDirection = IsFacingRight ? 1 : -1;
 
-                // Prevent movement toward the wall, but allow movement away
                 if (Mathf.Sign(moveDirection) == Mathf.Sign(wallDirection))
                 {
                     move.x = 0; // Stop movement toward the wall
@@ -159,52 +176,43 @@ namespace Platformer.Mechanics
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
         }
 
-        // Method to check if the player is colliding with a wall in front
+        // Method to check for wall collision
         private bool CheckWallCollision(out RaycastHit2D wallHit)
         {
-            // Determine the direction based on the player's facing direction
             Vector2 direction = IsFacingRight ? Vector2.right : Vector2.left;
-
-            // Adjust the angle based on the facing direction
             float adjustedAngle = IsFacingRight ? raycastAngle : -raycastAngle;
-
-            // Rotate the ray direction based on the adjusted angle
             direction = Quaternion.Euler(0, 0, adjustedAngle) * direction;
-
-            // Perform a raycast in the direction the player is facing
             wallHit = Physics2D.Raycast(transform.position, direction, wallDetectionRadius, wallLayer);
 
-            // Visualize the ray in the scene view for debugging
             Debug.DrawRay(transform.position, direction * wallDetectionRadius, Color.red);
 
-            // Return true if the ray hits a wall
             return wallHit.collider != null;
         }
 
-        // Method to trigger the dust particle effect
+        // Method to trigger the dust effect
         private void TriggerDustEffect()
         {
             if (dustEffect != null && dustSpawnPoint != null)
             {
-                // Instantiate the dust effect at the spawn point
                 ParticleSystem dust = Instantiate(dustEffect, dustSpawnPoint.position, Quaternion.identity);
                 dust.Play();
-                Destroy(dust.gameObject, dust.main.duration); // Destroy the effect after it finishes
+                Destroy(dust.gameObject, dust.main.duration);
             }
         }
 
-        // Method to play the respawn sound after a delay
-        private IEnumerator PlayRespawnSoundWithDelay()
+        // Method to play the respawn audio after a delay
+        private IEnumerator PlayRespawnAudioWithDelay()
         {
-            // Wait for the delay duration
-            yield return new WaitForSeconds(respawnSoundDelay);
+            isPlayingRespawnAudio = true; // Set guard
+            yield return new WaitForSeconds(2f); // Delay duration
 
-            // Play the respawn sound
-            if (respawnSound != null && audioSource != null)
+            if (respawnAudio != null && audioSource != null)
             {
-                audioSource.PlayOneShot(respawnSound);
-                Debug.Log("Respawn sound played after delay!");
+                audioSource.PlayOneShot(respawnAudio);
+                Debug.Log("Respawn audio played.");
             }
+
+            isPlayingRespawnAudio = false; // Reset guard
         }
 
         // Method to play the PowerUp sound
@@ -218,7 +226,6 @@ namespace Platformer.Mechanics
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // Check if the object has the "PowerUp" tag
             if (other.CompareTag("PowerUp"))
             {
                 PlayPowerUpSound();
@@ -235,12 +242,11 @@ namespace Platformer.Mechanics
             }
         }
 
-        // Method to apply a trampoline jump effect with a specific multiplier
+        // Method to apply trampoline jump effect
         public void ApplyTrampolineJump(float trampolineForceMultiplier)
         {
-            velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier; // Apply trampoline jump force
+            velocity.y = jumpTakeOffSpeed * trampolineForceMultiplier;
 
-            // Play the BoxEmpty sound if it exists
             if (BoxEmptySound != null && audioSource != null)
             {
                 audioSource.PlayOneShot(BoxEmptySound);
