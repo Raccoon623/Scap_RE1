@@ -174,8 +174,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionDelay: 3
   destroyDelay: 0.5
-  playerTag: Player
+  explosionRadius: 1.1
+  enemyTag: Enemy
   crackedTag: Cracked
+  warningSound: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &6305398954372141770
 Animator:
   serializedVersion: 5
