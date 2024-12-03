@@ -35611,6 +35611,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 31705155377717404, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 31705155377717404, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
       propertyPath: attackAudio
       value: 
       objectReference: {fileID: 8300000, guid: b305fd10a875602418010353a2ec7f13, type: 3}
@@ -35759,6 +35764,21 @@ PrefabInstance:
         type: 3}
       propertyPath: respawnSoundDelay
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5470986798783418109, guid: c564d6379f1c53c45bfaf41ed5eb5b79,
         type: 3}

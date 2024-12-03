@@ -13,13 +13,6 @@ namespace Platformer.Mechanics
             var p = collider.gameObject.GetComponent<PlayerController>();
             if (p != null)
             {
-                // Turn off the power-up when the player respawns
-                var playerAttack = p.GetComponent<PlayerAttack>();
-                if (playerAttack != null)
-                {
-                    playerAttack.DeactivatePowerUp();
-                }
-
                 // Schedule the PlayerEnteredDeathZone event
                 var ev = Schedule<PlayerEnteredDeathZone>();
                 ev.deathzone = this;

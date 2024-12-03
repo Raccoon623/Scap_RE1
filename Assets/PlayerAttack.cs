@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float attackRange = 1.5f;  // Range of the attack (adjustable)
+    [SerializeField] public float attackRange = 1.5f;  // Adjustable range of the attack
     public float attackDelay = 0.5f;  // Delay before applying pushback (adjustable)
     public Transform attackPoint;     // The point from where the attack is checked (e.g., player's position)
     public string boxTag = "Box";     // Tag to identify the box objects
@@ -171,12 +171,13 @@ public class PlayerAttack : MonoBehaviour
         return playerController != null && playerController.jumpState == PlayerController.JumpState.Grounded;
     }
 
-    // Optional: Draw a gizmo to visualize the attack range in the editor
+    // Draw a gizmo to visualize the attack range in the editor
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
             return;
 
+        // Visualize the attack range as a sphere
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
